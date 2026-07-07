@@ -30,3 +30,23 @@ figures/
 
 # Tables
 tables/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime
+results/
+logs/
+
+# OS
+.DS_Store

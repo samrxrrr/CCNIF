@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccnif"
+version = "0.1.0"
+description = "Cancer Causal Network Inference Framework"
+authors = [
+    {name = "Mohd Sameer"}
+]
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["ccnif"]
