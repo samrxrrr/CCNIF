@@ -1,29 +1,10 @@
 {
-    "project": "CCNIF",
-    "version": "0.3.0",
-    "status": "Normalized Multi-Omics Dataset Ready",
-    "progress_percent": 60,
-    "expression": {
-        "patients": 505,
-        "genes_raw": 60660,
-        "genes_filtered": 17629
-    },
-    "clinical": {
-        "patients": 505,
-        "variables": 11
-    },
-    "mutation": {
-        "patients": 505,
-        "genes": 16399,
-        "variants": 121778
-    },
-    "completed_modules": [
-        "Infrastructure",
-        "Expression",
-        "Clinical",
-        "Mutation",
-        "Final Cohort",
-        "Normalization"
-    ],
-    "next_module": "Quality Control Figures"
+    "version":"0.4.0",
+    "project":"CCNIF",
+    "phase":"Transcriptomic Evidence",
+    "patients":505,
+    "expression_genes":17629,
+    "mutation_genes":16399,
+    "status":"R environment ready",
+    "next":"Reusable DESeq2 engine"
 }
