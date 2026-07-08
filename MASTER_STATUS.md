@@ -1,11 +1,10 @@
 # CCNIF MASTER STATUS
 
-Version: 0.5.0
+Version: 0.6.0
 
 ==================================================
 
 PROJECT
---------------------------------------------------
 
 Cancer:
 TCGA-LUAD
@@ -15,71 +14,50 @@ Cancer Causal Network Inference Framework (CCNIF)
 
 ==================================================
 
-DATASET
+CURRENT DATASET
 
-Matched Patients:
-505
+Matched Patients: 505
 
-Expression Genes:
-17629
+Expression Genes (filtered): 17629
 
-Mutation Genes:
-16399
+Mutation Genes: 16399
+
+Clinical Variables: 15
 
 ==================================================
 
 COMPLETED MODULES
 
 [✓] Infrastructure
-
 [✓] GitHub Repository
-
+[✓] TCGA Data Acquisition
 [✓] Expression Processing
-
 [✓] Mutation Processing
-
+[✓] Clinical Reconstruction
 [✓] Clinical Harmonization
-
 [✓] Multi-omics Cohort Construction
-
+[✓] Expression Normalization
 [✓] Quality Control
-
 [✓] PCA
-
 [✓] Mutation Landscape
-
-[✓] Baseline Driver Ranking
-
-[✓] R / Bioconductor Environment
-
-[✓] DESeq2 Input Preparation
+[✓] Baseline Driver Prioritization
+[✓] R/Bioconductor Environment
 
 ==================================================
 
 CURRENT MODULE
 
-Transcriptomic Evidence Engine
+Generic DESeq2 Transcriptomic Evidence Engine
 
 ==================================================
 
-NEXT MODULE
-
-Generic DESeq2 Pipeline
-
-==================================================
-
-Future Modules
+NEXT MODULES
 
 Clinical Evidence
-
 Functional Evidence
-
 Network Evidence
-
 Machine Learning Evidence
-
 External Validation
-
 Driver Confidence Framework
 
 ==================================================

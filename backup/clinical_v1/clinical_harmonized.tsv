@@ -1,0 +1,518 @@
+patient_id	gender	race	ethnicity	age_at_diagnosis	tumor_stage	tumor_grade	primary_diagnosis	vital_status	days_to_death	days_to_last_follow_up
+TCGA-05-4244		not reported	not reported	25752.0			Adenocarcinoma, NOS			0.0
+TCGA-05-4245		not reported	not reported				Not Reported			
+TCGA-05-4249		not reported	not reported	24532.0			Adenocarcinoma, NOS			1523.0
+TCGA-05-4250		not reported	not reported	29068.0			Adenocarcinoma, NOS			121.0
+TCGA-05-4382		not reported	not reported				Carcinoma in situ, NOS			
+TCGA-05-4384		not reported	not reported	24594.0			Adenocarcinoma with mixed subtypes			
+TCGA-05-4389		not reported	not reported	25660.0			Adenocarcinoma with mixed subtypes			1369.0
+TCGA-05-4390		not reported	not reported	21430.0			Adenocarcinoma with mixed subtypes			1126.0
+TCGA-05-4395		not reported	not reported	27971.0			Adenocarcinoma with mixed subtypes			0.0
+TCGA-05-4396		not reported	not reported	28094.0			Adenocarcinoma with mixed subtypes			303.0
+TCGA-05-4397		not reported	not reported	23833.0			Adenocarcinoma with mixed subtypes			731.0
+TCGA-05-4398		not reported	not reported	17471.0			Adenocarcinoma with mixed subtypes			1431.0
+TCGA-05-4402		not reported	not reported	20819.0			Adenocarcinoma with mixed subtypes			244.0
+TCGA-05-4403		not reported	not reported	27881.0			Adenocarcinoma with mixed subtypes			578.0
+TCGA-05-4405		not reported	not reported				Not Reported			
+TCGA-05-4410		not reported	not reported	22888.0			Adenocarcinoma with mixed subtypes			0.0
+TCGA-05-4415		not reported	not reported	20940.0			Not Reported			
+TCGA-05-4417		not reported	not reported	18780.0			Adenocarcinoma with mixed subtypes			455.0
+TCGA-05-4418		not reported	not reported				Not Reported			
+TCGA-05-4420		not reported	not reported	15159.0			Adenocarcinoma with mixed subtypes			912.0
+TCGA-05-4422		not reported	not reported	24837.0			Adenocarcinoma with mixed subtypes			365.0
+TCGA-05-4424		not reported	not reported	25689.0			Adenocarcinoma with mixed subtypes			913.0
+TCGA-05-4425		not reported	not reported	25902.0			Adenocarcinoma with mixed subtypes			669.0
+TCGA-05-4426		not reported	not reported	26084.0			Adenocarcinoma with mixed subtypes			791.0
+TCGA-05-4427		not reported	not reported	23893.0			Adenocarcinoma with mixed subtypes			791.0
+TCGA-05-4430		not reported	not reported	21884.0			Adenocarcinoma with mixed subtypes			761.0
+TCGA-05-4432		not reported	not reported	24350.0			Adenocarcinoma with mixed subtypes			761.0
+TCGA-05-4433		not reported	not reported	30194.0			Adenocarcinoma with mixed subtypes			730.0
+TCGA-05-4434		not reported	not reported				Not Reported			
+TCGA-05-5420		not reported	not reported				Not Reported			
+TCGA-05-5423		not reported	not reported	23863.0			Adenocarcinoma with mixed subtypes			151.0
+TCGA-05-5425		not reported	not reported	25506.0			Not Reported			
+TCGA-05-5428		not reported	not reported	21061.0			Adenocarcinoma with mixed subtypes			670.0
+TCGA-05-5429		not reported	not reported	22066.0			Adenocarcinoma, NOS			275.0
+TCGA-05-5715		not reported	not reported	25383.0			Adenocarcinoma with mixed subtypes			62.0
+TCGA-35-3615		white	not hispanic or latino	21076.0			Adenocarcinoma, NOS			14.0
+TCGA-35-4122		white	not hispanic or latino	25491.0			Adenocarcinoma, NOS			225.0
+TCGA-35-4123		white	not hispanic or latino	14064.0			Adenocarcinoma, NOS			182.0
+TCGA-35-5375		white	not hispanic or latino	22628.0			Adenocarcinoma, NOS			264.0
+TCGA-38-4625		white	not hispanic or latino	24241.0			Adenocarcinoma, NOS			2973.0
+TCGA-38-4626		white	not hispanic or latino	23421.0			Not Reported			
+TCGA-38-4627		white	not hispanic or latino	23510.0			Adenocarcinoma, NOS			1147.0
+TCGA-38-4628		white	not hispanic or latino	25140.0			Not Reported			
+TCGA-38-4629		white	not hispanic or latino	25104.0			Adenocarcinoma, NOS			864.0
+TCGA-38-4630		white	not hispanic or latino	28413.0			Not Reported			
+TCGA-38-4631		white	not hispanic or latino	26538.0			Adenocarcinoma, NOS			354.0
+TCGA-38-4632		black or african american	not hispanic or latino	16098.0			Not Reported			
+TCGA-38-6178		white	not hispanic or latino				Granulosa cell tumor, malignant			
+TCGA-38-7271		white	not hispanic or latino	26744.0			Not Reported			
+TCGA-38-A44F		white	not hispanic or latino	29534.0			Acinar cell carcinoma			133.0
+TCGA-44-2655		white	not hispanic or latino	23854.0			Adenocarcinoma, NOS			1324.0
+TCGA-44-2656		white	not hispanic or latino	22334.0			Not Reported			
+TCGA-44-2657		white	not hispanic or latino	27298.0			Adenocarcinoma, NOS			1351.0
+TCGA-44-2659		white	not hispanic or latino	23808.0			Adenocarcinoma, NOS			1367.0
+TCGA-44-2661		white	not hispanic or latino	25313.0			Adenocarcinoma, NOS			1159.0
+TCGA-44-2662		white	not hispanic or latino	24259.0			Not Reported			
+TCGA-44-2665		white	not hispanic or latino	20349.0			Adenocarcinoma, NOS			1301.0
+TCGA-44-2666		white	hispanic or latino	15970.0			Adenocarcinoma, NOS			97.0
+TCGA-44-2668		white	not hispanic or latino	18856.0			Adenocarcinoma, NOS			761.0
+TCGA-44-3396		white	not hispanic or latino	27073.0			Adenocarcinoma, NOS			1130.0
+TCGA-44-3398		white	not hispanic or latino	28392.0			Adenocarcinoma, NOS			1163.0
+TCGA-44-3917		white	not hispanic or latino	12179.0			Adenocarcinoma, NOS			1183.0
+TCGA-44-3918		white	not hispanic or latino	22236.0			Adenocarcinoma, NOS			1036.0
+TCGA-44-3919		white	not hispanic or latino	26081.0			Adenocarcinoma, NOS			1026.0
+TCGA-44-4112		white	not hispanic or latino	22106.0			Adenocarcinoma, NOS			808.0
+TCGA-44-5643		black or african american	not hispanic or latino	19426.0			Adenocarcinoma, NOS			1013.0
+TCGA-44-5644		white	not hispanic or latino	18644.0			Adenocarcinoma, NOS			863.0
+TCGA-44-5645		black or african american	not hispanic or latino	22471.0			Adenocarcinoma, NOS			852.0
+TCGA-44-6145		white	not hispanic or latino	22745.0			Adenocarcinoma, NOS			595.0
+TCGA-44-6146		white	not hispanic or latino	24009.0			Mucinous adenocarcinoma			
+TCGA-44-6147		white	not hispanic or latino	24631.0			Adenocarcinoma, NOS			845.0
+TCGA-44-6148		white	not hispanic or latino	22138.0			Mucinous adenocarcinoma			704.0
+TCGA-44-6774		white	not hispanic or latino	20462.0			Adenocarcinoma, NOS			658.0
+TCGA-44-6775		white	hispanic or latino	27099.0			Adenocarcinoma, NOS			
+TCGA-44-6776		white	not reported	22150.0			Adenocarcinoma, NOS			2616.0
+TCGA-44-6777		white	not reported	31234.0			Adenocarcinoma, NOS			987.0
+TCGA-44-6778		black or african american	not reported	21725.0			Adenocarcinoma, NOS			1864.0
+TCGA-44-6779		white	not reported	18701.0			Not Reported			
+TCGA-44-7659		white	not hispanic or latino	25730.0			Adenocarcinoma, NOS			691.0
+TCGA-44-7660		white	not hispanic or latino	26594.0			Adenocarcinoma, NOS			592.0
+TCGA-44-7661		white	not hispanic or latino	25818.0			Adenocarcinoma, NOS			
+TCGA-44-7662		white	not hispanic or latino	22543.0			Adenocarcinoma, NOS			218.0
+TCGA-44-7667		white	not hispanic or latino	18062.0			Adenocarcinoma, NOS			1097.0
+TCGA-44-7669		black or african american	not hispanic or latino	22418.0			Not Reported			
+TCGA-44-7670		white	hispanic or latino				Not Reported			
+TCGA-44-7671		black or african american	not hispanic or latino	23538.0			Adenocarcinoma with mixed subtypes			889.0
+TCGA-44-7672		white	not hispanic or latino	19200.0			Adenocarcinoma, NOS			719.0
+TCGA-44-8117		white	not hispanic or latino	19855.0			Adenocarcinoma, NOS			385.0
+TCGA-44-8119		white	not hispanic or latino	27003.0			Adenocarcinoma, NOS			285.0
+TCGA-44-8120		black or african american	not hispanic or latino	21188.0			Adenocarcinoma, NOS			260.0
+TCGA-44-A479		black or african american	not hispanic or latino	27024.0			Adenocarcinoma, NOS			486.0
+TCGA-44-A47A		white	not hispanic or latino	28782.0			Adenocarcinoma, NOS			466.0
+TCGA-44-A47B		white	not hispanic or latino	28869.0			Adenocarcinoma, NOS			287.0
+TCGA-44-A47G		white	not hispanic or latino	26800.0			Adenocarcinoma, NOS			351.0
+TCGA-44-A4SS		white	not hispanic or latino	26991.0			Adenocarcinoma, NOS			415.0
+TCGA-44-A4SU		white	not hispanic or latino	24820.0			Adenocarcinoma, NOS			409.0
+TCGA-49-4486		white	not hispanic or latino	28460.0			Adenocarcinoma, NOS			
+TCGA-49-4487		white	not hispanic or latino	26583.0			Adenocarcinoma, NOS			855.0
+TCGA-49-4488		white	not hispanic or latino	27332.0			Adenocarcinoma, NOS			869.0
+TCGA-49-4490		white	not hispanic or latino	16634.0			Adenocarcinoma, NOS			385.0
+TCGA-49-4494		white	not hispanic or latino	28387.0			Adenocarcinoma, NOS			1081.0
+TCGA-49-4501		white	not hispanic or latino	25362.0			Not Reported			
+TCGA-49-4505		white	not hispanic or latino	22628.0			Adenocarcinoma, NOS			428.0
+TCGA-49-4506		white	not hispanic or latino	25132.0			Adenocarcinoma, NOS			999.0
+TCGA-49-4507		white	not hispanic or latino	26851.0			Adenocarcinoma, NOS			268.0
+TCGA-49-4510		black or african american	not hispanic or latino	18762.0			Adenocarcinoma, NOS			896.0
+TCGA-49-4512		white	not hispanic or latino	25502.0			Adenocarcinoma, NOS			905.0
+TCGA-49-4514		white	not reported	28908.0			Papillary adenocarcinoma, NOS			1700.0
+TCGA-49-6742		white	not hispanic or latino	26053.0			Mucinous adenocarcinoma			
+TCGA-49-6743		white	not reported	29807.0			Clear cell adenocarcinoma, NOS			1621.0
+TCGA-49-6744		white	not reported	23484.0			Adenocarcinoma with mixed subtypes			1683.0
+TCGA-49-6745		white	not reported				Not Reported			
+TCGA-49-6761		white	not hispanic or latino	20499.0			Not Reported			
+TCGA-49-6767		white	not reported	17108.0			Adenocarcinoma, NOS			677.0
+TCGA-49-AAQV		black or african american	not hispanic or latino	23879.0			Adenocarcinoma with mixed subtypes			
+TCGA-49-AAR0		black or african american	not hispanic or latino	20552.0			Adenocarcinoma, NOS			
+TCGA-49-AAR2		black or african american	not hispanic or latino	23479.0			Acinar cell carcinoma			2224.0
+TCGA-49-AAR3		black or african american	not hispanic or latino	27362.0			Adenocarcinoma, NOS			
+TCGA-49-AAR4		black or african american	not hispanic or latino	18939.0			Adenocarcinoma, NOS			879.0
+TCGA-49-AAR9		black or african american	not hispanic or latino	22510.0			Adenocarcinoma, NOS			260.0
+TCGA-49-AARE		black or african american	not hispanic or latino	19281.0			Adenocarcinoma, NOS			
+TCGA-49-AARN		black or african american	not hispanic or latino	20575.0			Not Reported			
+TCGA-49-AARO		black or african american	not hispanic or latino	14527.0			Papillary adenocarcinoma, NOS			3759.0
+TCGA-49-AARQ		black or african american	not hispanic or latino	15065.0			Adenocarcinoma, NOS			6732.0
+TCGA-49-AARR		black or african american	not hispanic or latino	24942.0			Adenocarcinoma, NOS			4992.0
+TCGA-4B-A93V		black or african american	not hispanic or latino	19035.0			Adenocarcinoma, NOS			300.0
+TCGA-50-5044		white	not hispanic or latino	26567.0			Adenocarcinoma, NOS			624.0
+TCGA-50-5045		black or african american	not hispanic or latino	20961.0			Adenocarcinoma, NOS			2174.0
+TCGA-50-5049		white	not hispanic or latino	28121.0			Adenocarcinoma, NOS			
+TCGA-50-5051		white	not hispanic or latino	15585.0			Adenocarcinoma, NOS			478.0
+TCGA-50-5055		white	not hispanic or latino	28988.0			Adenocarcinoma with mixed subtypes			1830.0
+TCGA-50-5066		black or african american	not hispanic or latino	26862.0			Adenocarcinoma with mixed subtypes			
+TCGA-50-5068		white	not hispanic or latino	21728.0			Adenocarcinoma, NOS			1499.0
+TCGA-50-5072		white	not hispanic or latino	27249.0			Adenocarcinoma, NOS			
+TCGA-50-5930		white	not hispanic or latino	17238.0			Adenocarcinoma with mixed subtypes			282.0
+TCGA-50-5931		white	not hispanic or latino	27733.0			Adenocarcinoma, NOS			434.0
+TCGA-50-5932		white	not hispanic or latino				Adenocarcinoma, NOS			
+TCGA-50-5933		white	not hispanic or latino	26377.0			Adenocarcinoma, NOS			2393.0
+TCGA-50-5935		white	not hispanic or latino				Not Reported			
+TCGA-50-5936		white	not hispanic or latino	21388.0			Not Reported			
+TCGA-50-5939		white	not hispanic or latino	31236.0			Adenocarcinoma with mixed subtypes			460.0
+TCGA-50-5941		white	not reported	20350.0			Adenocarcinoma, NOS			1474.0
+TCGA-50-5942		white	not hispanic or latino	26159.0			Adenocarcinoma, NOS			
+TCGA-50-5944		white	not reported	25440.0			Acinar cell carcinoma			1750.0
+TCGA-50-5946		white	not reported	23073.0			Adenocarcinoma with mixed subtypes			
+TCGA-50-6590		white	not hispanic or latino	26444.0			Adenocarcinoma, NOS			1288.0
+TCGA-50-6591		white	not hispanic or latino	23067.0			Adenocarcinoma, NOS			119.0
+TCGA-50-6592		white	not hispanic or latino	26191.0			Adenocarcinoma, NOS			777.0
+TCGA-50-6593		white	not hispanic or latino	18152.0			Adenocarcinoma with mixed subtypes			336.0
+TCGA-50-6594		black or african american	not hispanic or latino	29209.0			Adenocarcinoma, NOS			
+TCGA-50-6595		white	not hispanic or latino	27197.0			Adenocarcinoma, NOS			189.0
+TCGA-50-6597		white	not hispanic or latino				Carcinoid tumor, NOS			
+TCGA-50-6673		white	not reported	30689.0			Adenocarcinoma, NOS			22.0
+TCGA-50-7109		white	not hispanic or latino	21979.0			Adenocarcinoma, NOS			308.0
+TCGA-50-8457		black or african american	not hispanic or latino	23055.0			Adenocarcinoma with mixed subtypes			1125.0
+TCGA-50-8459		white	not hispanic or latino	24859.0			Mucinous adenocarcinoma			1119.0
+TCGA-50-8460		white	not hispanic or latino	27270.0			Papillary adenocarcinoma, NOS			829.0
+TCGA-53-7624		white	hispanic or latino	15194.0			Adenocarcinoma, NOS			
+TCGA-53-7626		white	not hispanic or latino	28024.0			Adenocarcinoma, NOS			929.0
+TCGA-53-7813		white	not hispanic or latino	18875.0			Bronchiolo-alveolar carcinoma, non-mucinous			424.0
+TCGA-53-A4EZ		white	hispanic or latino	23201.0			Acinar cell carcinoma			1071.0
+TCGA-55-1592		white	not hispanic or latino				Adenocarcinoma, NOS			
+TCGA-55-1594		white	not hispanic or latino	25008.0			Adenocarcinoma, NOS			1178.0
+TCGA-55-1595		asian	not hispanic or latino				Infiltrating duct carcinoma, NOS			
+TCGA-55-1596		asian	not hispanic or latino	20381.0			Adenocarcinoma, NOS			2065.0
+TCGA-55-5899		white	not hispanic or latino				Adenocarcinoma, NOS			930.0
+TCGA-55-6543		white	not reported				Bronchio-alveolar carcinoma, mucinous			435.0
+TCGA-55-6642		white	not reported	23107.0			Adenocarcinoma, NOS			2449.0
+TCGA-55-6712		white	not reported				Adenocarcinoma, NOS			171.0
+TCGA-55-6968		white	not hispanic or latino	22344.0			Adenocarcinoma, NOS			1293.0
+TCGA-55-6969		white	not reported	19270.0			Adenocarcinoma, NOS			1239.0
+TCGA-55-6970		white	not reported	24773.0			Papillary adenocarcinoma, NOS			464.0
+TCGA-55-6971		white	not reported	21734.0			Adenocarcinoma, NOS			1400.0
+TCGA-55-6972		white	not hispanic or latino	26625.0			Papillary adenocarcinoma, NOS			1632.0
+TCGA-55-6975		white	not hispanic or latino				Adenocarcinoma with mixed subtypes			118.0
+TCGA-55-6978		white	not hispanic or latino				Not Reported			
+TCGA-55-6979		white	not reported	21975.0			Adenocarcinoma, NOS			
+TCGA-55-6980		white	not reported				Bronchiolo-alveolar carcinoma, non-mucinous			2109.0
+TCGA-55-6981		white	not hispanic or latino	19497.0			Adenocarcinoma, NOS			1379.0
+TCGA-55-6982		white	not reported				Adenocarcinoma, NOS			
+TCGA-55-6983		white	not hispanic or latino				Mucinous adenocarcinoma			2823.0
+TCGA-55-6984		white	not hispanic or latino				Adenocarcinoma, NOS			760.0
+TCGA-55-6985		white	not reported	21381.0			Adenocarcinoma, NOS			1233.0
+TCGA-55-6986		white	not reported				Bronchiolo-alveolar carcinoma, non-mucinous			3261.0
+TCGA-55-6987		white	not hispanic or latino	28382.0			Adenocarcinoma, NOS			2137.0
+TCGA-55-7227		white	not hispanic or latino	28458.0			Adenocarcinoma, NOS			952.0
+TCGA-55-7281		white	not reported	25870.0			Adenocarcinoma, NOS			872.0
+TCGA-55-7283		white	not hispanic or latino	27946.0			Bronchiolo-alveolar carcinoma, non-mucinous			609.0
+TCGA-55-7284		white	not hispanic or latino	27087.0			Bronchiolo-alveolar carcinoma, non-mucinous			243.0
+TCGA-55-7570		black or african american	not hispanic or latino	22218.0			Adenocarcinoma, NOS			824.0
+TCGA-55-7573		white	not hispanic or latino	26302.0			Adenocarcinoma, NOS			487.0
+TCGA-55-7574		white	not hispanic or latino	23703.0			Adenocarcinoma, NOS			995.0
+TCGA-55-7576		black or african american	not hispanic or latino	19917.0			Adenocarcinoma, NOS			670.0
+TCGA-55-7724		white	not hispanic or latino	27891.0			Adenocarcinoma, NOS			705.0
+TCGA-55-7725		white	not hispanic or latino				Not Reported			
+TCGA-55-7726		white	not hispanic or latino	26451.0			Adenocarcinoma, NOS			652.0
+TCGA-55-7727		white	not hispanic or latino	25929.0			Adenocarcinoma, NOS			119.0
+TCGA-55-7728		white	not hispanic or latino	23505.0			Mucinous adenocarcinoma			704.0
+TCGA-55-7815		not reported	not reported	28711.0			Adenocarcinoma, NOS			
+TCGA-55-7816		white	not hispanic or latino	18170.0			Adenocarcinoma, NOS			468.0
+TCGA-55-7903		white	not hispanic or latino	23509.0			Adenocarcinoma, NOS			567.0
+TCGA-55-7907		white	not hispanic or latino	28495.0			Adenocarcinoma, NOS			
+TCGA-55-7910		black or african american	not hispanic or latino	18289.0			Adenocarcinoma, NOS			1040.0
+TCGA-55-7911		white	not hispanic or latino	25746.0			Adenocarcinoma, NOS			537.0
+TCGA-55-7913		black or african american	not hispanic or latino	22806.0			Adenocarcinoma, NOS			
+TCGA-55-7914		white	not hispanic or latino	26105.0			Adenocarcinoma, NOS			187.0
+TCGA-55-7994		white	not hispanic or latino	29858.0			Adenocarcinoma, NOS			603.0
+TCGA-55-7995		white	not hispanic or latino	27305.0			Adenocarcinoma, NOS			
+TCGA-55-8085		white	not hispanic or latino	23596.0			Papillary adenocarcinoma, NOS			904.0
+TCGA-55-8087		white	not hispanic or latino	21655.0			Adenocarcinoma, NOS			462.0
+TCGA-55-8089		white	not hispanic or latino	20576.0			Adenocarcinoma, NOS			702.0
+TCGA-55-8090		white	not hispanic or latino	29783.0			Adenocarcinoma, NOS			
+TCGA-55-8091		white	not hispanic or latino				Adenocarcinoma, NOS			
+TCGA-55-8092		white	not hispanic or latino	27597.0			Adenocarcinoma, NOS			154.0
+TCGA-55-8094		white	not hispanic or latino	18903.0			Adenocarcinoma, NOS			541.0
+TCGA-55-8096		white	not hispanic or latino	24684.0			Adenocarcinoma, NOS			719.0
+TCGA-55-8097		white	not hispanic or latino	22260.0			Adenocarcinoma, NOS			476.0
+TCGA-55-8203		white	not hispanic or latino	25477.0			Adenocarcinoma, NOS			547.0
+TCGA-55-8204		white	not hispanic or latino	31818.0			Adenocarcinoma, NOS			515.0
+TCGA-55-8205		white	not hispanic or latino				Basal cell carcinoma, NOS			
+TCGA-55-8206		white	not hispanic or latino	20690.0			Adenocarcinoma, NOS			888.0
+TCGA-55-8207		white	not hispanic or latino				Adenocarcinoma, NOS			
+TCGA-55-8208		white	not hispanic or latino	26716.0			Adenocarcinoma, NOS			674.0
+TCGA-55-8299		white	not hispanic or latino	22626.0			Adenocarcinoma, NOS			469.0
+TCGA-55-8301		white	not hispanic or latino	21773.0			Adenocarcinoma, NOS			
+TCGA-55-8302		white	not reported	20011.0			Adenocarcinoma, NOS			478.0
+TCGA-55-8505		white	not hispanic or latino	22676.0			Adenocarcinoma, NOS			440.0
+TCGA-55-8506		white	not hispanic or latino	22850.0			Adenocarcinoma, NOS			11.0
+TCGA-55-8507		white	not hispanic or latino	19390.0			Adenocarcinoma, NOS			418.0
+TCGA-55-8508		black or african american	not hispanic or latino	22159.0			Mucinous adenocarcinoma			617.0
+TCGA-55-8510		white	not hispanic or latino	20410.0			Adenocarcinoma, NOS			539.0
+TCGA-55-8511		white	not hispanic or latino				Not Reported			
+TCGA-55-8512		white	not hispanic or latino	15266.0			Bronchiolo-alveolar carcinoma, non-mucinous			607.0
+TCGA-55-8513		white	not hispanic or latino	28601.0			Mucinous adenocarcinoma			
+TCGA-55-8514		black or african american	not hispanic or latino	25608.0			Adenocarcinoma, NOS			520.0
+TCGA-55-8614		white	not hispanic or latino	27924.0			Adenocarcinoma, NOS			536.0
+TCGA-55-8615		white	not hispanic or latino	25010.0			Adenocarcinoma, NOS			
+TCGA-55-8616		white	not hispanic or latino	21225.0			Adenocarcinoma, NOS			48.0
+TCGA-55-8619		white	not hispanic or latino	26616.0			Mucinous adenocarcinoma			416.0
+TCGA-55-8620		white	not hispanic or latino	22091.0			Adenocarcinoma, NOS			375.0
+TCGA-55-8621		white	not hispanic or latino	26993.0			Clear cell carcinoma			
+TCGA-55-A48X		white	not hispanic or latino	23956.0			Not Reported			
+TCGA-55-A48Y		white	not hispanic or latino	25384.0			Adenocarcinoma, NOS			630.0
+TCGA-55-A48Z		white	not hispanic or latino	22592.0			Adenocarcinoma with mixed subtypes			
+TCGA-55-A490		white	not hispanic or latino	28728.0			Adenocarcinoma, NOS			99.0
+TCGA-55-A491		white	not hispanic or latino	29487.0			Squamous cell carcinoma, NOS			
+TCGA-55-A492		white	not hispanic or latino	25080.0			Medullary carcinoma, NOS			
+TCGA-55-A493		white	not hispanic or latino	20027.0			Adenocarcinoma, NOS			28.0
+TCGA-55-A494		white	not hispanic or latino	22540.0			Adenocarcinoma, NOS			481.0
+TCGA-55-A4DF		white	not hispanic or latino	32454.0			Squamous cell carcinoma, NOS			
+TCGA-55-A4DG		white	not hispanic or latino	26044.0			Adenocarcinoma, NOS			608.0
+TCGA-55-A57B		black or african american	not hispanic or latino	29452.0			Adenocarcinoma with mixed subtypes			546.0
+TCGA-62-8394		white	not hispanic or latino	23758.0			Adenocarcinoma with mixed subtypes			139.0
+TCGA-62-8395		white	not hispanic or latino	29811.0			Adenocarcinoma with mixed subtypes			
+TCGA-62-8397		white	not hispanic or latino	25728.0			Adenocarcinoma with mixed subtypes			1289.0
+TCGA-62-8398		white	not hispanic or latino	20197.0			Adenocarcinoma with mixed subtypes			444.0
+TCGA-62-8399		white	not hispanic or latino	22952.0			Adenocarcinoma with mixed subtypes			2696.0
+TCGA-62-8402		white	not hispanic or latino	26934.0			Adenocarcinoma with mixed subtypes			1498.0
+TCGA-62-A46O		white	not hispanic or latino	24993.0			Adenocarcinoma, NOS			
+TCGA-62-A46P		white	not hispanic or latino	24260.0			Adenocarcinoma with mixed subtypes			
+TCGA-62-A46R		white	not hispanic or latino	20063.0			Adenocarcinoma with mixed subtypes			1725.0
+TCGA-62-A46S		white	not hispanic or latino	26825.0			Papillary adenocarcinoma, NOS			1653.0
+TCGA-62-A46U		white	not hispanic or latino	25998.0			Adenocarcinoma with mixed subtypes			2067.0
+TCGA-62-A46V		white	not hispanic or latino	28495.0			Adenocarcinoma with mixed subtypes			2199.0
+TCGA-62-A46Y		white	not hispanic or latino	26219.0			Adenocarcinoma with mixed subtypes			
+TCGA-62-A470		white	not hispanic or latino	31228.0			Acinar cell carcinoma			
+TCGA-62-A471		white	not hispanic or latino	23689.0			Adenocarcinoma, NOS			1246.0
+TCGA-62-A472		white	not hispanic or latino	26183.0			Adenocarcinoma, NOS			
+TCGA-64-1676		white	not hispanic or latino	21428.0			Adenocarcinoma, NOS			1728.0
+TCGA-64-1677		white	not hispanic or latino	28842.0			Not Reported			
+TCGA-64-1678		white	not hispanic or latino	25931.0			Adenocarcinoma, NOS			1189.0
+TCGA-64-1679		white	not hispanic or latino	21310.0			Adenocarcinoma, NOS			2488.0
+TCGA-64-1680		white	not hispanic or latino	23267.0			Adenocarcinoma with mixed subtypes			1126.0
+TCGA-64-1681		white	not hispanic or latino	22525.0			Adenocarcinoma, NOS			1167.0
+TCGA-64-5774		white	not hispanic or latino	22305.0			Not Reported			
+TCGA-64-5775		white	not hispanic or latino	26058.0			Adenocarcinoma, NOS			62.0
+TCGA-64-5778		white	not hispanic or latino	21927.0			Bronchiolo-alveolar carcinoma, non-mucinous			1305.0
+TCGA-64-5779		white	not hispanic or latino	22305.0			Acinar cell carcinoma			864.0
+TCGA-64-5781		white	not hispanic or latino	20315.0			Not Reported			
+TCGA-64-5815		white	not hispanic or latino	27280.0			Adenocarcinoma with mixed subtypes			866.0
+TCGA-67-3770		white	not hispanic or latino	25658.0			Adenocarcinoma, NOS			610.0
+TCGA-67-3771		black or african american	not hispanic or latino	28406.0			Adenocarcinoma, NOS			610.0
+TCGA-67-3772		white	not hispanic or latino	29989.0			Adenocarcinoma, NOS			573.0
+TCGA-67-3773		white	not hispanic or latino	30706.0			Adenocarcinoma, NOS			427.0
+TCGA-67-3774		white	not hispanic or latino	26704.0			Adenocarcinoma, NOS			385.0
+TCGA-67-4679		white	not hispanic or latino	25202.0			Adenocarcinoma, NOS			448.0
+TCGA-67-6215		white	not hispanic or latino	19310.0			Adenocarcinoma, NOS			174.0
+TCGA-67-6216		white	not hispanic or latino	20967.0			Adenocarcinoma, NOS			141.0
+TCGA-67-6217		white	not hispanic or latino				Not Reported			
+TCGA-69-7760		white	not hispanic or latino	26777.0			Adenocarcinoma with mixed subtypes			202.0
+TCGA-69-7761		white	not hispanic or latino	31041.0			Acinar cell carcinoma			186.0
+TCGA-69-7763		white	not hispanic or latino	25316.0			Acinar cell carcinoma			690.0
+TCGA-69-7764		white	not hispanic or latino	27693.0			Adenocarcinoma with mixed subtypes			414.0
+TCGA-69-7765		black or african american	not hispanic or latino	20625.0			Adenocarcinoma with mixed subtypes			165.0
+TCGA-69-7973		white	not hispanic or latino	15355.0			Adenocarcinoma with mixed subtypes			230.0
+TCGA-69-7974		white	not hispanic or latino	20021.0			Adenocarcinoma with mixed subtypes			184.0
+TCGA-69-7978		white	not hispanic or latino	21785.0			Adenocarcinoma with mixed subtypes			134.0
+TCGA-69-7979		white	not hispanic or latino	26180.0			Acinar cell carcinoma			408.0
+TCGA-69-7980		white	not hispanic or latino	25583.0			Acinar cell carcinoma			411.0
+TCGA-69-8253		black or african american	not hispanic or latino	21771.0			Adenocarcinoma with mixed subtypes			426.0
+TCGA-69-8254		white	not hispanic or latino	31134.0			Adenocarcinoma with mixed subtypes			409.0
+TCGA-69-8255		white	hispanic or latino	26289.0			Solid carcinoma, NOS			129.0
+TCGA-69-8453		white	not hispanic or latino	28413.0			Mucinous adenocarcinoma			813.0
+TCGA-69-A59K		black or african american	not hispanic or latino	22093.0			Adenocarcinoma with mixed subtypes			591.0
+TCGA-71-6725		asian	not hispanic or latino	17957.0			Papillary adenocarcinoma, NOS			
+TCGA-71-8520		asian	not hispanic or latino	21921.0			Adenocarcinoma, NOS			210.0
+TCGA-73-4658		white	not hispanic or latino	29508.0			Adenocarcinoma, NOS			1600.0
+TCGA-73-4659		white	not hispanic or latino	24253.0			Adenocarcinoma, NOS			711.0
+TCGA-73-4662		white	not hispanic or latino				Infiltrating duct carcinoma, NOS			
+TCGA-73-4666		white	not hispanic or latino	19074.0			Adenocarcinoma, NOS			800.0
+TCGA-73-4668		american indian or alaska native	not hispanic or latino	24255.0			Invasive micropapillary carcinoma			467.0
+TCGA-73-4670		white	not hispanic or latino	25526.0			Adenocarcinoma, NOS			131.0
+TCGA-73-4675		white	not hispanic or latino	21614.0			Adenocarcinoma, NOS			922.0
+TCGA-73-4676		white	not hispanic or latino	16746.0			Adenocarcinoma, NOS			281.0
+TCGA-73-4677		white	not hispanic or latino	27381.0			Adenocarcinoma, NOS			38.0
+TCGA-73-7498		white	not hispanic or latino	21527.0			Bronchiolo-alveolar carcinoma, non-mucinous			1189.0
+TCGA-73-7499		white	not hispanic or latino	29683.0			Adenocarcinoma with mixed subtypes			1531.0
+TCGA-73-A9RS		black or african american	not hispanic or latino	15162.0			Mucinous adenocarcinoma			340.0
+TCGA-75-5122		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-5125		not reported	not reported				Not Reported			
+TCGA-75-5126		not reported	not reported				Papillary adenocarcinoma, NOS			
+TCGA-75-5146		not reported	not reported				Bronchiolo-alveolar carcinoma, non-mucinous			2368.0
+TCGA-75-5147		not reported	not reported				Bronchiolo-alveolar carcinoma, non-mucinous			1333.0
+TCGA-75-6203		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-6205		not reported	not reported				Not Reported			
+TCGA-75-6206		not reported	not reported				Adenocarcinoma, NOS			2590.0
+TCGA-75-6207		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-6211		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-6212		not reported	not reported				Not Reported			
+TCGA-75-6214		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-7025		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-7027		not reported	not reported				Adenocarcinoma, NOS			3059.0
+TCGA-75-7030		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-75-7031		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-78-7143		white	not reported	22673.0			Bronchiolo-alveolar carcinoma, non-mucinous			4961.0
+TCGA-78-7145		white	not reported	19080.0			Adenocarcinoma, NOS			826.0
+TCGA-78-7146		white	not reported	26272.0			Adenocarcinoma with mixed subtypes			173.0
+TCGA-78-7147		white	not reported	24809.0			Adenocarcinoma, NOS			586.0
+TCGA-78-7148		white	not reported	25990.0			Adenocarcinoma with mixed subtypes			626.0
+TCGA-78-7149		white	not reported	26285.0			Adenocarcinoma with mixed subtypes			3940.0
+TCGA-78-7150		white	not reported	21891.0			Adenocarcinoma, NOS			666.0
+TCGA-78-7152		white	not reported	24984.0			Adenocarcinoma with mixed subtypes			
+TCGA-78-7153		white	not reported	23922.0			Adenocarcinoma with mixed subtypes			3635.0
+TCGA-78-7154		white	not reported	26481.0			Adenocarcinoma, NOS			593.0
+TCGA-78-7155		white	not reported	25072.0			Not Reported			
+TCGA-78-7156		white	not reported	22720.0			Adenocarcinoma with mixed subtypes			976.0
+TCGA-78-7158		white	not reported	21742.0			Adenocarcinoma with mixed subtypes			179.0
+TCGA-78-7159		white	not reported	22261.0			Adenocarcinoma with mixed subtypes			1974.0
+TCGA-78-7160		white	not reported	22385.0			Adenocarcinoma with mixed subtypes			697.0
+TCGA-78-7161		white	not reported	25294.0			Adenocarcinoma with mixed subtypes			291.0
+TCGA-78-7162		white	not reported	29811.0			Not Reported			
+TCGA-78-7163		white	not reported	22002.0			Adenocarcinoma, NOS			7248.0
+TCGA-78-7166		white	not reported				Basal cell carcinoma, NOS			
+TCGA-78-7167		white	not reported	29021.0			Not Reported			
+TCGA-78-7220		white	not reported	20011.0			Not Reported			
+TCGA-78-7535		white	not reported	17380.0			Not Reported			
+TCGA-78-7536		white	not reported	25789.0			Not Reported			
+TCGA-78-7537		not reported	not reported	26610.0			Adenocarcinoma with mixed subtypes			1622.0
+TCGA-78-7539		white	not reported	28133.0			Adenocarcinoma with mixed subtypes			
+TCGA-78-7540		white	not reported	24440.0			Bronchio-alveolar carcinoma, mucinous			1197.0
+TCGA-78-7542		white	not reported	20763.0			Adenocarcinoma, NOS			321.0
+TCGA-78-7633		white	not reported	24713.0			Adenocarcinoma with mixed subtypes			1528.0
+TCGA-78-8640		not reported	not reported	21832.0			Adenocarcinoma, NOS			7062.0
+TCGA-78-8648		not reported	not reported	21443.0			Adenocarcinoma, NOS			1209.0
+TCGA-78-8655		not reported	not reported	28379.0			Adenocarcinoma with mixed subtypes			2360.0
+TCGA-78-8660		not reported	not reported	25664.0			Adenocarcinoma, NOS			
+TCGA-78-8662		not reported	not reported	19563.0			Adenocarcinoma, NOS			3361.0
+TCGA-80-5607		not reported	not reported				Adenocarcinoma, NOS			
+TCGA-80-5608		not reported	not reported				Adenocarcinoma, NOS			2832.0
+TCGA-80-5611		not reported	not reported				Not Reported			
+TCGA-83-5908		white	not hispanic or latino	21760.0			Adenocarcinoma, NOS			824.0
+TCGA-86-6562		white	not hispanic or latino	19301.0			Adenocarcinoma, NOS			376.0
+TCGA-86-6851		white	not hispanic or latino	26808.0			Adenocarcinoma with mixed subtypes			179.0
+TCGA-86-7701		white	not hispanic or latino	24209.0			Adenocarcinoma, NOS			947.0
+TCGA-86-7711		white	hispanic or latino	25719.0			Adenocarcinoma, NOS			1046.0
+TCGA-86-7713		white	not hispanic or latino	25791.0			Adenocarcinoma, NOS			1157.0
+TCGA-86-7714		black or african american	not hispanic or latino	22619.0			Adenocarcinoma with mixed subtypes			625.0
+TCGA-86-7953		white	not hispanic or latino	25315.0			Bronchiolo-alveolar adenocarcinoma, NOS			997.0
+TCGA-86-7954		white	not hispanic or latino	25062.0			Bronchiolo-alveolar adenocarcinoma, NOS			605.0
+TCGA-86-7955		white	not hispanic or latino	23592.0			Adenocarcinoma, NOS			
+TCGA-86-8054		white	not hispanic or latino	22584.0			Acinar cell carcinoma			1148.0
+TCGA-86-8055		white	not hispanic or latino	29124.0			Adenocarcinoma, NOS			124.0
+TCGA-86-8056		white	not hispanic or latino	23369.0			Adenocarcinoma with mixed subtypes			139.0
+TCGA-86-8073		white	not hispanic or latino	21214.0			Bronchiolo-alveolar adenocarcinoma, NOS			740.0
+TCGA-86-8074		white	not hispanic or latino	22862.0			Papillary adenocarcinoma, NOS			24.0
+TCGA-86-8075		white	not hispanic or latino	24402.0			Adenocarcinoma, NOS			694.0
+TCGA-86-8076		white	not hispanic or latino	15605.0			Papillary adenocarcinoma, NOS			993.0
+TCGA-86-8278		white	not hispanic or latino	23117.0			Mucinous adenocarcinoma			944.0
+TCGA-86-8279		white	not hispanic or latino	17032.0			Adenocarcinoma, NOS			949.0
+TCGA-86-8280		white	not hispanic or latino	19977.0			Bronchiolo-alveolar carcinoma, non-mucinous			701.0
+TCGA-86-8281		white	not hispanic or latino	27409.0			Adenocarcinoma, NOS			0.0
+TCGA-86-8358		white	not hispanic or latino	16409.0			Adenocarcinoma, NOS			653.0
+TCGA-86-8359		white	not hispanic or latino	19088.0			Adenocarcinoma, NOS			444.0
+TCGA-86-8585		white	not hispanic or latino	20918.0			Solid carcinoma, NOS			353.0
+TCGA-86-8668		white	not hispanic or latino	22383.0			Bronchio-alveolar carcinoma, mucinous			423.0
+TCGA-86-8669		white	not hispanic or latino	23443.0			Adenocarcinoma, NOS			938.0
+TCGA-86-8671		white	not hispanic or latino	26448.0			Papillary adenocarcinoma, NOS			839.0
+TCGA-86-8672		white	not hispanic or latino	21682.0			Adenocarcinoma, NOS			19.0
+TCGA-86-8673		white	not hispanic or latino	22571.0			Bronchiolo-alveolar carcinoma, non-mucinous			862.0
+TCGA-86-8674		white	not hispanic or latino	18479.0			Papillary adenocarcinoma, NOS			806.0
+TCGA-86-A456		asian	not hispanic or latino	28533.0			Papillary adenocarcinoma, NOS			896.0
+TCGA-86-A4D0		white	not hispanic or latino	17607.0			Adenocarcinoma, NOS			116.0
+TCGA-86-A4JF		white	not hispanic or latino	20927.0			Adenocarcinoma, NOS			
+TCGA-86-A4P7		white	not hispanic or latino	23330.0			Adenocarcinoma, NOS			415.0
+TCGA-86-A4P8		white	not hispanic or latino	21738.0			Adenocarcinoma, NOS			805.0
+TCGA-91-6828		white	not hispanic or latino	25870.0			Adenocarcinoma, NOS			323.0
+TCGA-91-6829		white	not hispanic or latino	28841.0			Bronchiolo-alveolar carcinoma, non-mucinous			1258.0
+TCGA-91-6830		white	not hispanic or latino	23922.0			Adenocarcinoma, NOS			60.0
+TCGA-91-6831		white	not hispanic or latino	24436.0			Adenocarcinoma, NOS			310.0
+TCGA-91-6835		white	not hispanic or latino	29887.0			Adenocarcinoma, NOS			79.0
+TCGA-91-6836		white	not hispanic or latino	19202.0			Papillary adenocarcinoma, NOS			
+TCGA-91-6840		white	not hispanic or latino	21854.0			Adenocarcinoma, NOS			372.0
+TCGA-91-6847		white	not hispanic or latino	23634.0			Adenocarcinoma, NOS			
+TCGA-91-6848		white	not hispanic or latino	21829.0			Adenocarcinoma, NOS			224.0
+TCGA-91-6849		black or african american	not hispanic or latino	27676.0			Adenocarcinoma, NOS			35.0
+TCGA-91-7771		white	not hispanic or latino	22926.0			Adenocarcinoma, NOS			492.0
+TCGA-91-8496		white	not hispanic or latino	23358.0			Bronchiolo-alveolar carcinoma, non-mucinous			505.0
+TCGA-91-8497		white	not hispanic or latino	27632.0			Adenocarcinoma, NOS			434.0
+TCGA-91-8499		white	not hispanic or latino	27853.0			Adenocarcinoma, NOS			36.0
+TCGA-91-A4BC		white	not hispanic or latino	21565.0			Adenocarcinoma, NOS			44.0
+TCGA-91-A4BD		white	not hispanic or latino	28544.0			Adenocarcinoma, NOS			603.0
+TCGA-93-7347		white	not hispanic or latino	27949.0			Adenocarcinoma with mixed subtypes			683.0
+TCGA-93-7348		white	not hispanic or latino	27456.0			Adenocarcinoma, NOS			531.0
+TCGA-93-8067		asian	not hispanic or latino	28453.0			Adenocarcinoma, NOS			186.0
+TCGA-93-A4JN		white	not hispanic or latino	26273.0			Acinar cell carcinoma			718.0
+TCGA-93-A4JO		white	not hispanic or latino	25898.0			Adenocarcinoma with mixed subtypes			33.0
+TCGA-93-A4JP		asian	not hispanic or latino	23620.0			Papillary adenocarcinoma, NOS			578.0
+TCGA-93-A4JQ		white	not hispanic or latino	17951.0			Acinar cell carcinoma			526.0
+TCGA-95-7039		white	not hispanic or latino	21239.0			Adenocarcinoma, NOS			
+TCGA-95-7043		white	not hispanic or latino				Adenocarcinoma with mixed subtypes			
+TCGA-95-7562		black or african american	not hispanic or latino	26000.0			Adenocarcinoma, NOS			87.0
+TCGA-95-7567		white	not hispanic or latino	22437.0			Adenocarcinoma with mixed subtypes			568.0
+TCGA-95-7944		white	not hispanic or latino	26003.0			Adenocarcinoma, NOS			377.0
+TCGA-95-7947		white	not hispanic or latino	24752.0			Adenocarcinoma with mixed subtypes			477.0
+TCGA-95-7948		white	not hispanic or latino				Hodgkin lymphoma, NOS			
+TCGA-95-8039		white	not hispanic or latino	26317.0			Acinar cell carcinoma			830.0
+TCGA-95-8494		white	not hispanic or latino	24773.0			Adenocarcinoma, NOS			84.0
+TCGA-95-A4VK		white	not hispanic or latino	27040.0			Adenocarcinoma with mixed subtypes			651.0
+TCGA-95-A4VN		white	not hispanic or latino				Not Reported			
+TCGA-95-A4VP		white	not reported	24346.0			Acinar cell carcinoma			
+TCGA-97-7546		white	not hispanic or latino	27913.0			Acinar cell carcinoma			1285.0
+TCGA-97-7547		white	not hispanic or latino	24737.0			Papillary adenocarcinoma, NOS			1965.0
+TCGA-97-7552		white	not hispanic or latino	25578.0			Bronchio-alveolar carcinoma, mucinous			1932.0
+TCGA-97-7553		white	not hispanic or latino	21518.0			Bronchiolo-alveolar carcinoma, non-mucinous			1870.0
+TCGA-97-7554		white	not hispanic or latino	30327.0			Papillary adenocarcinoma, NOS			775.0
+TCGA-97-7937		white	not hispanic or latino	23919.0			Invasive micropapillary carcinoma			564.0
+TCGA-97-7938		white	not hispanic or latino	27980.0			Bronchiolo-alveolar carcinoma, non-mucinous			18.0
+TCGA-97-7941		white	not hispanic or latino	26298.0			Acinar cell carcinoma			484.0
+TCGA-97-8171		asian	not hispanic or latino	29627.0			Papillary adenocarcinoma, NOS			568.0
+TCGA-97-8172		white	not hispanic or latino	27416.0			Acinar cell carcinoma			545.0
+TCGA-97-8174		white	not hispanic or latino	24725.0			Papillary adenocarcinoma, NOS			164.0
+TCGA-97-8175		white	not hispanic or latino	20206.0			Solid carcinoma, NOS			551.0
+TCGA-97-8176		white	not hispanic or latino	23170.0			Acinar cell carcinoma			468.0
+TCGA-97-8177		white	not hispanic or latino	21648.0			Adenocarcinoma with mixed subtypes			499.0
+TCGA-97-8179		white	not hispanic or latino	26305.0			Acinar cell carcinoma			435.0
+TCGA-97-8547		not reported	not reported	28801.0			Acinar cell carcinoma			657.0
+TCGA-97-8552		white	not hispanic or latino	20331.0			Bronchiolo-alveolar carcinoma, non-mucinous			626.0
+TCGA-97-A4LX		white	not hispanic or latino	29915.0			Adenocarcinoma with mixed subtypes			614.0
+TCGA-97-A4M0		white	not hispanic or latino	22206.0			Adenocarcinoma with mixed subtypes			652.0
+TCGA-97-A4M1		white	not hispanic or latino	19272.0			Adenocarcinoma with mixed subtypes			601.0
+TCGA-97-A4M2		white	not hispanic or latino				Not Reported			
+TCGA-97-A4M3		white	not hispanic or latino				Basal cell carcinoma, NOS			
+TCGA-97-A4M5		white	not hispanic or latino	30665.0			Adenocarcinoma with mixed subtypes			634.0
+TCGA-97-A4M6		white	not hispanic or latino	16764.0			Adenocarcinoma with mixed subtypes			568.0
+TCGA-97-A4M7		white	not hispanic or latino	27062.0			Adenocarcinoma with mixed subtypes			
+TCGA-99-7458		white	not hispanic or latino	27359.0			Bronchiolo-alveolar carcinoma, non-mucinous			747.0
+TCGA-99-8025		black or african american	not hispanic or latino	26634.0			Adenocarcinoma, NOS			1060.0
+TCGA-99-8028		black or african american	not hispanic or latino	18542.0			Adenocarcinoma, NOS			1118.0
+TCGA-99-8032		white	not hispanic or latino	22635.0			Adenocarcinoma, NOS			44.0
+TCGA-99-8033		white	not hispanic or latino	27342.0			Adenocarcinoma, NOS			656.0
+TCGA-99-AA5R		black or african american	not hispanic or latino	25778.0			Adenocarcinoma, NOS			658.0
+TCGA-J2-8192		white	not hispanic or latino	23892.0			Adenocarcinoma, NOS			739.0
+TCGA-J2-8194		white	not hispanic or latino	25911.0			Adenocarcinoma with mixed subtypes			
+TCGA-J2-A4AD		white	not hispanic or latino	22938.0			Adenocarcinoma, NOS			
+TCGA-J2-A4AE		white	not hispanic or latino	28163.0			Adenocarcinoma, NOS			1079.0
+TCGA-J2-A4AG		white	not hispanic or latino	24224.0			Adenocarcinoma, NOS			988.0
+TCGA-L4-A4E5		white	not hispanic or latino	17680.0			Adenocarcinoma, NOS			578.0
+TCGA-L4-A4E6		white	not hispanic or latino	24631.0			Adenocarcinoma, NOS			435.0
+TCGA-L9-A443		white	not hispanic or latino				Not Reported			
+TCGA-L9-A444		white	not hispanic or latino	20597.0			Endometrioid adenocarcinoma, NOS			
+TCGA-L9-A50W		black or african american	not hispanic or latino	27414.0			Adenocarcinoma with mixed subtypes			442.0
+TCGA-L9-A5IP		black or african american	not hispanic or latino	14681.0			Adenocarcinoma, NOS			58.0
+TCGA-L9-A743		black or african american	not hispanic or latino	20711.0			Adenocarcinoma, NOS			
+TCGA-L9-A7SV		black or african american	not hispanic or latino	25298.0			Adenocarcinoma, NOS			565.0
+TCGA-L9-A8F4		black or african american	not hispanic or latino	23617.0			Adenocarcinoma, NOS			476.0
+TCGA-MN-A4N1		black or african american	not hispanic or latino	19175.0			Squamous cell carcinoma, NOS			
+TCGA-MN-A4N4		white	not hispanic or latino	20888.0			Adenocarcinoma, NOS			1175.0
+TCGA-MN-A4N5		white	not hispanic or latino	23257.0			Adenocarcinoma, NOS			84.0
+TCGA-MP-A4SV		Unknown	Unknown	24516.0			Adenocarcinoma, NOS			2620.0
+TCGA-MP-A4SW		white	Unknown	19640.0			Adenocarcinoma, NOS			1778.0
+TCGA-MP-A4SY		white	not hispanic or latino	22937.0			Adenocarcinoma, NOS			
+TCGA-MP-A4T4		white	Unknown	25052.0			Adenocarcinoma, NOS			2617.0
+TCGA-MP-A4T6		white	not hispanic or latino	27993.0			Adenocarcinoma, NOS			1790.0
+TCGA-MP-A4T7		Unknown	Unknown	27603.0			Adenocarcinoma, NOS			167.0
+TCGA-MP-A4T8		Unknown	Unknown	25069.0			Adenocarcinoma, NOS			161.0
+TCGA-MP-A4T9		white	not hispanic or latino	20185.0			Adenocarcinoma, NOS			
+TCGA-MP-A4TA		white	not hispanic or latino	26570.0			Papillary transitional cell carcinoma			
+TCGA-MP-A4TC		white	not hispanic or latino	25720.0			Squamous cell carcinoma, NOS			
+TCGA-MP-A4TD		white	Unknown	26209.0			Adenocarcinoma, NOS			
+TCGA-MP-A4TE		white	not hispanic or latino	20853.0			Adenocarcinoma, NOS			
+TCGA-MP-A4TF		white	not hispanic or latino	21387.0			Adenocarcinoma, NOS			336.0
+TCGA-MP-A4TH		white	not hispanic or latino	25759.0			Adenocarcinoma, NOS			741.0
+TCGA-MP-A4TI		white	not hispanic or latino	26565.0			Adenocarcinoma, NOS			429.0
+TCGA-MP-A4TJ		Unknown	Unknown	22875.0			Signet ring cell carcinoma			339.0
+TCGA-MP-A4TK		Unknown	Unknown	21126.0			Adenocarcinoma, NOS			
+TCGA-MP-A5C7		white	not hispanic or latino	28015.0			Adenocarcinoma, NOS			2248.0
+TCGA-NJ-A4YF		black or african american	not hispanic or latino	18584.0			Adenocarcinoma with mixed subtypes			2161.0
+TCGA-NJ-A4YG		white	not reported	23812.0			Adenocarcinoma with mixed subtypes			2261.0
+TCGA-NJ-A4YI		white	not reported	31867.0			Acinar cell carcinoma			4.0
+TCGA-NJ-A4YP		white	not hispanic or latino	19106.0			Adenocarcinoma with mixed subtypes			50.0
+TCGA-NJ-A4YQ		white	not hispanic or latino	25427.0			Adenocarcinoma with mixed subtypes			1432.0
+TCGA-NJ-A55A		white	not hispanic or latino	28022.0			Acinar cell carcinoma			15.0
+TCGA-NJ-A55O		white	not hispanic or latino	20628.0			Mucinous adenocarcinoma			13.0
+TCGA-NJ-A55R		white	not hispanic or latino	24738.0			Solid carcinoma, NOS			603.0
+TCGA-NJ-A7XG		black or african american	not hispanic or latino	18127.0			Adenocarcinoma, NOS			617.0
+TCGA-O1-A52J		white	not hispanic or latino	28121.0			Adenocarcinoma, NOS			
+TCGA-S2-AA1A		black or african american	not hispanic or latino	24903.0			Bronchio-alveolar carcinoma, mucinous			513.0
