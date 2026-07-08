@@ -2,8 +2,8 @@
   "driver_gene": "TP53",
   "mutant": 245,
   "wildtype": 260,
-  "genes_tested": 32640,
-  "significant": 1588,
-  "upregulated": 1044,
-  "downregulated": 544
+  "genes_tested": 23814,
+  "significant": 610,
+  "upregulated": 263,
+  "downregulated": 347
 }

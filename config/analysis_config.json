@@ -1,51 +1,35 @@
 {
-    "project": {
-        "name": "CCNIF",
-        "version": "1.0.0",
-        "cohort": "TCGA-LUAD"
-    },
+  "project": {
+    "name": "CCNIF",
+    "version": "1.0.0",
+    "cohort": "TCGA-LUAD"
+  },
 
-    "expression": {
-        "min_cpm": 1,
-        "min_sample_fraction": 0.20,
-        "log_transform": "log2(CPM+1)"
-    },
+  "expression": {
+    "min_cpm": 1,
+    "min_sample_fraction": 0.20,
+    "log_transform": "log2(CPM+1)"
+  },
 
-    "deseq2": {
-        "prefilter_min_count": 10,
-        "prefilter_min_fraction": 0.20,
-        "padj_cutoff": 0.05,
-        "log2fc_cutoff": 1.0,
-        "lfc_shrink_method": "apeglm",
-        "independent_filtering": true,
-        "cooks_cutoff": true
-    },
+  "deseq2": {
+    "prefilter_min_count": 10,
+    "prefilter_min_fraction": 0.20,
+    "padj_cutoff": 0.05,
+    "log2fc_cutoff": 1.0,
+    "lfc_shrink_method": "apeglm"
+  },
 
-    "clinical": {
-        "covariates": [
-            "gender",
-            "age_at_index",
-            "tumor_stage"
-        ]
-    },
+  "enrichment": {
+    "padj_cutoff": 0.05,
+    "organism": "Homo sapiens",
+    "species": "human"
+  },
 
-    "enrichment": {
-        "organism": "human",
-        "ontology": [
-            "BP",
-            "MF",
-            "CC"
-        ],
-        "padj_cutoff": 0.05,
-        "min_geneset_size": 10,
-        "max_geneset_size": 500
-    },
-
-    "network": {
-        "string_score": 700
-    },
-
-    "survival": {
-        "alpha": 0.05
-    }
+  "gsea": {
+    "collection": "H",
+    "minSize": 15,
+    "maxSize": 500,
+    "nperm": 10000,
+    "ranking": "signed_log10_padj"
+  }
 }
