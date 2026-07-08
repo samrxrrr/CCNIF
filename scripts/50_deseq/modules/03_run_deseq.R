@@ -31,12 +31,20 @@ rownames(count_matrix) <- gene_metadata$gene_id
 rownames(design) <- design$patient_id
 
 dds <- DESeqDataSetFromMatrix(
-    countData = count_matrix,
-    colData = design,
-    design = ~ mutation_status
+    countData=count_matrix,
+    colData=design,
+    design=~mutation_status
 )
 
-keep <- rowSums(counts(dds) >= 10) >= 10
+cfg <- load_config()
+
+min_count <- cfg$deseq2$prefilter_min_count
+
+min_fraction <- cfg$deseq2$prefilter_min_fraction
+
+min_samples <- ceiling(min_fraction*ncol(dds))
+
+keep <- rowSums(counts(dds)>=min_count)>=min_samples
 
 dds <- dds[keep,]
 
@@ -59,10 +67,10 @@ res_df <- merge(
 res_df <- res_df[order(res_df$padj),]
 
 list(
-    dds = dds,
-    deseq_results = res,
-    results = res_df,
-    design = design
+    dds=dds,
+    deseq_results=res,
+    results=res_df,
+    design=design
 )
 
 }

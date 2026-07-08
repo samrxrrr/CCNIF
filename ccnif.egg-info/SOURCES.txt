@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+ccnif/__init__.py
+ccnif/logger.py
+ccnif.egg-info/PKG-INFO
+ccnif.egg-info/SOURCES.txt
+ccnif.egg-info/dependency_links.txt
+ccnif.egg-info/top_level.txt

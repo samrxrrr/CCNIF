@@ -7,20 +7,31 @@ __pycache__/
 .RData
 .Rproj.user/
 
-# Large intermediate analysis files
+# Conda
+.env
+.venv
+
+# Large analysis outputs
 *.rds
+*.rda
 *.RData
-*.RDS
+*.gz
+*.zip
+*.tar
 
-# Logs
-*.log
+# Large matrices
+*Normalized_Counts*
+*VST*
+*counts.tsv
 
-# Temporary files
+# Raw data
+data/raw/
+data/processed/
+
+# Temporary
 tmp/
 temp/
-
-# Generated audit objects
-results/audit/*.rds
+logs/
 
 # OS
 .DS_Store
