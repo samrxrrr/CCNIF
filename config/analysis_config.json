@@ -1,26 +1,51 @@
 {
-    "project": "CCNIF",
-    "cancer": "TCGA-LUAD",
+    "project": {
+        "name": "CCNIF",
+        "version": "1.0.0",
+        "cohort": "TCGA-LUAD"
+    },
 
-    "driver_genes": [
-        "TP53",
-        "KRAS",
-        "EGFR",
-        "STK11",
-        "KEAP1"
-    ],
+    "expression": {
+        "min_cpm": 1,
+        "min_sample_fraction": 0.20,
+        "log_transform": "log2(CPM+1)"
+    },
 
     "deseq2": {
-        "padj": 0.05,
-        "log2fc": 1.0,
-        "min_count": 10
+        "prefilter_min_count": 10,
+        "prefilter_min_fraction": 0.20,
+        "padj_cutoff": 0.05,
+        "log2fc_cutoff": 1.0,
+        "lfc_shrink_method": "apeglm",
+        "independent_filtering": true,
+        "cooks_cutoff": true
     },
 
-    "functional_analysis": {
-        "GO": true,
-        "KEGG": true,
-        "Reactome": false
+    "clinical": {
+        "covariates": [
+            "gender",
+            "age_at_index",
+            "tumor_stage"
+        ]
     },
 
-    "version": "0.5.0"
+    "enrichment": {
+        "organism": "human",
+        "ontology": [
+            "BP",
+            "MF",
+            "CC"
+        ],
+        "padj_cutoff": 0.05,
+        "min_geneset_size": 10,
+        "max_geneset_size": 500
+    },
+
+    "network": {
+        "string_score": 700
+    },
+
+    "survival": {
+        "alpha": 0.05
+    }
 }

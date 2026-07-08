@@ -1,0 +1,10 @@
+{
+  "raw_genes": 60660,
+  "genes_after_prefilter": 32640,
+  "genes_tested": 32640,
+  "significant": 14658,
+  "upregulated": 544,
+  "downregulated": 1043,
+  "mean_dispersion": 1.4456,
+  "median_dispersion": 0.6689
+}
