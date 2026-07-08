@@ -1,0 +1,26 @@
+{
+    "project": "CCNIF",
+    "cancer": "TCGA-LUAD",
+
+    "driver_genes": [
+        "TP53",
+        "KRAS",
+        "EGFR",
+        "STK11",
+        "KEAP1"
+    ],
+
+    "deseq2": {
+        "padj": 0.05,
+        "log2fc": 1.0,
+        "min_count": 10
+    },
+
+    "functional_analysis": {
+        "GO": true,
+        "KEGG": true,
+        "Reactome": false
+    },
+
+    "version": "0.5.0"
+}
