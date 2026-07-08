@@ -1,31 +1,26 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
 
-# Jupyter
-.ipynb_checkpoints/
+# R
+.Rhistory
+.RData
+.Rproj.user/
 
-# Conda
-.env
-.venv
+# Large intermediate analysis files
+*.rds
+*.RData
+*.RDS
 
 # Logs
-logs/
 *.log
 
-# Large datasets
-data/raw/
-data/processed/
-
-# Generated figures
-figures/
-
 # Temporary files
-*.tmp
-*.bak
+tmp/
+temp/
+
+# Generated audit objects
+results/audit/*.rds
 
 # OS
 .DS_Store
