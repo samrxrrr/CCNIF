@@ -1,0 +1,11 @@
+{
+    "genes": 60660,
+    "samples": 517,
+    "missing_values": 0,
+    "duplicate_gene_ids": 0,
+    "negative_values": 0,
+    "library_size_min": 8615501,
+    "library_size_max": 103673396,
+    "library_size_mean": 48856565.475822054,
+    "library_size_median": 44084175.0
+}

@@ -1,52 +1,32 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
 
 # Jupyter
 .ipynb_checkpoints/
 
 # Conda
 .env
-.conda
+.venv
 
 # Logs
+logs/
 *.log
 
-# macOS
-.DS_Store
-
-# VS Code
-.vscode/
-
-# Data
+# Large datasets
 data/raw/
 data/processed/
 
-# Results
-results/
-
-# Figures
+# Generated figures
 figures/
 
-# Tables
-tables/
-
-# Python cache
-__pycache__/
-*.py[cod]
-
-# Build artifacts
-*.egg-info/
-build/
-dist/
-
-# IDE
-.vscode/
-.idea/
-
-# Runtime
-results/
-logs/
+# Temporary files
+*.tmp
+*.bak
 
 # OS
 .DS_Store
+Thumbs.db
