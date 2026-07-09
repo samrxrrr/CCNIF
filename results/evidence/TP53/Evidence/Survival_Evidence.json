@@ -1,0 +1,29 @@
+{
+  "Metadata": {
+    "Driver": "TP53",
+    "Domain": "Survival",
+    "Pipeline": "CCNIF",
+    "Version": "3.0",
+    "Created": "2026-07-09 11:19:53.812748"
+  },
+  "Expression": {
+    "driver": "TP53",
+    "logrank_p": 0.6037,
+    "events": 184,
+    "patients": 505
+  },
+  "Mutation": {
+    "driver": "TP53",
+    "patients": 505,
+    "mutated": 245,
+    "wildtype": 260,
+    "events": 184,
+    "logrank_p": 0.2276
+  },
+  "ExpressionCox": {
+    "Rows": 1
+  },
+  "MutationCox": {
+    "Rows": 1
+  }
+}
