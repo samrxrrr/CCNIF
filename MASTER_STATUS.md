@@ -332,13 +332,23 @@ Completed
 
 Next
 
+
+
 # Phase 11 – Evidence Quality Scoring
+
+Status: IN PROGRESS
+
+Completed
+
+- Transcriptomic evidence scoring
 
 Planned
 
-- Transcriptomic evidence scoring
-- Functional enrichment scoring
-- Network evidence scoring
-- Clinical evidence scoring
-- Weighted driver confidence model
-- Publication-ready evidence report
+- GO scoring
+- KEGG scoring
+- Hallmark scoring
+- Disease Ontology scoring
+- Reactome scoring
+- STRING scoring
+- Clinical scoring
+- Weighted Driver Confidence Model
