@@ -3,10 +3,10 @@
     "Version": "2.0",
     "Pipeline": "CCNIF",
     "Driver": "TP53",
-    "Created": "2026-07-09 12:13:09.377339"
+    "Created": "2026-07-09 13:58:38.417438"
   },
-  "ReliabilityScore": 92.7692,
+  "ReliabilityScore": 95.4989,
   "Modules": 10,
-  "Scores": [100, 100, 78.356, 92.866, 68.614, 93.9279, 100, 100, 100, 93.9279],
+  "Scores": [100, 100, 78.356, 92.866, 83.767, 100, 100, 100, 100, 100],
   "Interpretation": "Excellent"
 }

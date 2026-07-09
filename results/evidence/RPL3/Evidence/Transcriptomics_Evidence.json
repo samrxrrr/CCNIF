@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "RPL3",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:03.542729"
+  },
+  "Driver": {
+    "Driver": "RPL3",
+    "GeneID": 2165,
+    "GeneName": "RPL3",
+    "Observed": 0.3664,
+    "log2FC": -0.3664,
+    "AbsLog2FC": 0.3664,
+    "baseMean": 82698.3821,
+    "padj": 2.3179e-09,
+    "Rank": 5321,
+    "Percentile": 77.6593
+  },
+  "Raw": {
+    "Observed": 0.3664,
+    "Direction": "Downregulated",
+    "AbsLog2FC": 0.3664,
+    "baseMean": 82698.3821,
+    "padj": 2.3179e-09,
+    "Rank": 5321,
+    "Percentile": 77.6593
+  }
+}

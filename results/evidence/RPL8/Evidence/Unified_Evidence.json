@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "RPL8",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:01.778095"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "RPL8",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:01.77483"
+    },
+    "Driver": {
+      "Driver": "RPL8",
+      "GeneID": 9723,
+      "GeneName": "RPL8",
+      "Observed": 0.1067,
+      "log2FC": -0.1067,
+      "AbsLog2FC": 0.1067,
+      "baseMean": 85703.8065,
+      "padj": 0.2718,
+      "Rank": 15903,
+      "Percentile": 33.2213
+    },
+    "Raw": {
+      "Observed": 0.1067,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.1067,
+      "baseMean": 85703.8065,
+      "padj": 0.2718,
+      "Rank": 15903,
+      "Percentile": 33.2213
+    }
+  }
+}

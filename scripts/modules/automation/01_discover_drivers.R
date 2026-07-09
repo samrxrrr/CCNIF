@@ -1,33 +1,31 @@
-discover_drivers <- function(base="results/evidence"){
+library(data.table)
 
-if(!dir.exists(base))
-stop("Evidence directory not found.")
+discover_drivers <- function(){
 
-dirs <- list.dirs(
-base,
-recursive=FALSE,
-full.names=FALSE
+queue_file <- file.path(
+"results",
+"registry",
+"Driver_Queue.tsv"
 )
 
-dirs <- dirs[dirs!=""]
+if(!file.exists(queue_file))
+stop("Driver_Queue.tsv not found.")
 
-dirs <- dirs[file.exists(
-file.path(
-base,
-dirs,
-"Evidence",
-"Transcriptomics_Evidence.json"
-)
-)]
+queue <- fread(queue_file)
 
-dirs <- sort(unique(dirs))
+if(!"gene_name" %in% names(queue))
+stop("Column 'gene_name' missing in Driver_Queue.tsv")
+
+drivers <- unique(as.character(queue$gene_name))
+
+drivers <- drivers[drivers!=""]
 
 cat("=====================================\n")
 cat("Drivers discovered\n")
 cat("=====================================\n")
 
-print(dirs)
+print(drivers)
 
-dirs
+drivers
 
 }

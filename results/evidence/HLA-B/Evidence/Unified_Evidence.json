@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "HLA-B",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:01.161936"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "HLA-B",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:01.159066"
+    },
+    "Driver": {
+      "Driver": "HLA-B",
+      "GeneID": 18204,
+      "GeneName": "HLA-B",
+      "Observed": 0.1966,
+      "log2FC": 0.1966,
+      "AbsLog2FC": 0.1966,
+      "baseMean": 98324.5103,
+      "padj": 0.0449,
+      "Rank": 10904,
+      "Percentile": 54.2141
+    },
+    "Raw": {
+      "Observed": 0.1966,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.1966,
+      "baseMean": 98324.5103,
+      "padj": 0.0449,
+      "Rank": 10904,
+      "Percentile": 54.2141
+    }
+  }
+}

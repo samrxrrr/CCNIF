@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "COL4A2",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:05.254197"
+  },
+  "Driver": {
+    "Driver": "COL4A2",
+    "GeneID": 6468,
+    "GeneName": "COL4A2",
+    "Observed": 0.0334,
+    "log2FC": -0.0334,
+    "AbsLog2FC": 0.0334,
+    "baseMean": 20605.5706,
+    "padj": 0.7772,
+    "Rank": 21166,
+    "Percentile": 11.12
+  },
+  "Raw": {
+    "Observed": 0.0334,
+    "Direction": "Downregulated",
+    "AbsLog2FC": 0.0334,
+    "baseMean": 20605.5706,
+    "padj": 0.7772,
+    "Rank": 21166,
+    "Percentile": 11.12
+  }
+}

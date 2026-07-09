@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 13:58:47.976402"
+  },
+  "NormalizationReport": "results/evidence/FLNA/Statistics/Normalization_Report.json",
+  "ECDF": "results/evidence/FLNA/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+  "Registry": "config/variable_registry.tsv",
+  "Evidence": "results/evidence/FLNA/Evidence/Transcriptomics_Evidence.json"
+}

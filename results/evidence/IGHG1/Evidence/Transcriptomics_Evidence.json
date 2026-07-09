@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "IGHG1",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:52.361871"
+  },
+  "Driver": {
+    "Driver": "IGHG1",
+    "GeneID": 15993,
+    "GeneName": "IGHG1",
+    "Observed": 0.3144,
+    "log2FC": 0.3144,
+    "AbsLog2FC": 0.3144,
+    "baseMean": 305941.8888,
+    "padj": 0.0851,
+    "Rank": 6605,
+    "Percentile": 72.2672
+  },
+  "Raw": {
+    "Observed": 0.3144,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.3144,
+    "baseMean": 305941.8888,
+    "padj": 0.0851,
+    "Rank": 6605,
+    "Percentile": 72.2672
+  }
+}

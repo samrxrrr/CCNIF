@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "A2M",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:02.361926"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "A2M",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:02.358637"
+    },
+    "Driver": {
+      "Driver": "A2M",
+      "GeneID": 12569,
+      "GeneName": "A2M",
+      "Observed": 0.5187,
+      "log2FC": -0.5187,
+      "AbsLog2FC": 0.5187,
+      "baseMean": 47249.8241,
+      "padj": 3.58e-07,
+      "Rank": 3037,
+      "Percentile": 87.2507
+    },
+    "Raw": {
+      "Observed": 0.5187,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.5187,
+      "baseMean": 47249.8241,
+      "padj": 3.58e-07,
+      "Rank": 3037,
+      "Percentile": 87.2507
+    }
+  }
+}

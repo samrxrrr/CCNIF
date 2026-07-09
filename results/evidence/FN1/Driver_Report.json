@@ -1,0 +1,87 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:46.446988",
+    "Driver": "FN1"
+  },
+  "Evidence": {
+    "Metadata": {
+      "Driver": "FN1",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:45.973509"
+    },
+    "Driver": {
+      "Driver": "FN1",
+      "GeneID": 4170,
+      "GeneName": "FN1",
+      "Observed": 0.1842,
+      "log2FC": 0.1842,
+      "AbsLog2FC": 0.1842,
+      "baseMean": 155859.7337,
+      "padj": 0.161,
+      "Rank": 11496,
+      "Percentile": 51.728
+    },
+    "Raw": {
+      "Observed": 0.1842,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.1842,
+      "baseMean": 155859.7337,
+      "padj": 0.161,
+      "Rank": 11496,
+      "Percentile": 51.728
+    }
+  },
+  "Characterization": null,
+  "Reliability": null,
+  "Normalization": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:46.443053",
+      "Driver": "FN1"
+    },
+    "Input": {
+      "Observed": 2.5,
+      "Variable": "AbsLog2FC",
+      "Domain": "Transcriptomics"
+    },
+    "Direction": "HIGHER_BETTER",
+    "Percentile": 0.9994,
+    "Probability": 0.9994,
+    "NormalizedScore": 99.9365,
+    "Interpretation": "Very High",
+    "Diagnostics": null
+  },
+  "Quality": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:46.445137"
+    },
+    "Strength": 99.9365,
+    "Reliability": 100,
+    "Consistency": 60,
+    "QualityScore": 89.9746,
+    "QualityTier": "Gold",
+    "Interpretation": "Evidence quality: Gold"
+  },
+  "Confidence": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:46.446384"
+    },
+    "Quality": 89.9746,
+    "NormalizedScore": 99.9365,
+    "Reliability": 95.4989,
+    "DriverConfidence": 94.8423,
+    "ConfidenceTier": "A",
+    "Interpretation": "Driver confidence: A"
+  },
+  "Interpretation": null,
+  "Manifest": null
+}

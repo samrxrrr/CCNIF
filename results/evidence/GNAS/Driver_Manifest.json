@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "GNAS",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:56.711226"
+  },
+  "Evidence": {
+    "File": "results/evidence/GNAS/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 608,
+    "Modified": "2026-07-09 13:58:56.216063"
+  },
+  "Statistics": {
+    "File": "results/evidence/GNAS/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/GNAS/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/GNAS/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 404,
+    "Modified": "2026-07-09 13:58:56.701859"
+  },
+  "Quality": {
+    "File": "results/evidence/GNAS/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 278,
+    "Modified": "2026-07-09 13:58:56.701859"
+  },
+  "Confidence": {
+    "File": "results/evidence/GNAS/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:56.701859"
+  },
+  "DriverReport": {
+    "File": "results/evidence/GNAS/Driver_Report.json",
+    "Exists": true,
+    "Size": 2025,
+    "Modified": "2026-07-09 13:58:56.705874"
+  }
+}

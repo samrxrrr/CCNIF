@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "HLA-B",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:59:01.711636"
+  },
+  "Evidence": {
+    "File": "results/evidence/HLA-B/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 613,
+    "Modified": "2026-07-09 13:59:01.158357"
+  },
+  "Statistics": {
+    "File": "results/evidence/HLA-B/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/HLA-B/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/HLA-B/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 405,
+    "Modified": "2026-07-09 13:59:01.702119"
+  },
+  "Quality": {
+    "File": "results/evidence/HLA-B/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:59:01.702119"
+  },
+  "Confidence": {
+    "File": "results/evidence/HLA-B/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:59:01.706088"
+  },
+  "DriverReport": {
+    "File": "results/evidence/HLA-B/Driver_Report.json",
+    "Exists": true,
+    "Size": 2033,
+    "Modified": "2026-07-09 13:59:01.706088"
+  }
+}

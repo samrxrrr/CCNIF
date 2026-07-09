@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "DST",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:55.0273"
+  },
+  "Evidence": {
+    "File": "results/evidence/DST/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 608,
+    "Modified": "2026-07-09 13:58:54.504508"
+  },
+  "Statistics": {
+    "File": "results/evidence/DST/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/DST/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/DST/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 403,
+    "Modified": "2026-07-09 13:58:55.019053"
+  },
+  "Quality": {
+    "File": "results/evidence/DST/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:55.019053"
+  },
+  "Confidence": {
+    "File": "results/evidence/DST/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:55.019053"
+  },
+  "DriverReport": {
+    "File": "results/evidence/DST/Driver_Report.json",
+    "Exists": true,
+    "Size": 2023,
+    "Modified": "2026-07-09 13:58:55.02307"
+  }
+}

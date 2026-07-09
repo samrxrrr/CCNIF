@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "ACTB",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:43.269529"
+  },
+  "Driver": {
+    "Driver": "ACTB",
+    "GeneID": 1260,
+    "GeneName": "ACTB",
+    "Observed": 0.1154,
+    "log2FC": 0.1154,
+    "AbsLog2FC": 0.1154,
+    "baseMean": 273337.6498,
+    "padj": 0.0385,
+    "Rank": 15331,
+    "Percentile": 35.6234
+  },
+  "Raw": {
+    "Observed": 0.1154,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.1154,
+    "baseMean": 273337.6498,
+    "padj": 0.0385,
+    "Rank": 15331,
+    "Percentile": 35.6234
+  }
+}

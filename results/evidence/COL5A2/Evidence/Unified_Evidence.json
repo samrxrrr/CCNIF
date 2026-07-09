@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "COL5A2",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:04.111771"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "COL5A2",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:04.108821"
+    },
+    "Driver": {
+      "Driver": "COL5A2",
+      "GeneID": 15523,
+      "GeneName": "COL5A2",
+      "Observed": 0.0522,
+      "log2FC": 0.0522,
+      "AbsLog2FC": 0.0522,
+      "baseMean": 10176.1241,
+      "padj": 0.7262,
+      "Rank": 19698,
+      "Percentile": 17.2847
+    },
+    "Raw": {
+      "Observed": 0.0522,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.0522,
+      "baseMean": 10176.1241,
+      "padj": 0.7262,
+      "Rank": 19698,
+      "Percentile": 17.2847
+    }
+  }
+}

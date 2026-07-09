@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "KEAP1",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:44.348547"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "KEAP1",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:44.345634"
+    },
+    "Driver": {
+      "Driver": "KEAP1",
+      "GeneID": 1418,
+      "GeneName": "KEAP1",
+      "Observed": 0.1,
+      "log2FC": -0.1,
+      "AbsLog2FC": 0.1,
+      "baseMean": 3328.2058,
+      "padj": 0.1144,
+      "Rank": 16339,
+      "Percentile": 31.3904
+    },
+    "Raw": {
+      "Observed": 0.1,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.1,
+      "baseMean": 3328.2058,
+      "padj": 0.1144,
+      "Rank": 16339,
+      "Percentile": 31.3904
+    }
+  }
+}

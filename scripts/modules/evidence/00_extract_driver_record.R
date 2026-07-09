@@ -3,9 +3,7 @@ library(data.table)
 extract_driver_record <- function(driver){
 
 deg_file <- file.path(
-"results",
-"evidence",
-driver,
+"data",
 "transcriptomics",
 "DEGs.tsv"
 )
@@ -16,6 +14,7 @@ stop(paste("Missing:",deg_file))
 deg <- fread(deg_file)
 
 required <- c(
+"gene_id",
 "gene_name",
 "log2FoldChange",
 "baseMean",
@@ -37,15 +36,22 @@ paste(missing,collapse=", ")
 
 row <- deg[gene_name==driver]
 
-if(nrow(row)!=1){
+if(nrow(row)==0){
 
 stop(
 paste(
 "Driver",
 driver,
-"not found in DEGs.tsv"
+"not found in",
+deg_file
 )
 )
+
+}
+
+if(nrow(row)>1){
+
+row <- row[1]
 
 }
 
@@ -54,7 +60,7 @@ rank <- rank(
 ties.method="min"
 )
 
-driver_index <- which(deg$gene_name==driver)
+driver_index <- which(deg$gene_name==driver)[1]
 
 percentile <- 100*(1-(rank[driver_index]-1)/(nrow(deg)-1))
 

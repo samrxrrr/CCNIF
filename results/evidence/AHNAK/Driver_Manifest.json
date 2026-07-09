@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "AHNAK",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:44.288605"
+  },
+  "Evidence": {
+    "File": "results/evidence/AHNAK/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 614,
+    "Modified": "2026-07-09 13:58:43.799575"
+  },
+  "Statistics": {
+    "File": "results/evidence/AHNAK/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/AHNAK/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/AHNAK/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 405,
+    "Modified": "2026-07-09 13:58:44.278266"
+  },
+  "Quality": {
+    "File": "results/evidence/AHNAK/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:44.278266"
+  },
+  "Confidence": {
+    "File": "results/evidence/AHNAK/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:44.282217"
+  },
+  "DriverReport": {
+    "File": "results/evidence/AHNAK/Driver_Report.json",
+    "Exists": true,
+    "Size": 2034,
+    "Modified": "2026-07-09 13:58:44.286168"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 13:59:06.248924"
+  },
+  "NormalizationReport": "results/evidence/AHNAK2/Statistics/Normalization_Report.json",
+  "ECDF": "results/evidence/AHNAK2/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+  "Registry": "config/variable_registry.tsv",
+  "Evidence": "results/evidence/AHNAK2/Evidence/Transcriptomics_Evidence.json"
+}

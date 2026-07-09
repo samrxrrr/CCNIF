@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "HSP90AB1",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:00.61657"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "HSP90AB1",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:00.61353"
+    },
+    "Driver": {
+      "Driver": "HSP90AB1",
+      "GeneID": 1973,
+      "GeneName": "HSP90AB1",
+      "Observed": 0.1157,
+      "log2FC": 0.1157,
+      "AbsLog2FC": 0.1157,
+      "baseMean": 67294.2772,
+      "padj": 0.0507,
+      "Rank": 15321,
+      "Percentile": 35.6654
+    },
+    "Raw": {
+      "Observed": 0.1157,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.1157,
+      "baseMean": 67294.2772,
+      "padj": 0.0507,
+      "Rank": 15321,
+      "Percentile": 35.6654
+    }
+  }
+}

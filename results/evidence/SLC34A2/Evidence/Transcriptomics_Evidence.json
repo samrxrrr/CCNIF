@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "SLC34A2",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:02.955451"
+  },
+  "Driver": {
+    "Driver": "SLC34A2",
+    "GeneID": 9323,
+    "GeneName": "SLC34A2",
+    "Observed": 0.3105,
+    "log2FC": -0.3105,
+    "AbsLog2FC": 0.3105,
+    "baseMean": 93796.2703,
+    "padj": 0.0434,
+    "Rank": 6700,
+    "Percentile": 71.8683
+  },
+  "Raw": {
+    "Observed": 0.3105,
+    "Direction": "Downregulated",
+    "AbsLog2FC": 0.3105,
+    "baseMean": 93796.2703,
+    "padj": 0.0434,
+    "Rank": 6700,
+    "Percentile": 71.8683
+  }
+}

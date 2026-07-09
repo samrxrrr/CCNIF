@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "TTN",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:39.722909"
+  },
+  "Evidence": {
+    "File": "results/evidence/TTN/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 605,
+    "Modified": "2026-07-09 13:58:39.003934"
+  },
+  "Statistics": {
+    "File": "results/evidence/TTN/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/TTN/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/TTN/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 403,
+    "Modified": "2026-07-09 13:58:39.67401"
+  },
+  "Quality": {
+    "File": "results/evidence/TTN/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:39.690658"
+  },
+  "Confidence": {
+    "File": "results/evidence/TTN/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:39.703144"
+  },
+  "DriverReport": {
+    "File": "results/evidence/TTN/Driver_Report.json",
+    "Exists": true,
+    "Size": 2021,
+    "Modified": "2026-07-09 13:58:39.71563"
+  }
+}

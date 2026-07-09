@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "PSAP",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:57.868584"
+  },
+  "Evidence": {
+    "File": "results/evidence/PSAP/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 613,
+    "Modified": "2026-07-09 13:58:57.340046"
+  },
+  "Statistics": {
+    "File": "results/evidence/PSAP/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/PSAP/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/PSAP/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 402,
+    "Modified": "2026-07-09 13:58:57.857692"
+  },
+  "Quality": {
+    "File": "results/evidence/PSAP/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:57.857692"
+  },
+  "Confidence": {
+    "File": "results/evidence/PSAP/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 292,
+    "Modified": "2026-07-09 13:58:57.861704"
+  },
+  "DriverReport": {
+    "File": "results/evidence/PSAP/Driver_Report.json",
+    "Exists": true,
+    "Size": 2028,
+    "Modified": "2026-07-09 13:58:57.865717"
+  }
+}

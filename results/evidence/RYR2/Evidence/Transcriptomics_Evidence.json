@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "RYR2",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:40.932683"
+  },
+  "Driver": {
+    "Driver": "RYR2",
+    "GeneID": 15224,
+    "GeneName": "RYR2",
+    "Observed": 0.0283,
+    "log2FC": -0.0283,
+    "AbsLog2FC": 0.0283,
+    "baseMean": 202.6547,
+    "padj": 0.8771,
+    "Rank": 21554,
+    "Percentile": 9.4906
+  },
+  "Raw": {
+    "Observed": 0.0283,
+    "Direction": "Downregulated",
+    "AbsLog2FC": 0.0283,
+    "baseMean": 202.6547,
+    "padj": 0.8771,
+    "Rank": 21554,
+    "Percentile": 9.4906
+  }
+}
