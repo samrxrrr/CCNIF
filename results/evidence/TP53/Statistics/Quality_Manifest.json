@@ -1,0 +1,12 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 09:19:22.604711"
+  },
+  "QualityReport": "results/evidence/TP53/Statistics/Quality_Report.json",
+  "NormalizationReport": "results/evidence/TP53/Statistics/Normalization_Report.json",
+  "ReliabilityReport": "results/evidence/TP53/Statistics/Reliability_Report.json",
+  "DistributionReport": "results/evidence/TP53/Statistics/Distribution_Report.json",
+  "Evidence": "results/evidence/TP53/Evidence/Transcriptomics_Evidence.json"
+}
