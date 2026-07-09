@@ -1,14 +1,42 @@
-dispersion_metrics <- function(x){
+library(jsonlite)
 
-x <- x[is.finite(x)]
+calculate_dispersion <- function(driver){
+
+dist <- read_json(
+file.path(
+"results",
+"evidence",
+driver,
+"Statistics",
+"Distribution_Report.json"
+),
+simplifyVector=TRUE
+)
+
+d <- dist$Diagnostics$AbsLog2FC
+
+iqr <- d$IQR
+sd  <- d$SD
+mad <- d$MAD
+
+score <- max(
+0,
+100-((sd+iqr+mad)*10)
+)
 
 list(
 
-MAD=mad(x),
+Metric="Dispersion",
 
-IQR=IQR(x),
+Driver=driver,
 
-Range=diff(range(x))
+SD=sd,
+
+IQR=iqr,
+
+MAD=mad,
+
+Score=round(score,4)
 
 )
 
