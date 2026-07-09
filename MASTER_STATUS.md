@@ -337,6 +337,7 @@ Next
 
 
 
+
 # Phase 11 – Evidence Quality Engine
 
 Status: IN PROGRESS
@@ -345,10 +346,12 @@ Completed
 
 - Evidence Collector
 - Evidence Normalization Engine
-- Weighted Evidence Engine
+- Weighted Evidence Prototype
+- Evidence Statistics Extraction
 
-Planned
+Next
 
-- Scientific Driver Confidence Calculator
-- Automated Evidence Report
-- End-to-end driver execution
+- Distribution analysis
+- Percentile normalization
+- Data-driven weighting
+- Mathematical specification
