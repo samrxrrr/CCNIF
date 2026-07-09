@@ -2,19 +2,32 @@ library(jsonlite)
 
 extract_driver_values <- function(driver){
 
-evidence <- read_json(
-file.path(
+base <- file.path(
 "results",
 "evidence",
-driver,
+driver
+)
+
+evidence <- read_json(
+file.path(
+base,
 "Evidence",
 "Transcriptomics_Evidence.json"
 ),
 simplifyVector=TRUE
 )
 
-stats <- evidence$Statistics
-diag  <- evidence$Diagnostics
+dist <- read_json(
+file.path(
+base,
+"Statistics",
+"Distribution_Report.json"
+),
+simplifyVector=TRUE
+)
+
+stats <- dist$Statistics$AbsLog2FC
+diag  <- dist$Diagnostics$AbsLog2FC
 
 list(
 
@@ -24,27 +37,27 @@ Observed=evidence$Raw$Observed,
 
 Domain=evidence$Metadata$Domain,
 
-Variable=evidence$Metadata$Variable,
+Variable="AbsLog2FC",
 
-Rows=stats$N,
+Rows=as.numeric(stats$N),
 
-Mean=stats$Mean,
+Mean=as.numeric(ifelse(is.null(stats$Mean),0,stats$Mean)),
 
-Median=stats$Median,
+Median=as.numeric(ifelse(is.null(stats$Median),0,stats$Median)),
 
-SD=stats$SD,
+SD=as.numeric(diag$SD),
 
-MAD=stats$MAD,
+MAD=as.numeric(diag$MAD),
 
-CV=diag$CV,
+CV=as.numeric(diag$CV),
 
-Percentile=evidence$Driver$Percentile,
+Percentile=as.numeric(evidence$Driver$Percentile),
 
-Skewness=diag$Skewness,
+Skewness=as.numeric(diag$Skewness),
 
-OutlierFraction=diag$OutlierCount/diag$N,
+OutlierFraction=as.numeric(diag$OutlierCount)/as.numeric(diag$N),
 
-MissingFraction=stats$Missing/stats$N
+MissingFraction=as.numeric(stats$Missing)/as.numeric(stats$N)
 
 )
 

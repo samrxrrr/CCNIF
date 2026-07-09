@@ -1,0 +1,87 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:59:04.043746",
+    "Driver": "RPL3"
+  },
+  "Evidence": {
+    "Metadata": {
+      "Driver": "RPL3",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:03.542729"
+    },
+    "Driver": {
+      "Driver": "RPL3",
+      "GeneID": 2165,
+      "GeneName": "RPL3",
+      "Observed": 0.3664,
+      "log2FC": -0.3664,
+      "AbsLog2FC": 0.3664,
+      "baseMean": 82698.3821,
+      "padj": 2.3179e-09,
+      "Rank": 5321,
+      "Percentile": 77.6593
+    },
+    "Raw": {
+      "Observed": 0.3664,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.3664,
+      "baseMean": 82698.3821,
+      "padj": 2.3179e-09,
+      "Rank": 5321,
+      "Percentile": 77.6593
+    }
+  },
+  "Characterization": null,
+  "Reliability": null,
+  "Normalization": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:59:04.039555",
+      "Driver": "RPL3"
+    },
+    "Input": {
+      "Observed": 2.5,
+      "Variable": "AbsLog2FC",
+      "Domain": "Transcriptomics"
+    },
+    "Direction": "HIGHER_BETTER",
+    "Percentile": 0.9994,
+    "Probability": 0.9994,
+    "NormalizedScore": 99.9365,
+    "Interpretation": "Very High",
+    "Diagnostics": null
+  },
+  "Quality": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:59:04.0417"
+    },
+    "Strength": 99.9365,
+    "Reliability": 100,
+    "Consistency": 60,
+    "QualityScore": 89.9746,
+    "QualityTier": "Gold",
+    "Interpretation": "Evidence quality: Gold"
+  },
+  "Confidence": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:59:04.043056"
+    },
+    "Quality": 89.9746,
+    "NormalizedScore": 99.9365,
+    "Reliability": 95.4989,
+    "DriverConfidence": 94.8423,
+    "ConfidenceTier": "A",
+    "Interpretation": "Driver confidence: A"
+  },
+  "Interpretation": null,
+  "Manifest": null
+}

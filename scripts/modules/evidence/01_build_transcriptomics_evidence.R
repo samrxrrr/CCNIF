@@ -17,13 +17,6 @@ recursive=TRUE,
 showWarnings=FALSE
 )
 
-dist <- read_json(
-file.path(base,
-"Statistics",
-"Distribution_Report.json"),
-simplifyVector=TRUE
-)
-
 drv <- extract_driver_record(driver)
 
 evidence <- list(
@@ -31,22 +24,34 @@ evidence <- list(
 Metadata=list(
 Driver=driver,
 Domain="Transcriptomics",
-Variable="AbsLog2FC",
 Pipeline="CCNIF",
-Version="4.0",
+Version="5.0",
 Created=as.character(Sys.time())
-),
-
-Raw=list(
-Observed=drv$Observed,
-Direction="higher"
 ),
 
 Driver=drv,
 
-Statistics=dist$Statistics$AbsLog2FC,
+Raw=list(
 
-Diagnostics=dist$Diagnostics$AbsLog2FC
+Observed=drv$Observed,
+
+Direction=ifelse(
+drv$log2FC>=0,
+"Upregulated",
+"Downregulated"
+),
+
+AbsLog2FC=drv$AbsLog2FC,
+
+baseMean=drv$baseMean,
+
+padj=drv$padj,
+
+Rank=drv$Rank,
+
+Percentile=drv$Percentile
+
+)
 
 )
 

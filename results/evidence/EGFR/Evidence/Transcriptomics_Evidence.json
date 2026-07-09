@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "EGFR",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:47.062969"
+  },
+  "Driver": {
+    "Driver": "EGFR",
+    "GeneID": 8196,
+    "GeneName": "EGFR",
+    "Observed": 0.7945,
+    "log2FC": 0.7945,
+    "AbsLog2FC": 0.7945,
+    "baseMean": 9186.0156,
+    "padj": 1.1796e-10,
+    "Rank": 1166,
+    "Percentile": 95.1077
+  },
+  "Raw": {
+    "Observed": 0.7945,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.7945,
+    "baseMean": 9186.0156,
+    "padj": 1.1796e-10,
+    "Rank": 1166,
+    "Percentile": 95.1077
+  }
+}

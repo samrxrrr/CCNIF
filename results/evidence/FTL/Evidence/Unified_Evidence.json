@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "FTL",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:51.312496"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "FTL",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:51.30958"
+    },
+    "Driver": {
+      "Driver": "FTL",
+      "GeneID": 1647,
+      "GeneName": "FTL",
+      "Observed": 0.0984,
+      "log2FC": -0.0984,
+      "AbsLog2FC": 0.0984,
+      "baseMean": 213722.0692,
+      "padj": 0.3461,
+      "Rank": 16446,
+      "Percentile": 30.9411
+    },
+    "Raw": {
+      "Observed": 0.0984,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.0984,
+      "baseMean": 213722.0692,
+      "padj": 0.3461,
+      "Rank": 16446,
+      "Percentile": 30.9411
+    }
+  }
+}

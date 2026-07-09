@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "KEAP1",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:44.829221"
+  },
+  "Evidence": {
+    "File": "results/evidence/KEAP1/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 598,
+    "Modified": "2026-07-09 13:58:44.341483"
+  },
+  "Statistics": {
+    "File": "results/evidence/KEAP1/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/KEAP1/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/KEAP1/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 405,
+    "Modified": "2026-07-09 13:58:44.819563"
+  },
+  "Quality": {
+    "File": "results/evidence/KEAP1/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:44.823514"
+  },
+  "Confidence": {
+    "File": "results/evidence/KEAP1/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:44.823514"
+  },
+  "DriverReport": {
+    "File": "results/evidence/KEAP1/Driver_Report.json",
+    "Exists": true,
+    "Size": 2018,
+    "Modified": "2026-07-09 13:58:44.827465"
+  }
+}

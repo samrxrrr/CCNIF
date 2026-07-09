@@ -1,0 +1,591 @@
+
+########################################################################
+scripts/modules/modeling/03_goodness_of_fit.R
+########################################################################
+library(jsonlite)
+
+extract_gof <- function(model){
+
+if(is.null(model))
+return(NULL)
+
+list(
+
+LogLikelihood=unname(model$loglik),
+
+AIC=AIC(model),
+
+BIC=BIC(model)
+
+)
+
+}
+
+
+########################################################################
+scripts/modules/modeling/04_empirical_models.R
+########################################################################
+library(jsonlite)
+
+build_empirical_model <- function(ecdf_file){
+
+d <- read.delim(
+
+ecdf_file,
+
+check.names=FALSE
+
+)
+
+list(
+
+Rows=nrow(d),
+
+Minimum=min(d[[1]]),
+
+Maximum=max(d[[1]]),
+
+UniqueValues=length(unique(d[[1]])),
+
+Duplicates=nrow(d)-length(unique(d[[1]]))
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/05_master_distribution_model.R
+########################################################################
+library(jsonlite)
+
+new_distribution_model <- function(){
+
+list(
+
+Metadata=list(
+
+Version="1.0",
+
+Created=as.character(Sys.time())
+
+),
+
+Statistics=NULL,
+
+Diagnostics=NULL,
+
+ECDF=NULL,
+
+Empirical=NULL,
+
+ParametricFits=NULL,
+
+GoodnessOfFit=NULL
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/05_ecdf_lookup.R
+########################################################################
+library(jsonlite)
+
+build_ecdf_lookup <- function(driver,
+                              distribution_file,
+                              model_name){
+
+cat("============================================\n")
+cat(paste(model_name,"ECDF Lookup\n"))
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+outdir <- file.path(base,"Statistics","ECDF")
+dir.create(outdir,recursive=TRUE,showWarnings=FALSE)
+
+for(col in names(tbl)){
+
+if(!is.numeric(tbl[[col]]))
+next
+
+x <- tbl[[col]]
+x <- x[is.finite(x)]
+
+x <- sort(x)
+
+lookup <- data.frame(
+
+Value=x,
+
+Percentile=(seq_along(x)-1)/(length(x)-1)
+
+)
+
+write.table(
+
+lookup,
+
+file=file.path(
+
+outdir,
+
+paste0(model_name,"_",col,"_ECDF.tsv")
+
+),
+
+sep="\t",
+
+quote=FALSE,
+
+row.names=FALSE
+
+)
+
+}
+
+cat(model_name,"lookup exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/06_compare_models.R
+########################################################################
+library(jsonlite)
+
+compare_models <- function(fits){
+
+models <- c("Normal","LogNormal","Gamma","Weibull")
+
+tbl <- data.frame()
+
+for(m in models){
+
+fit <- fits[[m]]
+
+if(is.null(fit))
+next
+
+tbl <- rbind(
+
+tbl,
+
+data.frame(
+
+Distribution=m,
+
+LogLikelihood=fit$loglik,
+
+AIC=AIC(fit),
+
+BIC=BIC(fit),
+
+Parameters=length(fit$estimate),
+
+Converged=TRUE,
+
+stringsAsFactors=FALSE
+
+)
+
+)
+
+}
+
+tbl$AIC_Rank <- rank(tbl$AIC,ties.method="first")
+
+tbl$BIC_Rank <- rank(tbl$BIC,ties.method="first")
+
+best <- tbl$Distribution[which.min(tbl$AIC)]
+
+list(
+
+Summary=tbl,
+
+BestModel=best
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/07_export_model_comparison.R
+########################################################################
+library(jsonlite)
+
+export_model_comparison <- function(result,file){
+
+write.table(
+
+result$Summary,
+
+sub("\\.json$",".tsv",file),
+
+sep="\t",
+
+row.names=FALSE,
+
+quote=FALSE
+
+)
+
+write_json(
+
+list(
+
+BestModel=result$BestModel,
+
+Models=nrow(result$Summary)
+
+),
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE
+
+)
+
+cat("Model comparison exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/08_goodness_of_fit_tests.R
+########################################################################
+library(nortest)
+library(goftest)
+
+goodness_of_fit_tests <- function(x){
+
+x <- x[is.finite(x)]
+
+out <- list(
+
+Metadata=list(
+
+N=length(x)
+
+)
+
+)
+
+if(length(x) < 8){
+
+out$Notes <- "Insufficient sample size"
+
+return(out)
+
+}
+
+## Anderson-Darling
+
+out$AndersonDarling <- tryCatch(
+
+{
+
+t <- ad.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+## Cramer-von Mises
+
+out$CramerVonMises <- tryCatch(
+
+{
+
+t <- cvm.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+## Shapiro-Wilk
+## (recommended only up to 5000 observations)
+
+out$ShapiroWilk <- tryCatch(
+
+{
+
+if(length(x)<=5000){
+
+t <- shapiro.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+}else{
+
+NULL
+
+}
+
+},
+
+error=function(e) NULL
+
+)
+
+## Kolmogorov-Smirnov
+## compare against fitted normal
+
+out$KolmogorovSmirnov <- tryCatch(
+
+{
+
+t <- ks.test(
+
+x,
+
+"pnorm",
+
+mean(x),
+
+sd(x)
+
+)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+out
+
+}
+
+########################################################################
+scripts/modules/modeling/02_distribution_fit.R
+########################################################################
+library(fitdistrplus)
+library(jsonlite)
+
+fit_candidate_distributions <- function(x){
+
+x <- x[is.finite(x)]
+
+out <- list()
+
+if(length(x)<20)
+return(out)
+
+xmin <- min(x)
+
+if(xmin<=0){
+
+shift <- abs(xmin)+1e-8
+
+xpos <- x+shift
+
+}else{
+
+shift <- 0
+
+xpos <- x
+
+}
+
+safe_fit <- function(expr){
+
+tryCatch(expr,error=function(e)NULL)
+
+}
+
+out$Metadata <- list(
+
+N=length(x),
+
+Shift=shift
+
+)
+
+out$Normal <-
+safe_fit(fitdist(x,"norm"))
+
+out$LogNormal <-
+safe_fit(fitdist(xpos,"lnorm"))
+
+out$Gamma <-
+safe_fit(fitdist(xpos,"gamma"))
+
+out$Weibull <-
+safe_fit(fitdist(xpos,"weibull"))
+
+out
+
+}
+
+########################################################################
+scripts/modules/math/02_distribution_diagnostics.R
+########################################################################
+library(jsonlite)
+
+source("scripts/modules/math/01_math_utils.R")
+
+distribution_diagnostics <- function(x){
+
+x <- x[is.finite(x)]
+
+q <- quantile(
+x,
+c(.01,.05,.10,.25,.50,.75,.90,.95,.99)
+)
+
+lim <- tukey_limits(x)
+
+list(
+
+N=length(x),
+
+Minimum=min(x),
+
+Maximum=max(x),
+
+Mean=safe_mean(x),
+
+Median=safe_median(x),
+
+Variance=safe_var(x),
+
+SD=safe_sd(x),
+
+MAD=safe_mad(x),
+
+IQR=safe_iqr(x),
+
+Q1=unname(quantile(x,.25)),
+
+Q3=unname(quantile(x,.75)),
+
+P01=unname(q[1]),
+
+P05=unname(q[2]),
+
+P10=unname(q[3]),
+
+P25=unname(q[4]),
+
+P50=unname(q[5]),
+
+P75=unname(q[6]),
+
+P90=unname(q[7]),
+
+P95=unname(q[8]),
+
+P99=unname(q[9]),
+
+Skewness=safe_skewness(x),
+
+Kurtosis=safe_kurtosis(x),
+
+CV=if(abs(safe_mean(x))<1e-8) NA else safe_cv(x),
+
+OutlierLower=lim$Lower,
+
+OutlierUpper=lim$Upper,
+
+OutlierCount=outlier_count(x)
+
+)
+
+}
+
+build_distribution_model <- function(driver,
+distribution_file,
+model_name){
+
+cat("============================================\n")
+cat(model_name,"\n")
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+out <- list()
+
+for(col in names(tbl)){
+
+if(is.numeric(tbl[[col]]))
+
+out[[col]] <- distribution_diagnostics(tbl[[col]])
+
+}
+
+dir.create(
+file.path(base,"Statistics","Diagnostics"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+write_json(
+
+out,
+
+file.path(
+
+base,
+
+"Statistics",
+
+"Diagnostics",
+
+paste0(model_name,"_Diagnostics.json")
+
+),
+
+pretty=TRUE,
+
+auto_unbox=TRUE
+
+)
+
+cat("Finished.\n")
+
+}

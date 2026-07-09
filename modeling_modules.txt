@@ -1,0 +1,1319 @@
+
+########################################################################
+scripts/modules/modeling/01_statistics_engine.R
+########################################################################
+library(jsonlite)
+
+describe_numeric <- function(x){
+
+x <- x[is.finite(x)]
+
+list(
+
+N=length(x),
+
+Missing=sum(is.na(x)),
+
+Minimum=min(x),
+
+Maximum=max(x),
+
+Mean=mean(x),
+
+Median=median(x),
+
+Variance=var(x),
+
+SD=sd(x),
+
+MAD=mad(x),
+
+IQR=IQR(x),
+
+Q1=unname(quantile(x,0.25)),
+
+Q3=unname(quantile(x,0.75)),
+
+P05=unname(quantile(x,0.05)),
+
+P10=unname(quantile(x,0.10)),
+
+P25=unname(quantile(x,0.25)),
+
+P50=unname(quantile(x,0.50)),
+
+P75=unname(quantile(x,0.75)),
+
+P90=unname(quantile(x,0.90)),
+
+P95=unname(quantile(x,0.95)),
+
+P99=unname(quantile(x,0.99))
+
+)
+
+}
+
+save_model <- function(model,file){
+
+write_json(
+
+model,
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/02_build_model.R
+########################################################################
+library(jsonlite)
+
+source("scripts/modules/modeling/01_statistics_engine.R")
+
+build_model <- function(driver,
+                        distribution_file,
+                        model_name){
+
+cat("============================================\n")
+cat(paste(model_name,"Statistical Model\n"))
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+model <- list()
+
+model$Driver <- driver
+model$Rows <- nrow(tbl)
+
+for(col in names(tbl)){
+
+if(is.numeric(tbl[[col]])){
+
+model[[col]] <- describe_numeric(tbl[[col]])
+
+}
+
+}
+
+dir.create(
+file.path(base,"Statistics","Models"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+jsonlite::write_json(
+model,
+file.path(
+base,
+"Statistics",
+"Models",
+paste0(model_name,"_Model.json")
+),
+pretty=TRUE,
+auto_unbox=TRUE
+)
+
+cat(model_name,"model exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/02_distribution_fit.R
+########################################################################
+library(fitdistrplus)
+library(jsonlite)
+
+fit_candidate_distributions <- function(x){
+
+x <- x[is.finite(x)]
+
+out <- list()
+
+if(length(x)<20)
+return(out)
+
+xmin <- min(x)
+
+if(xmin<=0){
+
+shift <- abs(xmin)+1e-8
+
+xpos <- x+shift
+
+}else{
+
+shift <- 0
+
+xpos <- x
+
+}
+
+safe_fit <- function(expr){
+
+tryCatch(expr,error=function(e)NULL)
+
+}
+
+out$Metadata <- list(
+
+N=length(x),
+
+Shift=shift
+
+)
+
+out$Normal <-
+safe_fit(fitdist(x,"norm"))
+
+out$LogNormal <-
+safe_fit(fitdist(xpos,"lnorm"))
+
+out$Gamma <-
+safe_fit(fitdist(xpos,"gamma"))
+
+out$Weibull <-
+safe_fit(fitdist(xpos,"weibull"))
+
+out
+
+}
+
+########################################################################
+scripts/modules/modeling/02_transcriptomics_model.R
+########################################################################
+library(jsonlite)
+
+source("scripts/modules/modeling/01_statistics_engine.R")
+
+build_transcriptomics_model <- function(driver){
+
+cat("============================================\n")
+cat("Transcriptomics Statistical Model\n")
+cat("============================================\n")
+
+base <- file.path(
+"results",
+"evidence",
+driver
+)
+
+tbl <- read.delim(
+file.path(
+base,
+"Statistics",
+"Transcriptomics_Distribution.tsv"
+),
+check.names=FALSE
+)
+
+model <- list(
+
+Driver=driver,
+
+Genes=nrow(tbl),
+
+Log2FC=describe_numeric(tbl$log2FC),
+
+AbsLog2FC=describe_numeric(tbl$AbsLog2FC),
+
+Padj=describe_numeric(tbl$padj),
+
+BaseMean=describe_numeric(tbl$baseMean)
+
+)
+
+dir.create(
+file.path(base,"Statistics","Models"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+jsonlite::write_json(
+model,
+file.path(
+base,
+"Statistics",
+"Models",
+"Transcriptomics_Model.json"
+),
+pretty=TRUE,
+auto_unbox=TRUE
+)
+
+cat("Transcriptomics model exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/03_goodness_of_fit.R
+########################################################################
+library(jsonlite)
+
+extract_gof <- function(model){
+
+if(is.null(model))
+return(NULL)
+
+list(
+
+LogLikelihood=unname(model$loglik),
+
+AIC=AIC(model),
+
+BIC=BIC(model)
+
+)
+
+}
+
+
+########################################################################
+scripts/modules/modeling/03_qc_engine.R
+########################################################################
+library(jsonlite)
+
+qc_distribution <- function(driver,
+                            distribution_file,
+                            qc_name){
+
+cat("============================================\n")
+cat(paste(qc_name,"QC\n"))
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+qc <- list()
+
+qc$Rows <- nrow(tbl)
+qc$Columns <- ncol(tbl)
+
+qc$DuplicateRows <- sum(duplicated(tbl))
+
+qc$MissingValues <- sum(is.na(tbl))
+
+qc$InfiniteValues <- sum(sapply(tbl,function(x){
+if(is.numeric(x)) sum(is.infinite(x)) else 0
+}))
+
+qc$NumericColumns <- names(tbl)[sapply(tbl,is.numeric)]
+
+qc$ConstantColumns <- names(tbl)[sapply(tbl,function(x){
+is.numeric(x) && length(unique(x))==1
+})]
+
+dir.create(
+file.path(base,"Statistics","QC"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+write_json(
+qc,
+file.path(
+base,
+"Statistics",
+"QC",
+paste0(qc_name,"_QC.json")
+),
+pretty=TRUE,
+auto_unbox=TRUE
+)
+
+cat(qc_name,"QC exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/04_ecdf_engine.R
+########################################################################
+library(jsonlite)
+
+build_ecdf_model <- function(driver,
+                             distribution_file,
+                             model_name){
+
+cat("============================================\n")
+cat(paste(model_name,"ECDF Model\n"))
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+ecdf_model <- list()
+
+ecdf_model$Driver <- driver
+ecdf_model$Rows <- nrow(tbl)
+
+for(col in names(tbl)){
+
+if(is.numeric(tbl[[col]])){
+
+x <- tbl[[col]]
+x <- x[is.finite(x)]
+
+Fn <- ecdf(x)
+
+probes <- c(
+0.01,
+0.05,
+0.10,
+0.25,
+0.50,
+0.75,
+0.90,
+0.95,
+0.99
+)
+
+values <- as.numeric(
+quantile(
+x,
+probes,
+na.rm=TRUE
+)
+)
+
+ecdf_model[[col]] <- list(
+
+Percentiles=as.list(values)
+
+)
+
+names(ecdf_model[[col]]$Percentiles) <-
+paste0("P",c(1,5,10,25,50,75,90,95,99))
+
+}
+
+}
+
+dir.create(
+file.path(base,"Statistics","Models"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+write_json(
+ecdf_model,
+file.path(
+base,
+"Statistics",
+"Models",
+paste0(model_name,"_ECDF.json")
+),
+pretty=TRUE,
+auto_unbox=TRUE
+)
+
+cat(model_name,"ECDF exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/04_empirical_models.R
+########################################################################
+library(jsonlite)
+
+build_empirical_model <- function(ecdf_file){
+
+d <- read.delim(
+
+ecdf_file,
+
+check.names=FALSE
+
+)
+
+list(
+
+Rows=nrow(d),
+
+Minimum=min(d[[1]]),
+
+Maximum=max(d[[1]]),
+
+UniqueValues=length(unique(d[[1]])),
+
+Duplicates=nrow(d)-length(unique(d[[1]]))
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/05_ecdf_lookup.R
+########################################################################
+library(jsonlite)
+
+build_ecdf_lookup <- function(driver,
+                              distribution_file,
+                              model_name){
+
+cat("============================================\n")
+cat(paste(model_name,"ECDF Lookup\n"))
+cat("============================================\n")
+
+base <- file.path("results","evidence",driver)
+
+tbl <- read.delim(
+file.path(base,"Statistics",distribution_file),
+check.names=FALSE
+)
+
+outdir <- file.path(base,"Statistics","ECDF")
+dir.create(outdir,recursive=TRUE,showWarnings=FALSE)
+
+for(col in names(tbl)){
+
+if(!is.numeric(tbl[[col]]))
+next
+
+x <- tbl[[col]]
+x <- x[is.finite(x)]
+
+x <- sort(x)
+
+lookup <- data.frame(
+
+Value=x,
+
+Percentile=(seq_along(x)-1)/(length(x)-1)
+
+)
+
+write.table(
+
+lookup,
+
+file=file.path(
+
+outdir,
+
+paste0(model_name,"_",col,"_ECDF.tsv")
+
+),
+
+sep="\t",
+
+quote=FALSE,
+
+row.names=FALSE
+
+)
+
+}
+
+cat(model_name,"lookup exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/05_master_distribution_model.R
+########################################################################
+library(jsonlite)
+
+new_distribution_model <- function(){
+
+list(
+
+Metadata=list(
+
+Version="1.0",
+
+Created=as.character(Sys.time())
+
+),
+
+Statistics=NULL,
+
+Diagnostics=NULL,
+
+ECDF=NULL,
+
+Empirical=NULL,
+
+ParametricFits=NULL,
+
+GoodnessOfFit=NULL
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/06_compare_models.R
+########################################################################
+library(jsonlite)
+
+compare_models <- function(fits){
+
+models <- c("Normal","LogNormal","Gamma","Weibull")
+
+tbl <- data.frame()
+
+for(m in models){
+
+fit <- fits[[m]]
+
+if(is.null(fit))
+next
+
+tbl <- rbind(
+
+tbl,
+
+data.frame(
+
+Distribution=m,
+
+LogLikelihood=fit$loglik,
+
+AIC=AIC(fit),
+
+BIC=BIC(fit),
+
+Parameters=length(fit$estimate),
+
+Converged=TRUE,
+
+stringsAsFactors=FALSE
+
+)
+
+)
+
+}
+
+tbl$AIC_Rank <- rank(tbl$AIC,ties.method="first")
+
+tbl$BIC_Rank <- rank(tbl$BIC,ties.method="first")
+
+best <- tbl$Distribution[which.min(tbl$AIC)]
+
+list(
+
+Summary=tbl,
+
+BestModel=best
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/07_export_model_comparison.R
+########################################################################
+library(jsonlite)
+
+export_model_comparison <- function(result,file){
+
+write.table(
+
+result$Summary,
+
+sub("\\.json$",".tsv",file),
+
+sep="\t",
+
+row.names=FALSE,
+
+quote=FALSE
+
+)
+
+write_json(
+
+list(
+
+BestModel=result$BestModel,
+
+Models=nrow(result$Summary)
+
+),
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE
+
+)
+
+cat("Model comparison exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/08_goodness_of_fit_tests.R
+########################################################################
+library(nortest)
+library(goftest)
+
+goodness_of_fit_tests <- function(x){
+
+x <- x[is.finite(x)]
+
+out <- list(
+
+Metadata=list(
+
+N=length(x)
+
+)
+
+)
+
+if(length(x) < 8){
+
+out$Notes <- "Insufficient sample size"
+
+return(out)
+
+}
+
+## Anderson-Darling
+
+out$AndersonDarling <- tryCatch(
+
+{
+
+t <- ad.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+## Cramer-von Mises
+
+out$CramerVonMises <- tryCatch(
+
+{
+
+t <- cvm.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+## Shapiro-Wilk
+## (recommended only up to 5000 observations)
+
+out$ShapiroWilk <- tryCatch(
+
+{
+
+if(length(x)<=5000){
+
+t <- shapiro.test(x)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+}else{
+
+NULL
+
+}
+
+},
+
+error=function(e) NULL
+
+)
+
+## Kolmogorov-Smirnov
+## compare against fitted normal
+
+out$KolmogorovSmirnov <- tryCatch(
+
+{
+
+t <- ks.test(
+
+x,
+
+"pnorm",
+
+mean(x),
+
+sd(x)
+
+)
+
+list(
+
+Statistic=unname(t$statistic),
+
+Pvalue=t$p.value
+
+)
+
+},
+
+error=function(e) NULL
+
+)
+
+out
+
+}
+
+########################################################################
+scripts/modules/modeling/09_distribution_report.R
+########################################################################
+library(jsonlite)
+
+new_distribution_report <- function(){
+
+list(
+
+Metadata=list(
+
+Version="1.0",
+
+Pipeline="CCNIF",
+
+Created=as.character(Sys.time())
+
+),
+
+Statistics=NULL,
+
+Diagnostics=NULL,
+
+Characterization=NULL,
+
+ECDF=NULL,
+
+Interpolation=NULL,
+
+EmpiricalModel=NULL,
+
+ParametricFits=NULL,
+
+GoodnessOfFit=NULL,
+
+ModelComparison=NULL,
+
+BestModel=NULL,
+
+Interpretation=NULL,
+
+Notes=NULL
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/10_export_distribution_report.R
+########################################################################
+library(jsonlite)
+
+export_distribution_report <- function(report,file){
+
+dir.create(dirname(file),
+
+recursive=TRUE,
+
+showWarnings=FALSE
+
+)
+
+write_json(
+
+report,
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE,
+
+null="null"
+
+)
+
+cat("Distribution report exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/11_distribution_manifest.R
+########################################################################
+library(jsonlite)
+
+new_distribution_manifest <- function(){
+
+list(
+
+Metadata=list(
+
+Version="1.0",
+
+Created=as.character(Sys.time())
+
+),
+
+StatisticsModel=NULL,
+
+Diagnostics=NULL,
+
+Characterization=NULL,
+
+ECDF=NULL,
+
+Interpolation=NULL,
+
+EmpiricalModel=NULL,
+
+ParametricFits=NULL,
+
+GoodnessOfFit=NULL,
+
+ModelComparison=NULL,
+
+DistributionReport=NULL
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/12_build_distribution_report.R
+########################################################################
+library(jsonlite)
+
+safe_load <- function(file){
+
+if(!file.exists(file))
+return(NULL)
+
+read_json(
+
+file,
+
+simplifyVector=TRUE
+
+)
+
+}
+
+build_distribution_report <- function(
+
+driver,
+
+domain,
+
+variable,
+
+base_dir
+
+){
+
+report <- new_distribution_report()
+
+report$Metadata$Driver <- driver
+report$Metadata$Domain <- domain
+report$Metadata$Variable <- variable
+
+stats_file <- file.path(
+
+base_dir,
+
+"Statistics",
+
+"Models",
+
+paste0(domain,"_Model.json")
+
+)
+
+diag_file <- file.path(
+
+base_dir,
+
+"Statistics",
+
+"Diagnostics",
+
+paste0(domain,"_Diagnostics.json")
+
+)
+
+gof_file <- file.path(
+
+base_dir,
+
+"Statistics",
+
+"Models",
+
+"Goodness_of_Fit.json"
+
+)
+
+comparison_file <- file.path(
+
+base_dir,
+
+"Statistics",
+
+"Models",
+
+"Model_Comparison.json"
+
+)
+
+report$Statistics <- safe_load(stats_file)
+
+report$Diagnostics <- safe_load(diag_file)
+
+report$GoodnessOfFit <- safe_load(gof_file)
+
+report$ModelComparison <- safe_load(comparison_file)
+
+if(
+
+!is.null(report$ModelComparison)
+
+){
+
+report$BestModel <-
+
+report$ModelComparison$BestModel
+
+}
+
+report
+
+}
+
+########################################################################
+scripts/modules/modeling/13_build_distribution_manifest.R
+########################################################################
+library(jsonlite)
+
+file_entry <- function(path){
+
+list(
+
+File=path,
+
+Exists=file.exists(path),
+
+Size=if(file.exists(path)) file.info(path)$size else NA,
+
+Modified=if(file.exists(path))
+as.character(file.info(path)$mtime)
+else NA
+
+)
+
+}
+
+build_distribution_manifest <- function(base){
+
+list(
+
+Metadata=list(
+
+Version="1.0",
+
+Created=as.character(Sys.time())
+
+),
+
+Statistics=file_entry(
+
+file.path(base,
+
+"Statistics",
+
+"Models",
+
+"Transcriptomics_Model.json")
+
+),
+
+Diagnostics=file_entry(
+
+file.path(base,
+
+"Statistics",
+
+"Diagnostics",
+
+"Transcriptomics_Diagnostics.json")
+
+),
+
+ECDF=file_entry(
+
+file.path(base,
+
+"Statistics",
+
+"ECDF",
+
+"Transcriptomics_AbsLog2FC_ECDF.tsv")
+
+),
+
+DistributionReport=file_entry(
+
+file.path(base,
+
+"Statistics",
+
+"Distribution_Report.json")
+
+),
+
+ReliabilityReport=file_entry(
+
+file.path(base,
+
+"Statistics",
+
+"Reliability_Report.json")
+
+)
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/14_build_mathematical_backbone.R
+########################################################################
+library(jsonlite)
+
+safe_load <- function(file){
+
+if(!file.exists(file))
+return(NULL)
+
+read_json(file,simplifyVector=TRUE)
+
+}
+
+build_mathematical_backbone <- function(driver){
+
+base <- file.path("results","evidence",driver,"Statistics")
+
+list(
+
+Metadata=list(
+
+Driver=driver,
+
+Version="1.0",
+
+Created=as.character(Sys.time())
+
+),
+
+DistributionReport=
+
+safe_load(
+
+file.path(
+
+base,
+
+"Distribution_Report.json"
+
+)
+
+),
+
+ReliabilityReport=
+
+safe_load(
+
+file.path(
+
+base,
+
+"Reliability_Report.json"
+
+)
+
+),
+
+Manifest=NULL,
+
+ReadyForNormalization=FALSE
+
+)
+
+}
+
+########################################################################
+scripts/modules/modeling/14_export_distribution_manifest.R
+########################################################################
+library(jsonlite)
+
+export_distribution_manifest <- function(manifest,file){
+
+dir.create(
+dirname(file),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+write_json(
+manifest,
+file,
+pretty=TRUE,
+auto_unbox=TRUE,
+null="null"
+)
+
+cat("Distribution manifest exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/15_export_backbone.R
+########################################################################
+library(jsonlite)
+
+export_backbone <- function(backbone,file){
+
+dir.create(dirname(file),
+
+recursive=TRUE,
+
+showWarnings=FALSE)
+
+write_json(
+
+backbone,
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE,
+
+null="null"
+
+)
+
+cat("Mathematical backbone exported.\n")
+
+}
+
+########################################################################
+scripts/modules/modeling/16_populate_distribution_report.R
+########################################################################
+library(jsonlite)
+
+safe_load <- function(f){
+if(!file.exists(f)) return(NULL)
+read_json(f,simplifyVector=TRUE)
+}
+
+populate_distribution_report <- function(driver){
+
+base <- file.path("results","evidence",driver,"Statistics")
+
+r <- safe_load(file.path(base,"Distribution_Report.json"))
+
+r$Characterization <-
+safe_load(file.path(base,"Characterization.json"))
+
+r$ECDF <-
+safe_load(file.path(base,"ECDF_QC","Master_ECDF_Report.json"))
+
+r$Interpolation <-
+list(Method="Linear")
+
+r$EmpiricalModel <-
+safe_load(file.path(base,"Models","Transcriptomics_ECDF.json"))
+
+r$ParametricFits <-
+safe_load(file.path(base,"Model_Comparison.json"))
+
+r$GoodnessOfFit <-
+safe_load(file.path(base,"GOF.json"))
+
+r$ModelComparison <-
+safe_load(file.path(base,"Model_Comparison.json"))
+
+if(!is.null(r$ModelComparison))
+r$BestModel <- r$ModelComparison$BestModel
+
+r
+
+}
+
+########################################################################
+scripts/modules/modeling/17_save_distribution_report.R
+########################################################################
+library(jsonlite)
+
+save_distribution_report <- function(report,file){
+
+write_json(
+
+report,
+
+file,
+
+pretty=TRUE,
+
+auto_unbox=TRUE,
+
+null="null"
+
+)
+
+}

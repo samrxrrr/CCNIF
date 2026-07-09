@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "IGKC",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:52.875318"
+  },
+  "Driver": {
+    "Driver": "IGKC",
+    "GeneID": 15887,
+    "GeneName": "IGKC",
+    "Observed": 0.0087,
+    "log2FC": 0.0087,
+    "AbsLog2FC": 0.0087,
+    "baseMean": 285142.4401,
+    "padj": 0.9675,
+    "Rank": 23117,
+    "Percentile": 2.927
+  },
+  "Raw": {
+    "Observed": 0.0087,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.0087,
+    "baseMean": 285142.4401,
+    "padj": 0.9675,
+    "Rank": 23117,
+    "Percentile": 2.927
+  }
+}

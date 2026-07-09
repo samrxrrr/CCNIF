@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "COL11A1",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:48.047679"
+  },
+  "Driver": {
+    "Driver": "COL11A1",
+    "GeneID": 788,
+    "GeneName": "COL11A1",
+    "Observed": 0.4336,
+    "log2FC": 0.4336,
+    "AbsLog2FC": 0.4336,
+    "baseMean": 3423.7385,
+    "padj": 0.0507,
+    "Rank": 4114,
+    "Percentile": 82.7279
+  },
+  "Raw": {
+    "Observed": 0.4336,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.4336,
+    "baseMean": 3423.7385,
+    "padj": 0.0507,
+    "Rank": 4114,
+    "Percentile": 82.7279
+  }
+}

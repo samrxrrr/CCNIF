@@ -1,0 +1,50 @@
+{
+  "Metadata": {
+    "Driver": "B2M",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:51.24472"
+  },
+  "Evidence": {
+    "File": "results/evidence/B2M/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 612,
+    "Modified": "2026-07-09 13:58:50.776733"
+  },
+  "Statistics": {
+    "File": "results/evidence/B2M/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Diagnostics": {
+    "File": "results/evidence/B2M/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": false,
+    "Size": null,
+    "Modified": null
+  },
+  "Normalization": {
+    "File": "results/evidence/B2M/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 403,
+    "Modified": "2026-07-09 13:58:51.233963"
+  },
+  "Quality": {
+    "File": "results/evidence/B2M/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 279,
+    "Modified": "2026-07-09 13:58:51.23777"
+  },
+  "Confidence": {
+    "File": "results/evidence/B2M/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 293,
+    "Modified": "2026-07-09 13:58:51.23777"
+  },
+  "DriverReport": {
+    "File": "results/evidence/B2M/Driver_Report.json",
+    "Exists": true,
+    "Size": 2028,
+    "Modified": "2026-07-09 13:58:51.241577"
+  }
+}

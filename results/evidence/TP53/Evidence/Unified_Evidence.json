@@ -2,71 +2,37 @@
   "Metadata": {
     "Driver": "TP53",
     "Pipeline": "CCNIF",
-    "Version": "4.0",
-    "Created": "2026-07-09 11:21:30.106198"
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:37.931644"
   },
   "Transcriptomics": {
     "Metadata": {
       "Driver": "TP53",
       "Domain": "Transcriptomics",
-      "Variable": "AbsLog2FC",
       "Pipeline": "CCNIF",
-      "Version": "3.0",
-      "Created": "2026-07-09 11:15:41.213715"
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:37.852227"
+    },
+    "Driver": {
+      "Driver": "TP53",
+      "GeneID": 7532,
+      "GeneName": "TP53",
+      "Observed": 0.2451,
+      "log2FC": -0.2451,
+      "AbsLog2FC": 0.2451,
+      "baseMean": 3032.2797,
+      "padj": 0.0016,
+      "Rank": 8817,
+      "Percentile": 62.9782
     },
     "Raw": {
-      "Observed": null,
-      "Direction": "higher"
-    },
-    "Statistics": {
-      "N": 23814,
-      "Missing": 0,
-      "Minimum": 0,
-      "Maximum": 5.0345,
-      "Mean": 0.2591,
-      "Median": 0.1763,
-      "Variance": 0.0786,
-      "SD": 0.2804,
-      "MAD": 0.1724,
-      "IQR": 0.2606,
-      "Q1": 0.0779,
-      "Q3": 0.3386,
-      "P05": 0.015,
-      "P10": 0.0298,
-      "P25": 0.0779,
-      "P50": 0.1763,
-      "P75": 0.3386,
-      "P90": 0.5857,
-      "P95": 0.7869,
-      "P99": 1.3357
-    },
-    "Diagnostics": {
-      "N": 23814,
-      "Minimum": 0,
-      "Maximum": 5.0345,
-      "Mean": 0.2591,
-      "Median": 0.1763,
-      "Variance": 0.0786,
-      "SD": 0.2804,
-      "MAD": 0.1724,
-      "IQR": 0.2606,
-      "Q1": 0.0779,
-      "Q3": 0.3386,
-      "P01": 0.0029,
-      "P05": 0.015,
-      "P10": 0.0298,
-      "P25": 0.0779,
-      "P50": 0.1763,
-      "P75": 0.3386,
-      "P90": 0.5857,
-      "P95": 0.7869,
-      "P99": 1.3357,
-      "Skewness": 3.0306,
-      "Kurtosis": 18.3706,
-      "CV": 1.0822,
-      "OutlierLower": -0.313,
-      "OutlierUpper": 0.7295,
-      "OutlierCount": 1446
+      "Observed": 0.2451,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.2451,
+      "baseMean": 3032.2797,
+      "padj": 0.0016,
+      "Rank": 8817,
+      "Percentile": 62.9782
     }
   },
   "Clinical": {
@@ -75,7 +41,7 @@
       "Domain": "Clinical",
       "Pipeline": "CCNIF",
       "Version": "3.0",
-      "Created": "2026-07-09 11:17:33.09077"
+      "Created": "2026-07-09 13:58:37.868138"
     },
     "Summary": {
       "Rows": 12,
@@ -89,7 +55,7 @@
       "Domain": "Functional",
       "Pipeline": "CCNIF",
       "Version": "3.0",
-      "Created": "2026-07-09 11:18:28.236267"
+      "Created": "2026-07-09 13:58:37.878602"
     },
     "GO": {
       "filtered_genes": 431,
@@ -111,7 +77,7 @@
       "Domain": "Network",
       "Pipeline": "CCNIF",
       "Version": "3.0",
-      "Created": "2026-07-09 11:19:07.984924"
+      "Created": "2026-07-09 13:58:37.892707"
     },
     "STRING": {
       "nodes": 431,
@@ -133,7 +99,7 @@
       "Domain": "Survival",
       "Pipeline": "CCNIF",
       "Version": "3.0",
-      "Created": "2026-07-09 11:19:53.812748"
+      "Created": "2026-07-09 13:58:37.909014"
     },
     "Expression": {
       "driver": "TP53",
@@ -162,7 +128,7 @@
       "Domain": "Enrichment",
       "Pipeline": "CCNIF",
       "Version": "3.0",
-      "Created": "2026-07-09 11:20:41.387799"
+      "Created": "2026-07-09 13:58:37.921227"
     },
     "GO": {
       "filtered_genes": 431,

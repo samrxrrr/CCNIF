@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "COL6A3",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:42.062662"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "COL6A3",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:42.05963"
+    },
+    "Driver": {
+      "Driver": "COL6A3",
+      "GeneID": 10087,
+      "GeneName": "COL6A3",
+      "Observed": 0.0114,
+      "log2FC": 0.0114,
+      "AbsLog2FC": 0.0114,
+      "baseMean": 35109.0411,
+      "padj": 0.937,
+      "Rank": 22900,
+      "Percentile": 3.8382
+    },
+    "Raw": {
+      "Observed": 0.0114,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.0114,
+      "baseMean": 35109.0411,
+      "padj": 0.937,
+      "Rank": 22900,
+      "Percentile": 3.8382
+    }
+  }
+}

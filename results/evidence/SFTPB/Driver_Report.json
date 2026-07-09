@@ -1,0 +1,87 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 13:58:50.72295",
+    "Driver": "SFTPB"
+  },
+  "Evidence": {
+    "Metadata": {
+      "Driver": "SFTPB",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:50.256223"
+    },
+    "Driver": {
+      "Driver": "SFTPB",
+      "GeneID": 11358,
+      "GeneName": "SFTPB",
+      "Observed": 1.6391,
+      "log2FC": -1.6391,
+      "AbsLog2FC": 1.6391,
+      "baseMean": 437780.1851,
+      "padj": 3.2805e-21,
+      "Rank": 100,
+      "Percentile": 99.5843
+    },
+    "Raw": {
+      "Observed": 1.6391,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 1.6391,
+      "baseMean": 437780.1851,
+      "padj": 3.2805e-21,
+      "Rank": 100,
+      "Percentile": 99.5843
+    }
+  },
+  "Characterization": null,
+  "Reliability": null,
+  "Normalization": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:50.719166",
+      "Driver": "SFTPB"
+    },
+    "Input": {
+      "Observed": 2.5,
+      "Variable": "AbsLog2FC",
+      "Domain": "Transcriptomics"
+    },
+    "Direction": "HIGHER_BETTER",
+    "Percentile": 0.9994,
+    "Probability": 0.9994,
+    "NormalizedScore": 99.9365,
+    "Interpretation": "Very High",
+    "Diagnostics": null
+  },
+  "Quality": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:50.721105"
+    },
+    "Strength": 99.9365,
+    "Reliability": 100,
+    "Consistency": 60,
+    "QualityScore": 89.9746,
+    "QualityTier": "Gold",
+    "Interpretation": "Evidence quality: Gold"
+  },
+  "Confidence": {
+    "Metadata": {
+      "Version": "1.0",
+      "Pipeline": "CCNIF",
+      "Created": "2026-07-09 13:58:50.722262"
+    },
+    "Quality": 89.9746,
+    "NormalizedScore": 99.9365,
+    "Reliability": 95.4989,
+    "DriverConfidence": 94.8423,
+    "ConfidenceTier": "A",
+    "Interpretation": "Driver confidence: A"
+  },
+  "Interpretation": null,
+  "Manifest": null
+}

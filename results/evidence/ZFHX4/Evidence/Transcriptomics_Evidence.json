@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "ZFHX4",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:42.645765"
+  },
+  "Driver": {
+    "Driver": "ZFHX4",
+    "GeneID": 1862,
+    "GeneName": "ZFHX4",
+    "Observed": 0.9081,
+    "log2FC": 0.9081,
+    "AbsLog2FC": 0.9081,
+    "baseMean": 176.0447,
+    "padj": 1.0625e-07,
+    "Rank": 809,
+    "Percentile": 96.6069
+  },
+  "Raw": {
+    "Observed": 0.9081,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.9081,
+    "baseMean": 176.0447,
+    "padj": 1.0625e-07,
+    "Rank": 809,
+    "Percentile": 96.6069
+  }
+}

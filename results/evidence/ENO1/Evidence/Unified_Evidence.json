@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "ENO1",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:00.07463"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "ENO1",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:59:00.071404"
+    },
+    "Driver": {
+      "Driver": "ENO1",
+      "GeneID": 1223,
+      "GeneName": "ENO1",
+      "Observed": 0.3404,
+      "log2FC": 0.3404,
+      "AbsLog2FC": 0.3404,
+      "baseMean": 92557.8768,
+      "padj": 1.7998e-07,
+      "Rank": 5913,
+      "Percentile": 75.1732
+    },
+    "Raw": {
+      "Observed": 0.3404,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.3404,
+      "baseMean": 92557.8768,
+      "padj": 1.7998e-07,
+      "Rank": 5913,
+      "Percentile": 75.1732
+    }
+  }
+}

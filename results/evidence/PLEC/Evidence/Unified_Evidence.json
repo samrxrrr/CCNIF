@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "PLEC",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:46.527616"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "PLEC",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:46.524908"
+    },
+    "Driver": {
+      "Driver": "PLEC",
+      "GeneID": 12896,
+      "GeneName": "PLEC",
+      "Observed": 0.186,
+      "log2FC": 0.186,
+      "AbsLog2FC": 0.186,
+      "baseMean": 26477.4761,
+      "padj": 0.0634,
+      "Rank": 11411,
+      "Percentile": 52.085
+    },
+    "Raw": {
+      "Observed": 0.186,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.186,
+      "baseMean": 26477.4761,
+      "padj": 0.0634,
+      "Rank": 11411,
+      "Percentile": 52.085
+    }
+  }
+}

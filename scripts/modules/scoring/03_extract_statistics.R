@@ -15,7 +15,7 @@ stats <- list()
 ####################################################
 
 deg <- read.delim(
-file.path(base,"transcriptomics","DEGs.tsv"),
+file.path("data","transcriptomics","DEGs.tsv"),
 check.names=FALSE
 )
 

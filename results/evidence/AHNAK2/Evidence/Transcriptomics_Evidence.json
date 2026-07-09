@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "AHNAK2",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:59:05.776759"
+  },
+  "Driver": {
+    "Driver": "AHNAK2",
+    "GeneID": 13972,
+    "GeneName": "AHNAK2",
+    "Observed": 0.1541,
+    "log2FC": 0.1541,
+    "AbsLog2FC": 0.1541,
+    "baseMean": 5192.2984,
+    "padj": 0.3757,
+    "Rank": 13081,
+    "Percentile": 45.072
+  },
+  "Raw": {
+    "Observed": 0.1541,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.1541,
+    "baseMean": 5192.2984,
+    "padj": 0.3757,
+    "Rank": 13081,
+    "Percentile": 45.072
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 13:59:01.704048"
+  },
+  "NormalizationReport": "results/evidence/HLA-B/Statistics/Normalization_Report.json",
+  "ECDF": "results/evidence/HLA-B/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+  "Registry": "config/variable_registry.tsv",
+  "Evidence": "results/evidence/HLA-B/Evidence/Transcriptomics_Evidence.json"
+}

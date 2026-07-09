@@ -2,69 +2,37 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 10:59:20.714",
+    "Created": "2026-07-09 13:58:38.54677",
     "Driver": "TP53"
   },
   "Evidence": {
     "Metadata": {
       "Driver": "TP53",
       "Domain": "Transcriptomics",
-      "Variable": "AbsLog2FC",
-      "Source": {},
-      "Version": "2.0",
-      "Created": "2026-07-09 10:20:13.867025"
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:37.852227"
+    },
+    "Driver": {
+      "Driver": "TP53",
+      "GeneID": 7532,
+      "GeneName": "TP53",
+      "Observed": 0.2451,
+      "log2FC": -0.2451,
+      "AbsLog2FC": 0.2451,
+      "baseMean": 3032.2797,
+      "padj": 0.0016,
+      "Rank": 8817,
+      "Percentile": 62.9782
     },
     "Raw": {
-      "Observed": 2.5,
-      "Units": {},
-      "Direction": "higher"
-    },
-    "Statistics": {
-      "Mean": {},
-      "Median": {},
-      "SD": {},
-      "MAD": {},
-      "Variance": {},
-      "IQR": {},
-      "Skewness": {},
-      "Kurtosis": {},
-      "CV": {}
-    },
-    "Distribution": {
-      "ECDF": "results/evidence/TP53/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
-      "Percentile": 0.9994,
-      "Rank": null,
-      "Outlier": {},
-      "OutlierMethod": {}
-    },
-    "Normalization": {
-      "Method": {},
-      "RawScore": {},
-      "NormalizedScore": {},
-      "PercentileScore": {}
-    },
-    "Reliability": {
-      "SampleSize": {},
-      "Missingness": {},
-      "Stability": {},
-      "Score": {}
-    },
-    "Quality": {
-      "Strength": {},
-      "Reliability": {},
-      "Score": {},
-      "Tier": {}
-    },
-    "Confidence": {
-      "IntegratedScore": {},
-      "Tier": {},
-      "Explanation": {}
-    },
-    "Audit": {
-      "PipelineVersion": "CCNIF-1.0",
-      "Timestamp": "2026-07-09 10:20:13.867502",
-      "QC": {},
-      "Notes": {}
+      "Observed": 0.2451,
+      "Direction": "Downregulated",
+      "AbsLog2FC": 0.2451,
+      "baseMean": 3032.2797,
+      "padj": 0.0016,
+      "Rank": 8817,
+      "Percentile": 62.9782
     }
   },
   "Statistics": {
@@ -429,7 +397,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 10:59:20.661425",
+      "Created": "2026-07-09 13:58:38.508937",
       "Driver": "TP53"
     },
     "Input": {
@@ -448,12 +416,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 10:59:20.692789"
+      "Created": "2026-07-09 13:58:38.533258"
     },
     "Strength": 99.9365,
-    "Reliability": 99.85,
-    "Consistency": 51.52,
-    "QualityScore": 87.8021,
+    "Reliability": 100,
+    "Consistency": 60,
+    "QualityScore": 89.9746,
     "QualityTier": "Gold",
     "Interpretation": "Evidence quality: Gold"
   },
@@ -461,14 +429,14 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 10:59:20.702532"
+      "Created": "2026-07-09 13:58:38.539051"
     },
-    "Quality": 87.8021,
+    "Quality": 89.9746,
     "NormalizedScore": 99.9365,
-    "Reliability": 99.85,
-    "DriverConfidence": 95.0611,
-    "ConfidenceTier": "A+",
-    "Interpretation": "Driver confidence: A+"
+    "Reliability": 95.4989,
+    "DriverConfidence": 94.8423,
+    "ConfidenceTier": "A",
+    "Interpretation": "Driver confidence: A"
   },
   "Interpretation": null,
   "Manifest": null

@@ -1,0 +1,38 @@
+{
+  "Metadata": {
+    "Driver": "ACTG1",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:49.166243"
+  },
+  "Transcriptomics": {
+    "Metadata": {
+      "Driver": "ACTG1",
+      "Domain": "Transcriptomics",
+      "Pipeline": "CCNIF",
+      "Version": "5.0",
+      "Created": "2026-07-09 13:58:49.163491"
+    },
+    "Driver": {
+      "Driver": "ACTG1",
+      "GeneID": 13702,
+      "GeneName": "ACTG1",
+      "Observed": 0.0758,
+      "log2FC": 0.0758,
+      "AbsLog2FC": 0.0758,
+      "baseMean": 164247.4963,
+      "padj": 0.2245,
+      "Rank": 18015,
+      "Percentile": 24.3522
+    },
+    "Raw": {
+      "Observed": 0.0758,
+      "Direction": "Upregulated",
+      "AbsLog2FC": 0.0758,
+      "baseMean": 164247.4963,
+      "padj": 0.2245,
+      "Rank": 18015,
+      "Percentile": 24.3522
+    }
+  }
+}

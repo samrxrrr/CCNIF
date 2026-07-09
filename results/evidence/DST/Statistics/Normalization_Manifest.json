@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 13:58:55.019142"
+  },
+  "NormalizationReport": "results/evidence/DST/Statistics/Normalization_Report.json",
+  "ECDF": "results/evidence/DST/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+  "Registry": "config/variable_registry.tsv",
+  "Evidence": "results/evidence/DST/Evidence/Transcriptomics_Evidence.json"
+}

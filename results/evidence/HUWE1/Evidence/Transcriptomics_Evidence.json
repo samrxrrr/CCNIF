@@ -1,0 +1,30 @@
+{
+  "Metadata": {
+    "Driver": "HUWE1",
+    "Domain": "Transcriptomics",
+    "Pipeline": "CCNIF",
+    "Version": "5.0",
+    "Created": "2026-07-09 13:58:55.649454"
+  },
+  "Driver": {
+    "Driver": "HUWE1",
+    "GeneID": 1636,
+    "GeneName": "HUWE1",
+    "Observed": 0.1209,
+    "log2FC": 0.1209,
+    "AbsLog2FC": 0.1209,
+    "baseMean": 14209.0108,
+    "padj": 0.0458,
+    "Rank": 14989,
+    "Percentile": 37.0596
+  },
+  "Raw": {
+    "Observed": 0.1209,
+    "Direction": "Upregulated",
+    "AbsLog2FC": 0.1209,
+    "baseMean": 14209.0108,
+    "padj": 0.0458,
+    "Rank": 14989,
+    "Percentile": 37.0596
+  }
+}

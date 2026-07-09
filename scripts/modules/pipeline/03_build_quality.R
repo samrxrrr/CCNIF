@@ -1,23 +1,43 @@
 library(jsonlite)
 
+source("scripts/modules/refactor/02_dynamic_quality.R")
 source("scripts/modules/quality/07_build_quality.R")
 source("scripts/modules/quality/08_export_quality.R")
 source("scripts/modules/quality/09_quality_manifest.R")
 
 build_quality_pipeline <- function(driver){
 
-cat("Building quality...\n")
+cat("=====================================\n")
+cat("QUALITY PIPELINE\n")
+cat("=====================================\n")
 
 base <- file.path("results","evidence",driver,"Statistics")
 
+x <- extract_driver_values(driver)
+
+n <- read_json(
+file.path(base,"Normalization_Report.json"),
+simplifyVector=TRUE
+)
+
+r <- read_json(
+file.path(base,"Reliability_Report.json"),
+simplifyVector=TRUE
+)
+
 report <- build_quality(
 
-normalized_score=99.9365,
-sample_size=23814,
-missing_fraction=0,
-outlier_fraction=0.006,
-cv=0.381/0.2591,
-skewness=0.83
+normalized_score=n$NormalizedScore,
+
+sample_size=x$Rows,
+
+missing_fraction=x$MissingFraction,
+
+outlier_fraction=x$OutlierFraction,
+
+cv=x$CV,
+
+skewness=x$Skewness
 
 )
 
@@ -45,12 +65,12 @@ driver,
 )
 
 export_quality(
-
 report,
 manifest,
 base
-
 )
+
+cat("Quality exported.\n")
 
 TRUE
 
