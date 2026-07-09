@@ -1,0 +1,13 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 09:21:22.77051"
+  },
+  "Quality": 87.8021,
+  "NormalizedScore": 99.9365,
+  "Reliability": 99.85,
+  "DriverConfidence": 95.0611,
+  "ConfidenceTier": "A+",
+  "Interpretation": "Driver confidence: A+"
+}
