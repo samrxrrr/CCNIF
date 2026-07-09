@@ -289,6 +289,30 @@ Status: IN PROGRESS
 
 Completed
 
+- Phase 8 Framework
+- Driver initialization
+- Project validation
+- Framework bootstrap
+- Shared data loaders
+- Driver dataset builder
+- Driver preprocessing
+- Expression Kaplan–Meier analysis
+- Expression Cox regression
+- Expression survival visualization
+
+Planned
+
+- Mutation Kaplan–Meier
+- Multivariate Cox regression
+- Forest plot
+- Clinical evidence integration
+
+Next
+
+Phase 9 – Evidence Integration
+
+Completed
+
 - Clinical framework
 - Driver initialization
 - Project validation
