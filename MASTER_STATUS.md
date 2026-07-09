@@ -390,10 +390,22 @@ Framework statistical foundation completed.
 
 Next
 
+
 # Phase 13 – Distribution Modeling
 
+Status: IN PROGRESS
+
+Completed
+
+- ECDF models (8/8)
+
+Current
+
+Building empirical mathematical distributions for every evidence domain.
+
+Next
+
 - Distribution diagnostics
-- Empirical CDF construction
-- Percentile modeling
-- Distribution classification
 - Outlier modeling
+- Robust scaling
+- Percentile lookup engine

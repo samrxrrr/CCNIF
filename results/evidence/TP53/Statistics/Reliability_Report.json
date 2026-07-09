@@ -1,0 +1,10 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 07:23:58.821952",
+    "Driver": "TP53",
+    "Domain": "Transcriptomics",
+    "Variable": "AbsLog2FC"
+  },
+  "Diagnostics": null
+}

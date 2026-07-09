@@ -1,0 +1,35 @@
+{
+  "BackboneReady": false,
+  "Passed": 6,
+  "Failed": 1,
+  "Checks": {
+    "Statistics": {
+      "File": "results/evidence/TP53/Statistics/Models/Transcriptomics_Model.json",
+      "Exists": true
+    },
+    "Diagnostics": {
+      "File": "results/evidence/TP53/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+      "Exists": true
+    },
+    "DistributionReport": {
+      "File": "results/evidence/TP53/Statistics/Distribution_Report.json",
+      "Exists": true
+    },
+    "ReliabilityReport": {
+      "File": "results/evidence/TP53/Statistics/Reliability_Report.json",
+      "Exists": true
+    },
+    "Manifest": {
+      "File": "results/evidence/TP53/Statistics/Distribution_Manifest.json",
+      "Exists": false
+    },
+    "ECDF": {
+      "File": "results/evidence/TP53/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+      "Exists": true
+    },
+    "ECDF_QC": {
+      "File": "results/evidence/TP53/Statistics/ECDF_QC/Master_ECDF_Report.json",
+      "Exists": true
+    }
+  }
+}

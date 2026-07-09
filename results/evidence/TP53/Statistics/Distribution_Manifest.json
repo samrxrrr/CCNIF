@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Created": "2026-07-09 07:33:39.043195"
+  },
+  "Statistics": {
+    "File": "results/evidence/TP53/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": true,
+    "Size": 2933,
+    "Modified": "2026-07-09 06:32:41.44955"
+  },
+  "Diagnostics": {
+    "File": "results/evidence/TP53/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": true,
+    "Size": 3939,
+    "Modified": "2026-07-09 06:38:51.196818"
+  },
+  "ECDF": {
+    "File": "results/evidence/TP53/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+    "Exists": true,
+    "Size": 862378,
+    "Modified": "2026-07-09 06:35:04.926439"
+  },
+  "DistributionReport": {
+    "File": "results/evidence/TP53/Statistics/Distribution_Report.json",
+    "Exists": true,
+    "Size": 9907,
+    "Modified": "2026-07-09 07:30:17.757773"
+  },
+  "ReliabilityReport": {
+    "File": "results/evidence/TP53/Statistics/Reliability_Report.json",
+    "Exists": true,
+    "Size": 197,
+    "Modified": "2026-07-09 07:31:36.249992"
+  }
+}

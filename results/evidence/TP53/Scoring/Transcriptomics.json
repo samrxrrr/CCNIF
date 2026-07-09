@@ -1,0 +1,7 @@
+{
+  "driver": "TP53",
+  "padj": 0.0016,
+  "log2FC": 0.2451,
+  "score": 1,
+  "maximum": 2
+}

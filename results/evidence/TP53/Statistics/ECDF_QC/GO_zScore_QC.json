@@ -1,0 +1,13 @@
+{
+  "Rows": 56,
+  "Duplicates": 3,
+  "MissingValues": 0,
+  "MissingPercentiles": 0,
+  "MonotonicValue": true,
+  "MonotonicPercentile": true,
+  "MinimumValue": 3.7629,
+  "MaximumValue": 10.3148,
+  "MinimumPercentile": 0,
+  "MaximumPercentile": 1,
+  "BoundaryCheck": true
+}

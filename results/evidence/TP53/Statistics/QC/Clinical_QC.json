@@ -1,0 +1,9 @@
+{
+  "Rows": 12,
+  "Columns": 7,
+  "DuplicateRows": 0,
+  "MissingValues": 0,
+  "InfiniteValues": 0,
+  "NumericColumns": ["HR", "Lower95", "Upper95", "Pvalue", "Rank", "Percentile"],
+  "ConstantColumns": []
+}

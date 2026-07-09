@@ -1,0 +1,11 @@
+Category	Available	Weight
+Transcriptomics	TRUE	1
+GO	TRUE	1
+KEGG	TRUE	1
+Hallmark	TRUE	1
+DiseaseOntology	TRUE	1
+Reactome	TRUE	1
+STRING	TRUE	1
+ExpressionSurvival	TRUE	1
+MutationSurvival	TRUE	1
+Clinical	TRUE	1

@@ -1,0 +1,9 @@
+{
+  "Rows": 50,
+  "Columns": 9,
+  "DuplicateRows": 0,
+  "MissingValues": 0,
+  "InfiniteValues": 0,
+  "NumericColumns": ["pval", "padj", "log2err", "ES", "NES", "size", "Rank", "Percentile"],
+  "ConstantColumns": []
+}
