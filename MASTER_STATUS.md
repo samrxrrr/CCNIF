@@ -247,3 +247,36 @@ results/evidence/<DRIVER>/
 ├── Reactome/
 └── Enrichment_Manifest.json
 
+
+===============================================================================
+PHASE 8 — CLINICAL EVIDENCE
+===============================================================================
+
+Status: 🚧 IN PROGRESS
+
+Completed
+---------
+✓ Framework initialization
+✓ Driver initialization
+✓ Project validation
+✓ Automatic directory generation
+✓ Clinical data loader
+✓ Automatic clinical schema detection
+✓ Overall Survival (OS) preparation
+
+In Progress
+-----------
+• Kaplan–Meier survival analysis
+• Cox proportional hazards model
+
+Pending
+-------
+□ Log-rank test
+□ Multivariate Cox regression
+□ Forest plot generation
+□ Clinical evidence export
+□ Evidence integration
+
+Next
+----
+Phase 9 – Evidence Integration
