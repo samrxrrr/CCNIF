@@ -299,6 +299,9 @@ Completed
 - Expression Kaplan–Meier analysis
 - Expression Cox regression
 - Expression survival visualization
+- Mutation Kaplan-Meier analysis
+- Mutation Cox regression
+- Mutation survival visualization
 
 Planned
 
