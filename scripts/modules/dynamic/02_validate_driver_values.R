@@ -10,13 +10,20 @@ required <- c(
 "SD",
 "MAD",
 "CV",
-"Skewness"
+"Skewness",
+"OutlierFraction",
+"MissingFraction"
 
 )
 
-missing <- required[
-!required %in% names(x)
-]
+missing <- c()
+
+for(n in required){
+
+if(is.null(x[[n]]))
+missing <- c(missing,n)
+
+}
 
 list(
 
@@ -24,7 +31,9 @@ Complete=length(missing)==0,
 
 Missing=missing,
 
-Fields=length(names(x))
+Present=length(required)-length(missing),
+
+Total=length(required)
 
 )
 
