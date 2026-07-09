@@ -216,3 +216,34 @@ Pending
 • Evidence Integration
 • CCNIF Driver Confidence Framework
 
+
+===============================================================================
+PHASE 6 — FUNCTIONAL BIOLOGY
+===============================================================================
+
+Status: ✅ COMPLETED
+
+Completed
+---------
+✓ Unified Enrichment Engine
+✓ Gene Ontology (GO)
+✓ KEGG
+✓ Hallmark GSEA
+✓ Disease Ontology
+✓ Reactome
+✓ Enrichment Manifest
+
+Entry Point
+-----------
+Rscript scripts/60_enrichment/run_enrichment.R <DRIVER>
+
+Outputs
+-------
+results/evidence/<DRIVER>/
+├── GO/
+├── KEGG/
+├── GSEA/
+├── DiseaseOntology/
+├── Reactome/
+└── Enrichment_Manifest.json
+
