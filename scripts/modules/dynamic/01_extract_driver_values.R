@@ -3,7 +3,6 @@ library(jsonlite)
 extract_driver_values <- function(driver){
 
 evidence <- read_json(
-
 file.path(
 "results",
 "evidence",
@@ -11,13 +10,10 @@ driver,
 "Evidence",
 "Transcriptomics_Evidence.json"
 ),
-
 simplifyVector=TRUE
-
 )
 
 distribution <- read_json(
-
 file.path(
 "results",
 "evidence",
@@ -25,53 +21,40 @@ driver,
 "Statistics",
 "Distribution_Report.json"
 ),
-
 simplifyVector=TRUE
-
 )
+
+stats <- distribution$Statistics$AbsLog2FC
 
 list(
 
 Driver=driver,
 
-Observed=
-evidence$Raw$Observed,
+Observed=evidence$Raw$Observed,
 
-Domain=
-evidence$Metadata$Domain,
+Domain=evidence$Metadata$Domain,
 
-Variable=
-evidence$Metadata$Variable,
+Variable=evidence$Metadata$Variable,
 
-Percentile=
-distribution$Distribution$Percentile,
+Rows=stats$N,
 
-Rows=
-distribution$Statistics$Rows,
+Mean=stats$Mean,
 
-Mean=
-distribution$Statistics$Mean,
+Median=stats$Median,
 
-Median=
-distribution$Statistics$Median,
+SD=stats$SD,
 
-SD=
-distribution$Statistics$SD,
+MAD=stats$MAD,
 
-MAD=
-distribution$Statistics$MAD,
+CV=stats$SD/stats$Mean,
 
-CV=
-distribution$Statistics$CV,
+Percentile=evidence$Distribution$Percentile,
 
-Skewness=
-distribution$Statistics$Skewness,
+Skewness=distribution$Diagnostics$AbsLog2FC$Skewness,
 
-OutlierFraction=
-distribution$Outliers$Fraction,
+OutlierFraction=distribution$Diagnostics$AbsLog2FC$OutlierFraction,
 
-MissingFraction=
-distribution$Missingness$Fraction
+MissingFraction=stats$Missing/stats$N
 
 )
 
