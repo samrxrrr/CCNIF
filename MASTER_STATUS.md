@@ -307,3 +307,13 @@ Completed
 Next
 
 Phase 9 – Multivariable Clinical Modeling
+
+Completed
+
+- Multivariable Cox regression
+
+Planned
+
+- Forest plot
+- Clinical evidence export
+- Evidence integration
