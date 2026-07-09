@@ -1,0 +1,57 @@
+{
+  "Transcriptomics": {
+    "log2FC":        {"role":"effect_size","direction":"absolute"},
+    "AbsLog2FC":     {"role":"effect_size","direction":"higher"},
+    "padj":          {"role":"significance","direction":"lower"},
+    "baseMean":      {"role":"abundance","direction":"context"}
+  },
+
+  "STRING": {
+    "Degree":{"role":"network","direction":"higher"},
+    "Betweenness":{"role":"network","direction":"higher"},
+    "Closeness":{"role":"network","direction":"higher"},
+    "Eigenvector":{"role":"network","direction":"higher"},
+    "PageRank":{"role":"network","direction":"higher"},
+    "CompositeScore":{"role":"network","direction":"higher"}
+  },
+
+  "Clinical": {
+    "HR":{"role":"hazard","direction":"distance_from_one"},
+    "Pvalue":{"role":"significance","direction":"lower"}
+  },
+
+  "GO":{
+    "FoldEnrichment":{"role":"enrichment","direction":"higher"},
+    "RichFactor":{"role":"enrichment","direction":"higher"},
+    "Count":{"role":"count","direction":"higher"},
+    "p.adjust":{"role":"significance","direction":"lower"}
+  },
+
+  "KEGG":{
+    "FoldEnrichment":{"role":"enrichment","direction":"higher"},
+    "RichFactor":{"role":"enrichment","direction":"higher"},
+    "Count":{"role":"count","direction":"higher"},
+    "p.adjust":{"role":"significance","direction":"lower"}
+  },
+
+  "Reactome":{
+    "FoldEnrichment":{"role":"enrichment","direction":"higher"},
+    "RichFactor":{"role":"enrichment","direction":"higher"},
+    "Count":{"role":"count","direction":"higher"},
+    "p.adjust":{"role":"significance","direction":"lower"}
+  },
+
+  "DiseaseOntology":{
+    "FoldEnrichment":{"role":"enrichment","direction":"higher"},
+    "RichFactor":{"role":"enrichment","direction":"higher"},
+    "Count":{"role":"count","direction":"higher"},
+    "p.adjust":{"role":"significance","direction":"lower"}
+  },
+
+  "Hallmark":{
+    "NES":{"role":"enrichment","direction":"absolute"},
+    "ES":{"role":"enrichment","direction":"absolute"},
+    "padj":{"role":"significance","direction":"lower"},
+    "pval":{"role":"significance","direction":"lower"}
+  }
+}
