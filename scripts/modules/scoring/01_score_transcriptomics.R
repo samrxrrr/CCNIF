@@ -7,7 +7,7 @@ cat("Transcriptomic Evidence Score\n")
 cat("============================================\n")
 
 deg <- read.delim(
-"results/evidence/TP53/transcriptomics/DEGs.tsv",
+"data/transcriptomics/DEGs.tsv",
 check.names=FALSE
 )
 
