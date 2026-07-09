@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "Driver": "TP53",
+    "Domain": "Clinical",
+    "Pipeline": "CCNIF",
+    "Version": "3.0",
+    "Created": "2026-07-09 11:17:33.09077"
+  },
+  "Summary": {
+    "Rows": 12,
+    "Columns": 5,
+    "Variables": ["Variable", "HR", "Lower95", "Upper95", "Pvalue"]
+  }
+}
