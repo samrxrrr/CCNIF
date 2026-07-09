@@ -10,53 +10,16 @@ stop("Usage: Rscript scripts/run_driver.R <DRIVER>")
 
 driver <- args[1]
 
-cat("=====================================\n")
-cat("CCNIF DRIVER PIPELINE\n")
-cat("=====================================\n")
-cat("Driver :",driver,"\n\n")
+source("scripts/modules/pipeline/06_pipeline_engine.R")
 
-source("scripts/modules/reporting/01_master_report.R")
-source("scripts/modules/reporting/02_build_report.R")
-source("scripts/modules/reporting/03_export_report.R")
-source("scripts/modules/reporting/04_driver_manifest.R")
-source("scripts/modules/reporting/05_export_manifest.R")
-source("scripts/modules/reporting/06_validate_driver_report.R")
+result <- run_pipeline(driver)
 
-cat("Building report...\n")
+if(isTRUE(result$Complete)){
 
-report <- build_driver_report(driver)
-
-export_driver_report(
-
-report,
-driver
-
-)
-
-cat("Building manifest...\n")
-
-manifest <- build_driver_manifest(driver)
-
-export_driver_manifest(
-
-manifest,
-driver
-
-)
-
-cat("Validating...\n")
-
-validation <- validate_driver_report(driver)
-
-print(validation)
-
-if(validation$Complete){
-
-cat("\nPIPELINE SUCCESS\n")
+quit(save="no",status=0)
 
 }else{
 
-cat("\nPIPELINE FAILED\n")
+quit(save="no",status=1)
 
 }
-
