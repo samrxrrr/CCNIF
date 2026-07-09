@@ -3,13 +3,13 @@
     "Driver": "TP53",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 09:29:28.359791"
+    "Created": "2026-07-09 10:24:50.408718"
   },
   "Evidence": {
     "File": "results/evidence/TP53/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 1183,
-    "Modified": "2026-07-09 06:43:50.852646"
+    "Modified": "2026-07-09 10:20:13.917764"
   },
   "Statistics": {
     "File": "results/evidence/TP53/Statistics/Models/Transcriptomics_Model.json",
@@ -45,6 +45,6 @@
     "File": "results/evidence/TP53/Driver_Report.json",
     "Exists": true,
     "Size": 10284,
-    "Modified": "2026-07-09 09:29:28.347229"
+    "Modified": "2026-07-09 10:24:50.390738"
   }
 }

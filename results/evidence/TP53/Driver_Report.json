@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 09:29:28.314286",
+    "Created": "2026-07-09 10:24:50.329755",
     "Driver": "TP53"
   },
   "Evidence": {
@@ -12,7 +12,7 @@
       "Variable": "AbsLog2FC",
       "Source": {},
       "Version": "2.0",
-      "Created": "2026-07-09 06:43:50.813218"
+      "Created": "2026-07-09 10:20:13.867025"
     },
     "Raw": {
       "Observed": 2.5,
@@ -62,7 +62,7 @@
     },
     "Audit": {
       "PipelineVersion": "CCNIF-1.0",
-      "Timestamp": "2026-07-09 06:43:50.813625",
+      "Timestamp": "2026-07-09 10:20:13.867502",
       "QC": {},
       "Notes": {}
     }
