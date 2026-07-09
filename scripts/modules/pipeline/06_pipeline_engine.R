@@ -5,6 +5,9 @@ source("scripts/modules/pipeline/02_build_normalization.R")
 source("scripts/modules/pipeline/03_build_quality.R")
 source("scripts/modules/pipeline/04_build_confidence.R")
 
+source("scripts/modules/integration/01_load_statistics.R")
+source("scripts/modules/integration/02_driver_metrics.R")
+
 source("scripts/modules/reporting/01_master_report.R")
 source("scripts/modules/reporting/02_build_report.R")
 source("scripts/modules/reporting/03_export_report.R")
@@ -19,13 +22,27 @@ cat("CCNIF COMPLETE PIPELINE\n")
 cat("=====================================\n")
 cat("Driver:",driver,"\n\n")
 
-build_statistics(driver)
+if(!build_statistics(driver))
+stop("Statistics stage failed.")
 
-build_normalization_pipeline(driver)
+if(!build_normalization_pipeline(driver))
+stop("Normalization stage failed.")
 
-build_quality_pipeline(driver)
+if(!build_quality_pipeline(driver))
+stop("Quality stage failed.")
 
-build_confidence_pipeline(driver)
+if(!build_confidence_pipeline(driver))
+stop("Confidence stage failed.")
+
+metrics <- extract_driver_metrics(
+load_statistics(driver)
+)
+
+cat("\n=====================================\n")
+cat("PIPELINE METRICS\n")
+cat("=====================================\n")
+
+print(metrics)
 
 report <- build_driver_report(driver)
 export_driver_report(report,driver)
