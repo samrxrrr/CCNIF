@@ -2,11 +2,59 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 10:17:55.043467",
-    "DriversLoaded": 1
+    "Created": "2026-07-09 10:22:32.827374",
+    "DriversLoaded": 5
   },
-  "Drivers": "TP53",
+  "Drivers": ["EGFR", "KEAP1", "KRAS", "STK11", "TP53"],
   "Reports": {
+    "EGFR": {
+      "Metadata": {
+        "Version": "1.0",
+        "Pipeline": "CCNIF",
+        "Created": "2026-07-09 10:22:26.577454",
+        "Driver": "EGFR"
+      },
+      "Characterization": null,
+      "Reliability": null,
+      "Interpretation": null,
+      "Manifest": null
+    },
+    "KEAP1": {
+      "Metadata": {
+        "Version": "1.0",
+        "Pipeline": "CCNIF",
+        "Created": "2026-07-09 10:22:27.075507",
+        "Driver": "KEAP1"
+      },
+      "Characterization": null,
+      "Reliability": null,
+      "Interpretation": null,
+      "Manifest": null
+    },
+    "KRAS": {
+      "Metadata": {
+        "Version": "1.0",
+        "Pipeline": "CCNIF",
+        "Created": "2026-07-09 10:22:26.848892",
+        "Driver": "KRAS"
+      },
+      "Characterization": null,
+      "Reliability": null,
+      "Interpretation": null,
+      "Manifest": null
+    },
+    "STK11": {
+      "Metadata": {
+        "Version": "1.0",
+        "Pipeline": "CCNIF",
+        "Created": "2026-07-09 10:22:27.322413",
+        "Driver": "STK11"
+      },
+      "Characterization": null,
+      "Reliability": null,
+      "Interpretation": null,
+      "Manifest": null
+    },
     "TP53": {
       "Metadata": {
         "Version": "1.0",
