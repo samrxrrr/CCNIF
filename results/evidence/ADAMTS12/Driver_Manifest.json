@@ -3,13 +3,13 @@
     "Driver": "ADAMTS12",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:58.992812"
+    "Created": "2026-07-09 15:44:07.783051"
   },
   "Evidence": {
     "File": "results/evidence/ADAMTS12/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 620,
-    "Modified": "2026-07-09 13:58:58.51154"
+    "Modified": "2026-07-09 15:44:06.729881"
   },
   "Statistics": {
     "File": "results/evidence/ADAMTS12/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/ADAMTS12/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 407,
-    "Modified": "2026-07-09 13:58:58.980819"
+    "Size": 409,
+    "Modified": "2026-07-09 15:44:07.769231"
   },
   "Quality": {
     "File": "results/evidence/ADAMTS12/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:58.98483"
+    "Size": 278,
+    "Modified": "2026-07-09 15:44:07.773339"
   },
   "Confidence": {
     "File": "results/evidence/ADAMTS12/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 13:58:58.98483"
+    "Size": 292,
+    "Modified": "2026-07-09 15:44:07.773339"
   },
   "DriverReport": {
     "File": "results/evidence/ADAMTS12/Driver_Report.json",
     "Exists": true,
     "Size": 2045,
-    "Modified": "2026-07-09 13:58:58.988841"
+    "Modified": "2026-07-09 15:44:07.777447"
   }
 }

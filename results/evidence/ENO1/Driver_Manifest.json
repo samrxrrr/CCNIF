@@ -3,13 +3,13 @@
     "Driver": "ENO1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:59:00.559285"
+    "Created": "2026-07-09 15:44:10.297082"
   },
   "Evidence": {
     "File": "results/evidence/ENO1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 615,
-    "Modified": "2026-07-09 13:59:00.070715"
+    "Modified": "2026-07-09 15:44:10.164255"
   },
   "Statistics": {
     "File": "results/evidence/ENO1/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/ENO1/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 403,
-    "Modified": "2026-07-09 13:59:00.544309"
+    "Size": 402,
+    "Modified": "2026-07-09 15:44:10.285679"
   },
   "Quality": {
     "File": "results/evidence/ENO1/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 279,
-    "Modified": "2026-07-09 13:59:00.551886"
+    "Modified": "2026-07-09 15:44:10.285679"
   },
   "Confidence": {
     "File": "results/evidence/ENO1/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:59:00.551886"
+    "Modified": "2026-07-09 15:44:10.289787"
   },
   "DriverReport": {
     "File": "results/evidence/ENO1/Driver_Report.json",
     "Exists": true,
-    "Size": 2032,
-    "Modified": "2026-07-09 13:59:00.555675"
+    "Size": 2031,
+    "Modified": "2026-07-09 15:44:10.293895"
   }
 }

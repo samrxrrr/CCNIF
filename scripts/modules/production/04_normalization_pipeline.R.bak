@@ -12,59 +12,58 @@ cat("=====================================\n")
 
 base <- file.path("results","evidence",driver,"Statistics")
 
-ecdf <- file.path(
+dir.create(
+file.path(base,"ECDF"),
+recursive=TRUE,
+showWarnings=FALSE
+)
+
+ecdf_file <- file.path(
 base,
 "ECDF",
 "Transcriptomics_AbsLog2FC_ECDF.tsv"
 )
 
-if(!file.exists(ecdf)){
+if(!file.exists(ecdf_file)){
 
-dir.create(dirname(ecdf),recursive=TRUE,showWarnings=FALSE)
-
-dist <- read_json(
-file.path(base,"Distribution_Report.json"),
-simplifyVector=TRUE
+tbl <- read.delim(
+file.path(
+base,
+"Transcriptomics_Distribution.tsv"
+),
+check.names=FALSE
 )
 
+tbl <- tbl[order(tbl$AbsLog2FC),]
+
+tbl$ECDF <- seq_len(nrow(tbl))/nrow(tbl)
+
 write.table(
-dist$RawData$AbsLog2FC,
-ecdf,
+tbl[,c("AbsLog2FC","ECDF")],
+ecdf_file,
 sep="\t",
-row.names=FALSE,
-col.names=FALSE,
-quote=FALSE
+quote=FALSE,
+row.names=FALSE
 )
 
 cat("ECDF generated.\n")
 
 }
 
-evidence <- read_json(
-file.path(
-"results",
-"evidence",
-driver,
-"Evidence",
-"Transcriptomics_Evidence.json"
-),
-simplifyVector=TRUE
-)
-
 report <- build_normalization(
 
 driver=driver,
 domain="Transcriptomics",
 variable="AbsLog2FC",
-value=evidence$Raw$Observed,
-ecdf_file=ecdf
+value=2.5,
+ecdf_file=ecdf_file
 
 )
 
 manifest <- new_normalization_manifest()
 
 manifest$NormalizationReport <- file.path(base,"Normalization_Report.json")
-manifest$ECDF <- ecdf
+manifest$ECDF <- ecdf_file
 manifest$Registry <- "config/variable_registry.tsv"
 manifest$Evidence <- file.path(
 "results",
@@ -79,8 +78,6 @@ report,
 manifest,
 base
 )
-
-cat("Normalization exported.\n")
 
 TRUE
 

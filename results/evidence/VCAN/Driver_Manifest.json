@@ -3,13 +3,13 @@
     "Driver": "VCAN",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:45.908181"
+    "Created": "2026-07-09 15:43:41.492165"
   },
   "Evidence": {
     "File": "results/evidence/VCAN/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 608,
-    "Modified": "2026-07-09 13:58:45.425853"
+    "Modified": "2026-07-09 15:43:40.390057"
   },
   "Statistics": {
     "File": "results/evidence/VCAN/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/VCAN/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 404,
-    "Modified": "2026-07-09 13:58:45.898058"
+    "Size": 401,
+    "Modified": "2026-07-09 15:43:41.481921"
   },
   "Quality": {
     "File": "results/evidence/VCAN/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:45.898058"
+    "Size": 283,
+    "Modified": "2026-07-09 15:43:41.481921"
   },
   "Confidence": {
     "File": "results/evidence/VCAN/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:45.902128"
+    "Modified": "2026-07-09 15:43:41.486026"
   },
   "DriverReport": {
     "File": "results/evidence/VCAN/Driver_Report.json",
     "Exists": true,
     "Size": 2026,
-    "Modified": "2026-07-09 13:58:45.902128"
+    "Modified": "2026-07-09 15:43:41.486026"
   }
 }

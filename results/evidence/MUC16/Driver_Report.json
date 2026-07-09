@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:40.380137",
+    "Created": "2026-07-09 15:43:31.31278",
     "Driver": "MUC16"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 13:58:39.79245"
+      "Created": "2026-07-09 15:43:30.161205"
     },
     "Driver": {
       "Driver": "MUC16",
@@ -41,18 +41,18 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:40.338233",
+      "Created": "2026-07-09 15:43:31.271301",
       "Driver": "MUC16"
     },
     "Input": {
-      "Observed": 2.5,
+      "Observed": 0.7427,
       "Variable": "AbsLog2FC",
       "Domain": "Transcriptomics"
     },
     "Direction": "HIGHER_BETTER",
-    "Percentile": 0.9994,
-    "Probability": 0.9994,
-    "NormalizedScore": 99.9365,
+    "Percentile": 0.9416,
+    "Probability": 0.9416,
+    "NormalizedScore": 94.1568,
     "Interpretation": "Very High",
     "Diagnostics": null
   },
@@ -60,12 +60,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:40.365649"
+      "Created": "2026-07-09 15:43:31.297489"
     },
-    "Strength": 99.9365,
+    "Strength": 94.1568,
     "Reliability": 100,
     "Consistency": 60,
-    "QualityScore": 89.9746,
+    "QualityScore": 87.6627,
     "QualityTier": "Gold",
     "Interpretation": "Evidence quality: Gold"
   },
@@ -73,12 +73,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:40.375406"
+      "Created": "2026-07-09 15:43:31.308002"
     },
-    "Quality": 89.9746,
-    "NormalizedScore": 99.9365,
-    "Reliability": 95.4989,
-    "DriverConfidence": 94.8423,
+    "Quality": 87.6627,
+    "NormalizedScore": 94.1568,
+    "Reliability": 95.3568,
+    "DriverConfidence": 91.8592,
     "ConfidenceTier": "A",
     "Interpretation": "Driver confidence: A"
   },

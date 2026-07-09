@@ -3,13 +3,13 @@
     "Driver": "MACF1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:57.267458"
+    "Created": "2026-07-09 15:44:04.496023"
   },
   "Evidence": {
     "File": "results/evidence/MACF1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 600,
-    "Modified": "2026-07-09 13:58:56.782156"
+    "Modified": "2026-07-09 15:44:03.461348"
   },
   "Statistics": {
     "File": "results/evidence/MACF1/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/MACF1/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 404,
-    "Modified": "2026-07-09 13:58:57.25979"
+    "Modified": "2026-07-09 15:44:04.486857"
   },
   "Quality": {
     "File": "results/evidence/MACF1/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:57.25979"
+    "Size": 277,
+    "Modified": "2026-07-09 15:44:04.486857"
   },
   "Confidence": {
     "File": "results/evidence/MACF1/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 13:58:57.263803"
+    "Size": 291,
+    "Modified": "2026-07-09 15:44:04.486857"
   },
   "DriverReport": {
     "File": "results/evidence/MACF1/Driver_Report.json",
     "Exists": true,
-    "Size": 2019,
-    "Modified": "2026-07-09 13:58:57.263803"
+    "Size": 2015,
+    "Modified": "2026-07-09 15:44:04.490966"
   }
 }

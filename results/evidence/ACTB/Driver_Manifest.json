@@ -3,13 +3,13 @@
     "Driver": "ACTB",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:43.744741"
+    "Created": "2026-07-09 15:43:37.858622"
   },
   "Evidence": {
     "File": "results/evidence/ACTB/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 611,
-    "Modified": "2026-07-09 13:58:43.26458"
+    "Modified": "2026-07-09 15:43:36.810938"
   },
   "Statistics": {
     "File": "results/evidence/ACTB/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/ACTB/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 404,
-    "Modified": "2026-07-09 13:58:43.732205"
+    "Size": 401,
+    "Modified": "2026-07-09 15:43:37.838484"
   },
   "Quality": {
     "File": "results/evidence/ACTB/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:43.736168"
+    "Size": 283,
+    "Modified": "2026-07-09 15:43:37.842594"
   },
   "Confidence": {
     "File": "results/evidence/ACTB/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:43.736168"
+    "Modified": "2026-07-09 15:43:37.842594"
   },
   "DriverReport": {
     "File": "results/evidence/ACTB/Driver_Report.json",
     "Exists": true,
-    "Size": 2029,
-    "Modified": "2026-07-09 13:58:43.740131"
+    "Size": 2030,
+    "Modified": "2026-07-09 15:43:37.850815"
   }
 }

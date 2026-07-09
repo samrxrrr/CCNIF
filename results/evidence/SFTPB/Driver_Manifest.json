@@ -3,13 +3,13 @@
     "Driver": "SFTPB",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:50.726007"
+    "Created": "2026-07-09 15:43:51.300985"
   },
   "Evidence": {
     "File": "results/evidence/SFTPB/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 622,
-    "Modified": "2026-07-09 13:58:50.252134"
+    "Modified": "2026-07-09 15:43:50.264794"
   },
   "Statistics": {
     "File": "results/evidence/SFTPB/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/SFTPB/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 405,
-    "Modified": "2026-07-09 13:58:50.712167"
+    "Size": 407,
+    "Modified": "2026-07-09 15:43:51.291908"
   },
   "Quality": {
     "File": "results/evidence/SFTPB/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:50.716202"
+    "Size": 278,
+    "Modified": "2026-07-09 15:43:51.291908"
   },
   "Confidence": {
     "File": "results/evidence/SFTPB/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 13:58:50.716202"
+    "Size": 291,
+    "Modified": "2026-07-09 15:43:51.296049"
   },
   "DriverReport": {
     "File": "results/evidence/SFTPB/Driver_Report.json",
     "Exists": true,
     "Size": 2041,
-    "Modified": "2026-07-09 13:58:50.720237"
+    "Modified": "2026-07-09 15:43:51.296049"
   }
 }

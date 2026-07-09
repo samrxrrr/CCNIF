@@ -3,13 +3,13 @@
     "Driver": "KRAS",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:40.871494"
+    "Created": "2026-07-09 15:43:32.387506"
   },
   "Evidence": {
     "File": "results/evidence/KRAS/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 602,
-    "Modified": "2026-07-09 13:58:40.454262"
+    "Modified": "2026-07-09 15:43:31.381086"
   },
   "Statistics": {
     "File": "results/evidence/KRAS/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/KRAS/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 404,
-    "Modified": "2026-07-09 13:58:40.847728"
+    "Size": 400,
+    "Modified": "2026-07-09 15:43:32.376048"
   },
   "Quality": {
     "File": "results/evidence/KRAS/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:40.847728"
+    "Size": 283,
+    "Modified": "2026-07-09 15:43:32.380158"
   },
   "Confidence": {
     "File": "results/evidence/KRAS/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:40.85187"
+    "Modified": "2026-07-09 15:43:32.380158"
   },
   "DriverReport": {
     "File": "results/evidence/KRAS/Driver_Report.json",
     "Exists": true,
     "Size": 2020,
-    "Modified": "2026-07-09 13:58:40.864295"
+    "Modified": "2026-07-09 15:43:32.384269"
   }
 }

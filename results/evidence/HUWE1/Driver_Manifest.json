@@ -3,13 +3,13 @@
     "Driver": "HUWE1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:56.142095"
+    "Created": "2026-07-09 15:44:02.322997"
   },
   "Evidence": {
     "File": "results/evidence/HUWE1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 612,
-    "Modified": "2026-07-09 13:58:55.645741"
+    "Modified": "2026-07-09 15:44:01.270298"
   },
   "Statistics": {
     "File": "results/evidence/HUWE1/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/HUWE1/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 405,
-    "Modified": "2026-07-09 13:58:56.131751"
+    "Size": 401,
+    "Modified": "2026-07-09 15:44:02.312282"
   },
   "Quality": {
     "File": "results/evidence/HUWE1/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 277,
-    "Modified": "2026-07-09 13:58:56.135766"
+    "Size": 281,
+    "Modified": "2026-07-09 15:44:02.316401"
   },
   "Confidence": {
     "File": "results/evidence/HUWE1/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 13:58:56.135766"
+    "Size": 291,
+    "Modified": "2026-07-09 15:44:02.316401"
   },
   "DriverReport": {
     "File": "results/evidence/HUWE1/Driver_Report.json",
     "Exists": true,
-    "Size": 2030,
-    "Modified": "2026-07-09 13:58:56.139781"
+    "Size": 2028,
+    "Modified": "2026-07-09 15:44:02.320519"
   }
 }
