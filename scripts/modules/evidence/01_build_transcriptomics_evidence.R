@@ -1,5 +1,7 @@
 library(jsonlite)
 
+source("scripts/modules/evidence/00_extract_driver_record.R")
+
 build_transcriptomics_evidence <- function(driver){
 
 cat("=====================================\n")
@@ -7,11 +9,7 @@ cat("TRANSCRIPTOMICS EVIDENCE BUILDER\n")
 cat("=====================================\n")
 cat("Driver:",driver,"\n\n")
 
-base <- file.path(
-"results",
-"evidence",
-driver
-)
+base <- file.path("results","evidence",driver)
 
 dir.create(
 file.path(base,"Evidence"),
@@ -19,27 +17,14 @@ recursive=TRUE,
 showWarnings=FALSE
 )
 
-model <- file.path(
-base,
+dist <- read_json(
+file.path(base,
 "Statistics",
-"Models",
-"Transcriptomics_Model.json"
+"Distribution_Report.json"),
+simplifyVector=TRUE
 )
 
-distribution <- file.path(
-base,
-"Statistics",
-"Distribution_Report.json"
-)
-
-if(!file.exists(model))
-stop("Transcriptomics_Model.json missing")
-
-if(!file.exists(distribution))
-stop("Distribution_Report.json missing")
-
-m <- read_json(model,simplifyVector=TRUE)
-d <- read_json(distribution,simplifyVector=TRUE)
+drv <- extract_driver_record(driver)
 
 evidence <- list(
 
@@ -48,33 +33,37 @@ Driver=driver,
 Domain="Transcriptomics",
 Variable="AbsLog2FC",
 Pipeline="CCNIF",
-Version="3.0",
+Version="4.0",
 Created=as.character(Sys.time())
 ),
 
 Raw=list(
-Observed=m$Observed,
+Observed=drv$Observed,
 Direction="higher"
 ),
 
-Statistics=d$Statistics$AbsLog2FC,
+Driver=drv,
 
-Diagnostics=d$Diagnostics$AbsLog2FC
+Statistics=dist$Statistics$AbsLog2FC,
 
-)
+Diagnostics=dist$Diagnostics$AbsLog2FC
 
-outfile <- file.path(
-base,
-"Evidence",
-"Transcriptomics_Evidence.json"
 )
 
 write_json(
+
 evidence,
-outfile,
+
+file.path(
+base,
+"Evidence",
+"Transcriptomics_Evidence.json"
+),
+
 pretty=TRUE,
 auto_unbox=TRUE,
 null="null"
+
 )
 
 cat("Evidence exported.\n")

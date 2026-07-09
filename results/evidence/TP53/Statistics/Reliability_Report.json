@@ -1,10 +1,12 @@
 {
   "Metadata": {
-    "Version": "1.0",
-    "Created": "2026-07-09 07:23:58.821952",
+    "Version": "2.0",
+    "Pipeline": "CCNIF",
     "Driver": "TP53",
-    "Domain": "Transcriptomics",
-    "Variable": "AbsLog2FC"
+    "Created": "2026-07-09 12:13:09.377339"
   },
-  "Diagnostics": null
+  "ReliabilityScore": 92.7692,
+  "Modules": 10,
+  "Scores": [100, 100, 78.356, 92.866, 68.614, 93.9279, 100, 100, 100, 93.9279],
+  "Interpretation": "Excellent"
 }
