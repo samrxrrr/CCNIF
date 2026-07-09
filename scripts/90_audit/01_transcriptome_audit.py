@@ -80,7 +80,7 @@ print(counts_header.head())
 # --------------------------------------------------
 
 deg = pd.read_csv(
-    "results/evidence/TP53/transcriptomics/DEGs.tsv",
+    "data/transcriptomics/DEGs.tsv",
     sep="\t"
 )
 
