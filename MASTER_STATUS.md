@@ -339,28 +339,28 @@ Next
 
 
 
+
 # Phase 11 – Statistical Characterization Framework
 
 Status: IN PROGRESS
 
 Completed
 
-- Evidence Collection
-- Evidence Statistics Extraction
+- Evidence collection
+- Statistics extraction
+- CCNIF data schema
 
 Current Goal
 
-Build complete empirical distributions for every evidence domain.
+Implement standardized empirical distribution tables.
 
-Planned
+Next
 
-- Transcriptomics distribution export
-- GO distribution export
-- KEGG distribution export
-- Hallmark distribution export
-- Disease Ontology distribution export
-- Reactome distribution export
-- STRING distribution export
-- Clinical distribution export
-- Distribution modeling
-- Mathematical specification
+- Transcriptomics distribution
+- STRING distribution
+- Clinical distribution
+- GO distribution
+- KEGG distribution
+- Reactome distribution
+- Disease Ontology distribution
+- Hallmark distribution
