@@ -324,3 +324,32 @@ Pending
 Next
 
 Phase 9 – Evidence Integration
+
+===============================================================================
+PHASE 8.5 — CCNIF CORE FRAMEWORK
+===============================================================================
+
+Status: 🚧 IN PROGRESS
+
+Completed
+---------
+✓ Framework directory created
+✓ Core architecture initialized
+✓ Module registry
+✓ Pipeline configuration
+
+In Progress
+-----------
+• Driver object
+• Module manager
+• Shared utilities
+• Unified logging
+• Unified manifest
+
+Pending
+-------
+□ Plugin execution engine
+□ Evidence registry
+□ Automatic reporting
+□ Driver confidence framework
+

@@ -1,0 +1,8 @@
+{
+    "transcriptomics": true,
+    "enrichment": true,
+    "network": true,
+    "survival": true,
+    "integration": true,
+    "reporting": true
+}
