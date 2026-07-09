@@ -1,14 +1,31 @@
-precision_metrics <- function(x){
+library(jsonlite)
 
-x <- x[is.finite(x)]
+calculate_precision <- function(driver){
+
+dist <- read_json(
+file.path(
+"results",
+"evidence",
+driver,
+"Statistics",
+"Distribution_Report.json"
+),
+simplifyVector=TRUE
+)
+
+cv <- dist$Diagnostics$AbsLog2FC$CV
+
+score <- max(0,100-(cv*20))
 
 list(
 
-Variance=var(x),
+Metric="Precision",
 
-SD=sd(x),
+Driver=driver,
 
-SE=sd(x)/sqrt(length(x))
+CV=cv,
+
+Score=round(score,4)
 
 )
 
