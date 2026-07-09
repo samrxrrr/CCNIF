@@ -1,0 +1,22 @@
+{
+  "Metadata": {
+    "Driver": "TP53",
+    "Domain": "Network",
+    "Pipeline": "CCNIF",
+    "Version": "3.0",
+    "Created": "2026-07-09 11:19:07.984924"
+  },
+  "STRING": {
+    "nodes": 431,
+    "edges": 1788,
+    "density": 0.0193
+  },
+  "Metrics": {
+    "nodes": 431,
+    "top_hub": "9606.ENSP00000295897"
+  },
+  "Communities": {
+    "communities": 108,
+    "largest": 49
+  }
+}
