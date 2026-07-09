@@ -319,6 +319,7 @@ Planned
 - Evidence integration
 
 
+
 # Phase 10 – Evidence Integration
 
 Status: COMPLETED
@@ -326,9 +327,18 @@ Status: COMPLETED
 Completed
 
 - Integrated evidence manifest
-- Driver confidence framework
-- Evidence availability scoring
+- Driver confidence framework (engineering version)
+- Evidence availability validation
 
 Next
 
-Phase 11 – Automated Evidence Report
+# Phase 11 – Evidence Quality Scoring
+
+Planned
+
+- Transcriptomic evidence scoring
+- Functional enrichment scoring
+- Network evidence scoring
+- Clinical evidence scoring
+- Weighted driver confidence model
+- Publication-ready evidence report
