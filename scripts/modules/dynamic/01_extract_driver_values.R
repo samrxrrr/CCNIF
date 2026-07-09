@@ -13,19 +13,8 @@ driver,
 simplifyVector=TRUE
 )
 
-distribution <- read_json(
-file.path(
-"results",
-"evidence",
-driver,
-"Statistics",
-"Distribution_Report.json"
-),
-simplifyVector=TRUE
-)
-
-stats <- distribution$Statistics$AbsLog2FC
-diag  <- distribution$Diagnostics$AbsLog2FC
+stats <- evidence$Statistics
+diag  <- evidence$Diagnostics
 
 list(
 
@@ -49,7 +38,7 @@ MAD=stats$MAD,
 
 CV=diag$CV,
 
-Percentile=evidence$Distribution$Percentile,
+Percentile=evidence$Driver$Percentile,
 
 Skewness=diag$Skewness,
 

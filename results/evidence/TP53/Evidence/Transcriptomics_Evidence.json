@@ -4,12 +4,24 @@
     "Domain": "Transcriptomics",
     "Variable": "AbsLog2FC",
     "Pipeline": "CCNIF",
-    "Version": "3.0",
-    "Created": "2026-07-09 11:15:41.213715"
+    "Version": "4.0",
+    "Created": "2026-07-09 12:03:30.324415"
   },
   "Raw": {
-    "Observed": null,
+    "Observed": 0.2451,
     "Direction": "higher"
+  },
+  "Driver": {
+    "Driver": "TP53",
+    "GeneID": 7532,
+    "GeneName": "TP53",
+    "Observed": 0.2451,
+    "log2FC": -0.2451,
+    "AbsLog2FC": 0.2451,
+    "baseMean": 3032.2797,
+    "padj": 0.0016,
+    "Rank": 8817,
+    "Percentile": 62.9782
   },
   "Statistics": {
     "N": 23814,

@@ -1,3 +1,4 @@
+library(jsonlite)
 
 source("scripts/modules/reliability/11_reliability_score.R")
 
@@ -7,10 +8,60 @@ cat("=====================================\n")
 cat("RELIABILITY PIPELINE\n")
 cat("=====================================\n")
 
-result <- calculate_reliability_score(driver)
+x <- calculate_reliability_score(driver)
 
-print(result)
+report <- list(
 
-result
+Metadata=list(
+
+Version="2.0",
+Pipeline="CCNIF",
+Driver=driver,
+Created=as.character(Sys.time())
+
+),
+
+ReliabilityScore=x$ReliabilityScore,
+
+Modules=x$Modules,
+
+Scores=x$Scores,
+
+Interpretation=if(x$ReliabilityScore>=90){
+
+"Excellent"
+
+}else if(x$ReliabilityScore>=75){
+
+"Good"
+
+}else{
+
+"Needs Improvement"
+
+}
+
+)
+
+write_json(
+
+report,
+
+file.path(
+"results",
+"evidence",
+driver,
+"Statistics",
+"Reliability_Report.json"
+),
+
+pretty=TRUE,
+auto_unbox=TRUE
+
+)
+
+cat("Reliability exported.\n")
+
+report
 
 }
