@@ -280,3 +280,47 @@ Pending
 Next
 ----
 Phase 9 – Evidence Integration
+
+
+
+# Phase 8 – Clinical Evidence
+
+Status: IN PROGRESS
+
+Completed
+
+- Clinical framework
+- Driver initialization
+- Project validation
+- Framework bootstrap
+- Automatic clinical schema detection
+- Clinical data loader
+- Overall Survival (OS) preparation
+- Automatic event/censor classification
+- Unified survival framework
+
+Current Results
+
+- Clinical samples: 505
+- Death events: 184
+- Censored samples: 321
+
+In Progress
+
+- Expression Kaplan–Meier survival
+- Mutation Kaplan–Meier survival
+- Multivariate Cox proportional hazards model
+
+Pending
+
+- Log-rank significance test
+- Hazard ratio estimation
+- Forest plot generation
+- Clinical evidence export
+- Clinical evidence manifest
+- Stage association analysis
+- Evidence integration
+
+Next
+
+Phase 9 – Evidence Integration
