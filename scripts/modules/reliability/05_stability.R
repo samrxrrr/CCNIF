@@ -1,14 +1,39 @@
-stability_metrics <- function(x){
+library(jsonlite)
 
-x <- x[is.finite(x)]
+calculate_stability <- function(driver){
+
+dist <- read_json(
+file.path(
+"results",
+"evidence",
+driver,
+"Statistics",
+"Distribution_Report.json"
+),
+simplifyVector=TRUE
+)
+
+d <- dist$Diagnostics$AbsLog2FC
+
+cv <- d$CV
+skew <- abs(d$Skewness)
+
+score <- max(
+0,
+100-(cv*15+skew*5)
+)
 
 list(
 
-Mean=mean(x),
+Metric="Stability",
 
-Median=median(x),
+Driver=driver,
 
-CV=sd(x)/abs(mean(x))
+CV=cv,
+
+Skewness=skew,
+
+Score=round(score,4)
 
 )
 
