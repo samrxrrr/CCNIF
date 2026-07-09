@@ -1,14 +1,36 @@
-missingness_metrics <- function(x){
+library(jsonlite)
+
+calculate_missingness <- function(driver){
+
+dist <- read_json(
+file.path(
+"results",
+"evidence",
+driver,
+"Statistics",
+"Distribution_Report.json"
+),
+simplifyVector=TRUE
+)
+
+missing_fraction <- dist$Statistics$AbsLog2FC$Missing /
+                    dist$Statistics$AbsLog2FC$N
+
+score <- (1-missing_fraction)*100
 
 list(
 
-Total=length(x),
+Metric="Missingness",
 
-Missing=sum(is.na(x)),
+Driver=driver,
 
-Fraction=sum(is.na(x))/length(x),
+Missing=dist$Statistics$AbsLog2FC$Missing,
 
-Complete=sum(!is.na(x))
+N=dist$Statistics$AbsLog2FC$N,
+
+MissingFraction=missing_fraction,
+
+Score=round(score,4)
 
 )
 
