@@ -1,49 +1,50 @@
 {
-  "metadata": {
-    "name": "TP53",
-    "created": "2026-07-09 05:48:46.451845",
-    "version": "2.0",
-    "status": "initialized"
+  "Metadata": {
+    "Driver": "TP53",
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 09:24:30.105331"
   },
-  "inputs": {
-    "clinical": null,
-    "expression": null,
-    "mutation": null
+  "Evidence": {
+    "File": "results/evidence/TP53/Evidence/Transcriptomics_Evidence.json",
+    "Exists": true,
+    "Size": 1183,
+    "Modified": "2026-07-09 06:43:50.852646"
   },
-  "analyses": {
-    "transcriptomics": null,
-    "enrichment": {
-      "GO": null,
-      "KEGG": null,
-      "Hallmark": null,
-      "DiseaseOntology": null,
-      "Reactome": null
-    },
-    "network": {
-      "STRING": null,
-      "Centrality": null,
-      "Communities": null
-    },
-    "survival": {
-      "Expression": null,
-      "Mutation": null,
-      "Cox": null
-    }
+  "Statistics": {
+    "File": "results/evidence/TP53/Statistics/Models/Transcriptomics_Model.json",
+    "Exists": true,
+    "Size": 2933,
+    "Modified": "2026-07-09 06:32:41.44955"
   },
-  "evidence": [],
-  "outputs": {
-    "tables": [],
-    "figures": [],
-    "reports": []
+  "Diagnostics": {
+    "File": "results/evidence/TP53/Statistics/Diagnostics/Transcriptomics_Diagnostics.json",
+    "Exists": true,
+    "Size": 3939,
+    "Modified": "2026-07-09 06:38:51.196818"
   },
-  "logs": [
-    {
-      "time": "2026-07-09 05:48:46.45235",
-      "message": "Driver created: TP53"
-    },
-    {
-      "time": "2026-07-09 05:48:46.477723",
-      "message": "Framework initialized successfully."
-    }
-  ]
+  "Normalization": {
+    "File": "results/evidence/TP53/Statistics/Normalization_Report.json",
+    "Exists": true,
+    "Size": 404,
+    "Modified": "2026-07-09 09:15:54.746779"
+  },
+  "Quality": {
+    "File": "results/evidence/TP53/Statistics/Quality_Report.json",
+    "Exists": true,
+    "Size": 284,
+    "Modified": "2026-07-09 09:19:22.602039"
+  },
+  "Confidence": {
+    "File": "results/evidence/TP53/Statistics/Confidence_Report.json",
+    "Exists": true,
+    "Size": 292,
+    "Modified": "2026-07-09 09:21:22.767265"
+  },
+  "DriverReport": {
+    "File": "results/evidence/TP53/Driver_Report.json",
+    "Exists": true,
+    "Size": 10284,
+    "Modified": "2026-07-09 09:23:12.658613"
+  }
 }
