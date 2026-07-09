@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:41.48912",
+    "Created": "2026-07-09 17:17:32.636093",
     "Driver": "VCAN"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:43:40.391943"
+      "Created": "2026-07-09 17:15:23.002351"
     },
     "Driver": {
       "Driver": "VCAN",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:41.485049",
+      "Created": "2026-07-09 17:17:32.631602",
       "Driver": "VCAN"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:41.487135"
+      "Created": "2026-07-09 17:17:32.633879"
     },
     "Strength": 34.1273,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:41.488424"
+      "Created": "2026-07-09 17:17:32.635237"
     },
     "Quality": 63.6509,
     "NormalizedScore": 34.1273,

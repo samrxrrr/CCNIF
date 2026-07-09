@@ -8,6 +8,10 @@ stop("Usage: Rscript run_do.R TP53")
 
 driver_gene <- args[1]
 
+source("scripts/60_enrichment/framework/00_prepare_transcriptomics.R")
+prepare_transcriptomics(driver_gene)
+
+
 source("scripts/60_enrichment/modules/01_filter_deg.R")
 source("scripts/60_enrichment/modules/00_convert_ids.R")
 source("scripts/60_enrichment/modules/10_run_do.R")

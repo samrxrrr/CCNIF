@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:43.625937",
+    "Created": "2026-07-09 16:53:28.906459",
     "Driver": "PLEC"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:43:42.602181"
+      "Created": "2026-07-09 16:51:09.517503"
     },
     "Driver": {
       "Driver": "PLEC",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:43.621958",
+      "Created": "2026-07-09 16:53:28.901823",
       "Driver": "PLEC"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:43.62398"
+      "Created": "2026-07-09 16:53:28.904227"
     },
     "Strength": 52.0948,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:43.625252"
+      "Created": "2026-07-09 16:53:28.905573"
     },
     "Quality": 70.8379,
     "NormalizedScore": 52.0948,

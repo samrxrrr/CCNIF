@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:44.741791",
+    "Created": "2026-07-09 16:24:46.306024",
     "Driver": "EGFR"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:43:43.690068"
+      "Created": "2026-07-09 16:22:35.824108"
     },
     "Driver": {
       "Driver": "EGFR",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:44.737033",
+      "Created": "2026-07-09 16:24:46.301536",
       "Driver": "EGFR"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:44.739532"
+      "Created": "2026-07-09 16:24:46.303794"
     },
     "Strength": 95.1078,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:44.741023"
+      "Created": "2026-07-09 16:24:46.305238"
     },
     "Quality": 88.0431,
     "NormalizedScore": 95.1078,

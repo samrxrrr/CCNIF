@@ -3,7 +3,7 @@
     "Driver": "PSAP",
     "Pipeline": "CCNIF",
     "Version": "5.0",
-    "Created": "2026-07-09 15:44:04.55893"
+    "Created": "2026-07-09 17:36:55.840167"
   },
   "Transcriptomics": {
     "Metadata": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:44:04.556033"
+      "Created": "2026-07-09 17:34:48.822483"
     },
     "Driver": {
       "Driver": "PSAP",
@@ -33,6 +33,50 @@
       "padj": 0.3844,
       "Rank": 19259,
       "Percentile": 19.1282
+    }
+  },
+  "Functional": {
+    "Metadata": {
+      "Driver": "PSAP",
+      "Domain": "Functional",
+      "Pipeline": "CCNIF",
+      "Version": "3.0",
+      "Created": "2026-07-09 17:36:55.835987"
+    },
+    "GO": {
+      "filtered_genes": 431,
+      "mapped_genes": 425,
+      "BP_terms": 56,
+      "MF_terms": 31,
+      "CC_terms": 20
+    },
+    "KEGG": {
+      "pathways": 7
+    },
+    "Reactome": {
+      "pathways": 24
+    }
+  },
+  "Enrichment": {
+    "Metadata": {
+      "Driver": "PSAP",
+      "Domain": "Enrichment",
+      "Pipeline": "CCNIF",
+      "Version": "3.0",
+      "Created": "2026-07-09 17:36:55.838535"
+    },
+    "GO": {
+      "filtered_genes": 431,
+      "mapped_genes": 425,
+      "BP_terms": 56,
+      "MF_terms": 31,
+      "CC_terms": 20
+    },
+    "KEGG": {
+      "pathways": 7
+    },
+    "Reactome": {
+      "pathways": 24
     }
   }
 }

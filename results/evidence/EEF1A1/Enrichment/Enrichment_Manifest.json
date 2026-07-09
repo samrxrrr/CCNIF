@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "Driver": "EEF1A1",
+    "Created": "2026-07-09 16:44:31.041101",
+    "Pipeline": "CCNIF"
+  },
+  "Modules": {
+    "GO": true,
+    "KEGG": true,
+    "Reactome": true,
+    "DiseaseOntology": true,
+    "GSEA": true
+  },
+  "Passed": 5,
+  "Failed": 0
+}

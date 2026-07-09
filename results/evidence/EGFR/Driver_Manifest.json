@@ -3,13 +3,13 @@
     "Driver": "EGFR",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:44.74583"
+    "Created": "2026-07-09 16:24:46.309971"
   },
   "Evidence": {
     "File": "results/evidence/EGFR/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 613,
-    "Modified": "2026-07-09 15:43:43.686173"
+    "Modified": "2026-07-09 16:22:35.821097"
   },
   "Statistics": {
     "File": "results/evidence/EGFR/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/EGFR/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 407,
-    "Modified": "2026-07-09 15:43:44.732885"
+    "Modified": "2026-07-09 16:24:46.300208"
   },
   "Quality": {
     "File": "results/evidence/EGFR/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 279,
-    "Modified": "2026-07-09 15:43:44.732885"
+    "Modified": "2026-07-09 16:24:46.300208"
   },
   "Confidence": {
     "File": "results/evidence/EGFR/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:43:44.73699"
+    "Modified": "2026-07-09 16:24:46.300208"
   },
   "DriverReport": {
     "File": "results/evidence/EGFR/Driver_Report.json",
     "Exists": true,
     "Size": 2034,
-    "Modified": "2026-07-09 15:43:44.741094"
+    "Modified": "2026-07-09 16:24:46.304365"
   }
 }

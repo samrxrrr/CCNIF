@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "Driver": "MACF1",
+    "Created": "2026-07-09 17:54:32.104503",
+    "Pipeline": "CCNIF"
+  },
+  "Modules": {
+    "GO": true,
+    "KEGG": true,
+    "Reactome": true,
+    "DiseaseOntology": true,
+    "GSEA": true
+  },
+  "Passed": 5,
+  "Failed": 0
+}

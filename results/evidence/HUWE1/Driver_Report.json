@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:44:02.319722",
+    "Created": "2026-07-09 17:11:05.761896",
     "Driver": "HUWE1"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:44:01.271435"
+      "Created": "2026-07-09 17:08:55.788876"
     },
     "Driver": {
       "Driver": "HUWE1",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:02.315505",
+      "Created": "2026-07-09 17:11:05.757738",
       "Driver": "HUWE1"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:02.317806"
+      "Created": "2026-07-09 17:11:05.759882"
     },
     "Strength": 37.065,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:02.319039"
+      "Created": "2026-07-09 17:11:05.761171"
     },
     "Quality": 64.826,
     "NormalizedScore": 37.065,

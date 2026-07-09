@@ -3,13 +3,13 @@
     "Driver": "A2M",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:44:14.688319"
+    "Created": "2026-07-09 16:33:19.290934"
   },
   "Evidence": {
     "File": "results/evidence/A2M/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
-    "Size": 611,
-    "Modified": "2026-07-09 15:44:13.653824"
+    "Size": 612,
+    "Modified": "2026-07-09 16:31:14.400098"
   },
   "Statistics": {
     "File": "results/evidence/A2M/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/A2M/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 401,
-    "Modified": "2026-07-09 15:44:14.680337"
+    "Modified": "2026-07-09 16:33:19.282211"
   },
   "Quality": {
     "File": "results/evidence/A2M/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 279,
-    "Modified": "2026-07-09 15:44:14.680337"
+    "Modified": "2026-07-09 16:33:19.282211"
   },
   "Confidence": {
     "File": "results/evidence/A2M/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:44:14.680337"
+    "Modified": "2026-07-09 16:33:19.28637"
   },
   "DriverReport": {
     "File": "results/evidence/A2M/Driver_Report.json",
     "Exists": true,
-    "Size": 2025,
-    "Modified": "2026-07-09 15:44:14.680337"
+    "Size": 2026,
+    "Modified": "2026-07-09 16:33:19.28637"
   }
 }

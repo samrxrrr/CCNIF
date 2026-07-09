@@ -3,13 +3,13 @@
     "Driver": "MXRA5",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:54.606182"
+    "Created": "2026-07-09 17:00:20.867733"
   },
   "Evidence": {
     "File": "results/evidence/MXRA5/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 606,
-    "Modified": "2026-07-09 15:43:53.561496"
+    "Modified": "2026-07-09 16:58:09.053385"
   },
   "Statistics": {
     "File": "results/evidence/MXRA5/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/MXRA5/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 406,
-    "Modified": "2026-07-09 15:43:54.592751"
+    "Size": 407,
+    "Modified": "2026-07-09 17:00:20.85576"
   },
   "Quality": {
     "File": "results/evidence/MXRA5/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 283,
-    "Modified": "2026-07-09 15:43:54.596892"
+    "Modified": "2026-07-09 17:00:20.85576"
   },
   "Confidence": {
     "File": "results/evidence/MXRA5/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:43:54.596892"
+    "Modified": "2026-07-09 17:00:20.859931"
   },
   "DriverReport": {
     "File": "results/evidence/MXRA5/Driver_Report.json",
     "Exists": true,
-    "Size": 2031,
-    "Modified": "2026-07-09 15:43:54.601034"
+    "Size": 2032,
+    "Modified": "2026-07-09 17:00:20.864101"
   }
 }

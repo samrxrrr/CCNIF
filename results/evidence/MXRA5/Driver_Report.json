@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:54.603043",
+    "Created": "2026-07-09 17:00:20.863732",
     "Driver": "MXRA5"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:43:53.564511"
+      "Created": "2026-07-09 16:58:09.055782"
     },
     "Driver": {
       "Driver": "MXRA5",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:54.59794",
+      "Created": "2026-07-09 17:00:20.858145",
       "Driver": "MXRA5"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:54.600592"
+      "Created": "2026-07-09 17:00:20.861287"
     },
     "Strength": 50.5871,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:43:54.602256"
+      "Created": "2026-07-09 17:00:20.862897"
     },
     "Quality": 70.2348,
     "NormalizedScore": 50.5871,

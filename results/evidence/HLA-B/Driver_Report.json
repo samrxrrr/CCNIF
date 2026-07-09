@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:44:12.500824",
+    "Created": "2026-07-09 16:51:09.449363",
     "Driver": "HLA-B"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 15:44:11.440104"
+      "Created": "2026-07-09 16:49:01.945356"
     },
     "Driver": {
       "Driver": "HLA-B",
@@ -41,7 +41,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:12.496284",
+      "Created": "2026-07-09 16:51:09.445035",
       "Driver": "HLA-B"
     },
     "Input": {
@@ -60,7 +60,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:12.498633"
+      "Created": "2026-07-09 16:51:09.447286"
     },
     "Strength": 54.2182,
     "Reliability": 100,
@@ -73,7 +73,7 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 15:44:12.500067"
+      "Created": "2026-07-09 16:51:09.448559"
     },
     "Quality": 71.6873,
     "NormalizedScore": 54.2182,

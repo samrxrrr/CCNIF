@@ -1,0 +1,22 @@
+{
+  "Metadata": {
+    "Driver": "RPL8",
+    "Domain": "Enrichment",
+    "Pipeline": "CCNIF",
+    "Version": "3.0",
+    "Created": "2026-07-09 17:19:40.102289"
+  },
+  "GO": {
+    "filtered_genes": 431,
+    "mapped_genes": 425,
+    "BP_terms": 56,
+    "MF_terms": 31,
+    "CC_terms": 20
+  },
+  "KEGG": {
+    "pathways": 7
+  },
+  "Reactome": {
+    "pathways": 24
+  }
+}

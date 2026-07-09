@@ -3,13 +3,13 @@
     "Driver": "ACTG1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:49.118849"
+    "Created": "2026-07-09 17:32:35.953551"
   },
   "Evidence": {
     "File": "results/evidence/ACTG1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 615,
-    "Modified": "2026-07-09 15:43:48.070048"
+    "Modified": "2026-07-09 17:30:27.702456"
   },
   "Statistics": {
     "File": "results/evidence/ACTG1/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/ACTG1/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 407,
-    "Modified": "2026-07-09 15:43:49.105151"
+    "Modified": "2026-07-09 17:32:35.941106"
   },
   "Quality": {
     "File": "results/evidence/ACTG1/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 279,
-    "Modified": "2026-07-09 15:43:49.109292"
+    "Modified": "2026-07-09 17:32:35.941106"
   },
   "Confidence": {
     "File": "results/evidence/ACTG1/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 15:43:49.109292"
+    "Size": 292,
+    "Modified": "2026-07-09 17:32:35.945287"
   },
   "DriverReport": {
     "File": "results/evidence/ACTG1/Driver_Report.json",
     "Exists": true,
-    "Size": 2037,
-    "Modified": "2026-07-09 15:43:49.113434"
+    "Size": 2036,
+    "Modified": "2026-07-09 17:32:35.949467"
   }
 }

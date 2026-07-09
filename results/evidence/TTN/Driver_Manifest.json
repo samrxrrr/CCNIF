@@ -3,13 +3,13 @@
     "Driver": "TTN",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:30.10269"
+    "Created": "2026-07-09 17:50:11.151401"
   },
   "Evidence": {
     "File": "results/evidence/TTN/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 605,
-    "Modified": "2026-07-09 15:43:28.814717"
+    "Modified": "2026-07-09 17:47:58.980169"
   },
   "Statistics": {
     "File": "results/evidence/TTN/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/TTN/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 404,
-    "Modified": "2026-07-09 15:43:30.052661"
+    "Size": 405,
+    "Modified": "2026-07-09 17:50:11.140768"
   },
   "Quality": {
     "File": "results/evidence/TTN/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 278,
-    "Modified": "2026-07-09 15:43:30.073225"
+    "Size": 279,
+    "Modified": "2026-07-09 17:50:11.140768"
   },
   "Confidence": {
     "File": "results/evidence/TTN/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:43:30.08145"
+    "Modified": "2026-07-09 17:50:11.144953"
   },
   "DriverReport": {
     "File": "results/evidence/TTN/Driver_Report.json",
     "Exists": true,
-    "Size": 2021,
-    "Modified": "2026-07-09 15:43:30.089676"
+    "Size": 2023,
+    "Modified": "2026-07-09 17:50:11.149138"
   }
 }
