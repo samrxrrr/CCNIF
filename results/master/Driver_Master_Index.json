@@ -2,21 +2,6 @@
   "1": [
     {
       "Rank": 1,
-      "Driver": "TP53",
-      "DriverConfidence": 94.8423,
-      "ConfidenceTier": "A",
-      "QualityScore": 89.9746,
-      "QualityTier": "Gold",
-      "ReliabilityScore": 95.4989,
-      "NormalizedScore": 99.9365,
-      "Completed": true,
-      "DriverReport": "results/evidence/TP53/Driver_Report.json",
-      "DriverManifest": "results/evidence/TP53/Driver_Manifest.json"
-    }
-  ],
-  "2": [
-    {
-      "Rank": 2,
       "Driver": "SFTPB",
       "DriverConfidence": 94.627,
       "ConfidenceTier": "A",
@@ -29,9 +14,9 @@
       "DriverManifest": "results/evidence/SFTPB/Driver_Manifest.json"
     }
   ],
-  "3": [
+  "2": [
     {
-      "Rank": 3,
+      "Rank": 2,
       "Driver": "ZFHX4",
       "DriverConfidence": 93.1089,
       "ConfidenceTier": "A",
@@ -44,9 +29,9 @@
       "DriverManifest": "results/evidence/ZFHX4/Driver_Manifest.json"
     }
   ],
-  "4": [
+  "3": [
     {
-      "Rank": 4,
+      "Rank": 3,
       "Driver": "EGFR",
       "DriverConfidence": 92.3442,
       "ConfidenceTier": "A",
@@ -59,9 +44,9 @@
       "DriverManifest": "results/evidence/EGFR/Driver_Manifest.json"
     }
   ],
-  "5": [
+  "4": [
     {
-      "Rank": 5,
+      "Rank": 4,
       "Driver": "MUC16",
       "DriverConfidence": 91.8592,
       "ConfidenceTier": "A",
@@ -74,9 +59,9 @@
       "DriverManifest": "results/evidence/MUC16/Driver_Manifest.json"
     }
   ],
-  "6": [
+  "5": [
     {
-      "Rank": 6,
+      "Rank": 5,
       "Driver": "IGHA1",
       "DriverConfidence": 90.9053,
       "ConfidenceTier": "A",
@@ -89,9 +74,9 @@
       "DriverManifest": "results/evidence/IGHA1/Driver_Manifest.json"
     }
   ],
-  "7": [
+  "6": [
     {
-      "Rank": 7,
+      "Rank": 6,
       "Driver": "DST",
       "DriverConfidence": 88.4452,
       "ConfidenceTier": "B",
@@ -104,9 +89,9 @@
       "DriverManifest": "results/evidence/DST/Driver_Manifest.json"
     }
   ],
-  "8": [
+  "7": [
     {
-      "Rank": 8,
+      "Rank": 7,
       "Driver": "A2M",
       "DriverConfidence": 88.3351,
       "ConfidenceTier": "B",
@@ -119,9 +104,9 @@
       "DriverManifest": "results/evidence/A2M/Driver_Manifest.json"
     }
   ],
-  "9": [
+  "8": [
     {
-      "Rank": 9,
+      "Rank": 8,
       "Driver": "COL11A1",
       "DriverConfidence": 86.0353,
       "ConfidenceTier": "B",
@@ -134,9 +119,9 @@
       "DriverManifest": "results/evidence/COL11A1/Driver_Manifest.json"
     }
   ],
-  "10": [
+  "9": [
     {
-      "Rank": 10,
+      "Rank": 9,
       "Driver": "RPL3",
       "DriverConfidence": 83.4442,
       "ConfidenceTier": "B",
@@ -149,9 +134,9 @@
       "DriverManifest": "results/evidence/RPL3/Driver_Manifest.json"
     }
   ],
-  "11": [
+  "10": [
     {
-      "Rank": 11,
+      "Rank": 10,
       "Driver": "EEF2",
       "DriverConfidence": 82.7145,
       "ConfidenceTier": "B",
@@ -164,9 +149,9 @@
       "DriverManifest": "results/evidence/EEF2/Driver_Manifest.json"
     }
   ],
-  "12": [
+  "11": [
     {
-      "Rank": 12,
+      "Rank": 11,
       "Driver": "ENO1",
       "DriverConfidence": 82.1736,
       "ConfidenceTier": "B",
@@ -179,9 +164,9 @@
       "DriverManifest": "results/evidence/ENO1/Driver_Manifest.json"
     }
   ],
-  "13": [
+  "12": [
     {
-      "Rank": 13,
+      "Rank": 12,
       "Driver": "EEF1A1",
       "DriverConfidence": 81.7582,
       "ConfidenceTier": "B",
@@ -194,9 +179,9 @@
       "DriverManifest": "results/evidence/EEF1A1/Driver_Manifest.json"
     }
   ],
-  "14": [
+  "13": [
     {
-      "Rank": 14,
+      "Rank": 13,
       "Driver": "IGHG1",
       "DriverConfidence": 80.6954,
       "ConfidenceTier": "B",
@@ -209,9 +194,9 @@
       "DriverManifest": "results/evidence/IGHG1/Driver_Manifest.json"
     }
   ],
-  "15": [
+  "14": [
     {
-      "Rank": 15,
+      "Rank": 14,
       "Driver": "SLC34A2",
       "DriverConfidence": 80.4861,
       "ConfidenceTier": "B",
@@ -222,6 +207,21 @@
       "Completed": true,
       "DriverReport": "results/evidence/SLC34A2/Driver_Report.json",
       "DriverManifest": "results/evidence/SLC34A2/Driver_Manifest.json"
+    }
+  ],
+  "15": [
+    {
+      "Rank": 15,
+      "Driver": "TP53",
+      "DriverConfidence": 75.9613,
+      "ConfidenceTier": "C",
+      "QualityScore": 75.1938,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 62.9845,
+      "Completed": true,
+      "DriverReport": "results/evidence/TP53/Driver_Report.json",
+      "DriverManifest": "results/evidence/TP53/Driver_Manifest.json"
     }
   ],
   "16": [

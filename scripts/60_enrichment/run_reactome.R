@@ -6,6 +6,10 @@ if(length(args)!=1){
 
 driver <- args[1]
 
+source("scripts/60_enrichment/framework/00_prepare_transcriptomics.R")
+prepare_transcriptomics(driver)
+
+
 source("scripts/60_enrichment/modules/01_filter_deg.R")
 source("scripts/60_enrichment/modules/00_convert_ids.R")
 source("scripts/60_enrichment/modules/11_run_reactome.R")

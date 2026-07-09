@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "Driver": "COL1A1",
+    "Created": "2026-07-09 17:04:39.78417",
+    "Pipeline": "CCNIF"
+  },
+  "Modules": {
+    "GO": true,
+    "KEGG": true,
+    "Reactome": true,
+    "DiseaseOntology": true,
+    "GSEA": true
+  },
+  "Passed": 5,
+  "Failed": 0
+}

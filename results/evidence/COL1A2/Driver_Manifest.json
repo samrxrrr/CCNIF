@@ -3,13 +3,13 @@
     "Driver": "COL1A2",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:40.32727"
+    "Created": "2026-07-09 18:05:31.645633"
   },
   "Evidence": {
     "File": "results/evidence/COL1A2/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 614,
-    "Modified": "2026-07-09 15:43:39.284954"
+    "Modified": "2026-07-09 18:03:16.262625"
   },
   "Statistics": {
     "File": "results/evidence/COL1A2/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/COL1A2/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 407,
-    "Modified": "2026-07-09 15:43:40.316172"
+    "Modified": "2026-07-09 18:05:31.633166"
   },
   "Quality": {
     "File": "results/evidence/COL1A2/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 278,
-    "Modified": "2026-07-09 15:43:40.320276"
+    "Modified": "2026-07-09 18:05:31.633166"
   },
   "Confidence": {
     "File": "results/evidence/COL1A2/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 292,
-    "Modified": "2026-07-09 15:43:40.320276"
+    "Modified": "2026-07-09 18:05:31.637352"
   },
   "DriverReport": {
     "File": "results/evidence/COL1A2/Driver_Report.json",
     "Exists": true,
     "Size": 2035,
-    "Modified": "2026-07-09 15:43:40.324381"
+    "Modified": "2026-07-09 18:05:31.641537"
   }
 }

@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "Driver": "ACTG1",
+    "Created": "2026-07-09 17:32:34.874753",
+    "Pipeline": "CCNIF"
+  },
+  "Modules": {
+    "GO": true,
+    "KEGG": true,
+    "Reactome": true,
+    "DiseaseOntology": true,
+    "GSEA": true
+  },
+  "Passed": 5,
+  "Failed": 0
+}

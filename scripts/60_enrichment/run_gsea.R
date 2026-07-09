@@ -8,6 +8,10 @@ if(length(args) != 1){
 
 driver_gene <- args[1]
 
+source("scripts/60_enrichment/framework/00_prepare_transcriptomics.R")
+prepare_transcriptomics(driver_gene)
+
+
 source("scripts/60_enrichment/modules/06_prepare_ranking.R")
 source("scripts/60_enrichment/modules/07_run_gsea.R")
 source("scripts/60_enrichment/modules/08_export_gsea.R")

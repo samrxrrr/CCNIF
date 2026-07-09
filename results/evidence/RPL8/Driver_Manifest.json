@@ -3,13 +3,13 @@
     "Driver": "RPL8",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:44:13.604314"
+    "Created": "2026-07-09 17:19:41.177899"
   },
   "Evidence": {
     "File": "results/evidence/RPL8/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 612,
-    "Modified": "2026-07-09 15:44:12.55746"
+    "Modified": "2026-07-09 17:17:32.691932"
   },
   "Statistics": {
     "File": "results/evidence/RPL8/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/RPL8/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 401,
-    "Modified": "2026-07-09 15:44:13.596339"
+    "Size": 400,
+    "Modified": "2026-07-09 17:19:41.166897"
   },
   "Quality": {
     "File": "results/evidence/RPL8/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 283,
-    "Modified": "2026-07-09 15:44:13.596339"
+    "Size": 282,
+    "Modified": "2026-07-09 17:19:41.166897"
   },
   "Confidence": {
     "File": "results/evidence/RPL8/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:44:13.596339"
+    "Modified": "2026-07-09 17:19:41.166897"
   },
   "DriverReport": {
     "File": "results/evidence/RPL8/Driver_Report.json",
     "Exists": true,
-    "Size": 2031,
-    "Modified": "2026-07-09 15:44:13.596339"
+    "Size": 2029,
+    "Modified": "2026-07-09 17:19:41.17525"
   }
 }

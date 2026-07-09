@@ -3,13 +3,13 @@
     "Driver": "IGHG1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 15:43:55.729867"
+    "Created": "2026-07-09 16:46:38.495622"
   },
   "Evidence": {
     "File": "results/evidence/IGHG1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 613,
-    "Modified": "2026-07-09 15:43:54.659016"
+    "Modified": "2026-07-09 16:44:32.191571"
   },
   "Statistics": {
     "File": "results/evidence/IGHG1/Statistics/Models/Transcriptomics_Model.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/IGHG1/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 407,
-    "Modified": "2026-07-09 15:43:55.719262"
+    "Modified": "2026-07-09 16:46:38.484639"
   },
   "Quality": {
     "File": "results/evidence/IGHG1/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 283,
-    "Modified": "2026-07-09 15:43:55.723403"
+    "Modified": "2026-07-09 16:46:38.484639"
   },
   "Confidence": {
     "File": "results/evidence/IGHG1/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 15:43:55.723403"
+    "Modified": "2026-07-09 16:46:38.484639"
   },
   "DriverReport": {
     "File": "results/evidence/IGHG1/Driver_Report.json",
     "Exists": true,
     "Size": 2039,
-    "Modified": "2026-07-09 15:43:55.727545"
+    "Modified": "2026-07-09 16:46:38.492971"
   }
 }
