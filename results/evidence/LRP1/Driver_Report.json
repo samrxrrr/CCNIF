@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:59.489656",
+    "Created": "2026-07-09 15:44:08.923127",
     "Driver": "LRP1"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 13:58:59.046921"
+      "Created": "2026-07-09 15:44:07.847454"
     },
     "Driver": {
       "Driver": "LRP1",
@@ -41,46 +41,46 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:59.485844",
+      "Created": "2026-07-09 15:44:08.918275",
       "Driver": "LRP1"
     },
     "Input": {
-      "Observed": 2.5,
+      "Observed": 0.0834,
       "Variable": "AbsLog2FC",
       "Domain": "Transcriptomics"
     },
     "Direction": "HIGHER_BETTER",
-    "Percentile": 0.9994,
-    "Probability": 0.9994,
-    "NormalizedScore": 99.9365,
-    "Interpretation": "Very High",
+    "Percentile": 0.2664,
+    "Probability": 0.2664,
+    "NormalizedScore": 26.6409,
+    "Interpretation": "Low",
     "Diagnostics": null
   },
   "Quality": {
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:59.487956"
+      "Created": "2026-07-09 15:44:08.920777"
     },
-    "Strength": 99.9365,
+    "Strength": 26.6409,
     "Reliability": 100,
     "Consistency": 60,
-    "QualityScore": 89.9746,
-    "QualityTier": "Gold",
-    "Interpretation": "Evidence quality: Gold"
+    "QualityScore": 60.6564,
+    "QualityTier": "Bronze",
+    "Interpretation": "Evidence quality: Bronze"
   },
   "Confidence": {
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:59.489086"
+      "Created": "2026-07-09 15:44:08.922299"
     },
-    "Quality": 89.9746,
-    "NormalizedScore": 99.9365,
-    "Reliability": 95.4989,
-    "DriverConfidence": 94.8423,
-    "ConfidenceTier": "A",
-    "Interpretation": "Driver confidence: A"
+    "Quality": 60.6564,
+    "NormalizedScore": 26.6409,
+    "Reliability": 95.3568,
+    "DriverConfidence": 57.4261,
+    "ConfidenceTier": "D",
+    "Interpretation": "Driver confidence: D"
   },
   "Interpretation": null,
   "Manifest": null

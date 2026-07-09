@@ -3,13 +3,13 @@
     "Driver": "MUC16",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:40.394906"
+    "Created": "2026-07-09 15:43:31.317415"
   },
   "Evidence": {
     "File": "results/evidence/MUC16/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
-    "Size": 608,
-    "Modified": "2026-07-09 13:58:39.790545"
+    "Size": 609,
+    "Modified": "2026-07-09 15:43:30.159593"
   },
   "Statistics": {
     "File": "results/evidence/MUC16/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/MUC16/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 405,
-    "Modified": "2026-07-09 13:58:40.338294"
+    "Size": 408,
+    "Modified": "2026-07-09 15:43:31.274154"
   },
   "Quality": {
     "File": "results/evidence/MUC16/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 279,
-    "Modified": "2026-07-09 13:58:40.367286"
+    "Modified": "2026-07-09 15:43:31.294718"
   },
   "Confidence": {
     "File": "results/evidence/MUC16/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:40.375569"
+    "Modified": "2026-07-09 15:43:31.307056"
   },
   "DriverReport": {
     "File": "results/evidence/MUC16/Driver_Report.json",
     "Exists": true,
-    "Size": 2028,
-    "Modified": "2026-07-09 13:58:40.392136"
+    "Size": 2031,
+    "Modified": "2026-07-09 15:43:31.311169"
   }
 }

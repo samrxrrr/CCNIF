@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:50.72295",
+    "Created": "2026-07-09 15:43:51.297853",
     "Driver": "SFTPB"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 13:58:50.256223"
+      "Created": "2026-07-09 15:43:50.270411"
     },
     "Driver": {
       "Driver": "SFTPB",
@@ -41,18 +41,18 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:50.719166",
+      "Created": "2026-07-09 15:43:51.293517",
       "Driver": "SFTPB"
     },
     "Input": {
-      "Observed": 2.5,
+      "Observed": 1.6391,
       "Variable": "AbsLog2FC",
       "Domain": "Transcriptomics"
     },
     "Direction": "HIGHER_BETTER",
-    "Percentile": 0.9994,
-    "Probability": 0.9994,
-    "NormalizedScore": 99.9365,
+    "Percentile": 0.9958,
+    "Probability": 0.9958,
+    "NormalizedScore": 99.584,
     "Interpretation": "Very High",
     "Diagnostics": null
   },
@@ -60,12 +60,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:50.721105"
+      "Created": "2026-07-09 15:43:51.295788"
     },
-    "Strength": 99.9365,
+    "Strength": 99.584,
     "Reliability": 100,
     "Consistency": 60,
-    "QualityScore": 89.9746,
+    "QualityScore": 89.8336,
     "QualityTier": "Gold",
     "Interpretation": "Evidence quality: Gold"
   },
@@ -73,12 +73,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:50.722262"
+      "Created": "2026-07-09 15:43:51.297082"
     },
-    "Quality": 89.9746,
-    "NormalizedScore": 99.9365,
-    "Reliability": 95.4989,
-    "DriverConfidence": 94.8423,
+    "Quality": 89.8336,
+    "NormalizedScore": 99.584,
+    "Reliability": 95.3568,
+    "DriverConfidence": 94.627,
     "ConfidenceTier": "A",
     "Interpretation": "Driver confidence: A"
   },

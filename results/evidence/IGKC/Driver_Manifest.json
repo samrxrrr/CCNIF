@@ -3,13 +3,13 @@
     "Driver": "IGKC",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:53.34497"
+    "Created": "2026-07-09 15:43:56.838597"
   },
   "Evidence": {
     "File": "results/evidence/IGKC/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 608,
-    "Modified": "2026-07-09 13:58:52.875433"
+    "Modified": "2026-07-09 15:43:55.785527"
   },
   "Statistics": {
     "File": "results/evidence/IGKC/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/IGKC/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 403,
-    "Modified": "2026-07-09 13:58:53.334179"
+    "Size": 404,
+    "Modified": "2026-07-09 15:43:56.826419"
   },
   "Quality": {
     "File": "results/evidence/IGKC/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:53.338202"
+    "Size": 278,
+    "Modified": "2026-07-09 15:43:56.830538"
   },
   "Confidence": {
     "File": "results/evidence/IGKC/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 293,
-    "Modified": "2026-07-09 13:58:53.338202"
+    "Size": 291,
+    "Modified": "2026-07-09 15:43:56.830538"
   },
   "DriverReport": {
     "File": "results/evidence/IGKC/Driver_Report.json",
     "Exists": true,
-    "Size": 2025,
-    "Modified": "2026-07-09 13:58:53.342225"
+    "Size": 2023,
+    "Modified": "2026-07-09 15:43:56.834656"
   }
 }

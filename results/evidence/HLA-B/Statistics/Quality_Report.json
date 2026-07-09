@@ -2,12 +2,12 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:59:01.706419"
+    "Created": "2026-07-09 15:44:12.498633"
   },
-  "Strength": 99.9365,
+  "Strength": 54.2182,
   "Reliability": 100,
   "Consistency": 60,
-  "QualityScore": 89.9746,
-  "QualityTier": "Gold",
-  "Interpretation": "Evidence quality: Gold"
+  "QualityScore": 71.6873,
+  "QualityTier": "Silver",
+  "Interpretation": "Evidence quality: Silver"
 }

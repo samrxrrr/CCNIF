@@ -3,13 +3,13 @@
     "Driver": "PLEC",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:47.005814"
+    "Created": "2026-07-09 15:43:43.628916"
   },
   "Evidence": {
     "File": "results/evidence/PLEC/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 603,
-    "Modified": "2026-07-09 13:58:46.523789"
+    "Modified": "2026-07-09 15:43:42.598414"
   },
   "Statistics": {
     "File": "results/evidence/PLEC/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/PLEC/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 404,
-    "Modified": "2026-07-09 13:58:46.994942"
+    "Size": 405,
+    "Modified": "2026-07-09 15:43:43.620497"
   },
   "Quality": {
     "File": "results/evidence/PLEC/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:46.999003"
+    "Size": 282,
+    "Modified": "2026-07-09 15:43:43.620497"
   },
   "Confidence": {
     "File": "results/evidence/PLEC/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:46.999003"
+    "Modified": "2026-07-09 15:43:43.624602"
   },
   "DriverReport": {
     "File": "results/evidence/PLEC/Driver_Report.json",
     "Exists": true,
-    "Size": 2021,
-    "Modified": "2026-07-09 13:58:47.003067"
+    "Size": 2025,
+    "Modified": "2026-07-09 15:43:43.624602"
   }
 }

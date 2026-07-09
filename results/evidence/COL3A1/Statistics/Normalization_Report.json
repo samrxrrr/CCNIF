@@ -2,18 +2,18 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:41.97547",
+    "Created": "2026-07-09 15:43:34.551948",
     "Driver": "COL3A1"
   },
   "Input": {
-    "Observed": 2.5,
+    "Observed": 0.0605,
     "Variable": "AbsLog2FC",
     "Domain": "Transcriptomics"
   },
   "Direction": "HIGHER_BETTER",
-  "Percentile": 0.9994,
-  "Probability": 0.9994,
-  "NormalizedScore": 99.9365,
-  "Interpretation": "Very High",
+  "Percentile": 0.1987,
+  "Probability": 0.1987,
+  "NormalizedScore": 19.87,
+  "Interpretation": "Very Low",
   "Diagnostics": null
 }

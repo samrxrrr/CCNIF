@@ -3,13 +3,13 @@
     "Driver": "B2M",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:51.24472"
+    "Created": "2026-07-09 15:43:52.422845"
   },
   "Evidence": {
     "File": "results/evidence/B2M/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
     "Size": 612,
-    "Modified": "2026-07-09 13:58:50.776733"
+    "Modified": "2026-07-09 15:43:51.354031"
   },
   "Statistics": {
     "File": "results/evidence/B2M/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/B2M/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 403,
-    "Modified": "2026-07-09 13:58:51.233963"
+    "Size": 405,
+    "Modified": "2026-07-09 15:43:52.410135"
   },
   "Quality": {
     "File": "results/evidence/B2M/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:51.23777"
+    "Size": 278,
+    "Modified": "2026-07-09 15:43:52.414277"
   },
   "Confidence": {
     "File": "results/evidence/B2M/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:58:51.23777"
+    "Modified": "2026-07-09 15:43:52.414277"
   },
   "DriverReport": {
     "File": "results/evidence/B2M/Driver_Report.json",
     "Exists": true,
-    "Size": 2028,
-    "Modified": "2026-07-09 13:58:51.241577"
+    "Size": 2029,
+    "Modified": "2026-07-09 15:43:52.418419"
   }
 }

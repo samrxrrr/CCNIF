@@ -3,10 +3,10 @@
     "Version": "2.0",
     "Pipeline": "CCNIF",
     "Driver": "PLEC",
-    "Created": "2026-07-09 13:58:46.846712"
+    "Created": "2026-07-09 15:43:43.5978"
   },
-  "ReliabilityScore": 95.4989,
+  "ReliabilityScore": 95.3568,
   "Modules": 10,
-  "Scores": [100, 100, 78.356, 92.866, 83.767, 100, 100, 100, 100, 100],
+  "Scores": [100, 100, 78.356, 92.866, 83.767, 100, 99.2913, 99.2878, 100, 100],
   "Interpretation": "Excellent"
 }

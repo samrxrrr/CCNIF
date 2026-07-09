@@ -3,13 +3,13 @@
     "Driver": "FTL",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:51.77047"
+    "Created": "2026-07-09 15:43:53.5103"
   },
   "Evidence": {
     "File": "results/evidence/FTL/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
-    "Size": 610,
-    "Modified": "2026-07-09 13:58:51.306294"
+    "Size": 611,
+    "Modified": "2026-07-09 15:43:52.476401"
   },
   "Statistics": {
     "File": "results/evidence/FTL/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/FTL/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 403,
-    "Modified": "2026-07-09 13:58:51.76312"
+    "Size": 399,
+    "Modified": "2026-07-09 15:43:53.499372"
   },
   "Quality": {
     "File": "results/evidence/FTL/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 279,
-    "Modified": "2026-07-09 13:58:51.76312"
+    "Size": 283,
+    "Modified": "2026-07-09 15:43:53.503514"
   },
   "Confidence": {
     "File": "results/evidence/FTL/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 292,
-    "Modified": "2026-07-09 13:58:51.76312"
+    "Modified": "2026-07-09 15:43:53.503514"
   },
   "DriverReport": {
     "File": "results/evidence/FTL/Driver_Report.json",
     "Exists": true,
-    "Size": 2025,
-    "Modified": "2026-07-09 13:58:51.766927"
+    "Size": 2026,
+    "Modified": "2026-07-09 15:43:53.507655"
   }
 }

@@ -2,12 +2,12 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:49.095996"
+    "Created": "2026-07-09 15:43:48.01507"
   },
-  "Quality": 89.9746,
-  "NormalizedScore": 99.9365,
-  "Reliability": 95.4989,
-  "DriverConfidence": 94.8423,
-  "ConfidenceTier": "A",
-  "Interpretation": "Driver confidence: A"
+  "Quality": 79.7404,
+  "NormalizedScore": 74.3511,
+  "Reliability": 95.3568,
+  "DriverConfidence": 81.7582,
+  "ConfidenceTier": "B",
+  "Interpretation": "Driver confidence: B"
 }

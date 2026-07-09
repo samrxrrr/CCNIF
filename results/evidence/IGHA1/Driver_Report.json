@@ -2,7 +2,7 @@
   "Metadata": {
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:58:58.450892",
+    "Created": "2026-07-09 15:44:06.670593",
     "Driver": "IGHA1"
   },
   "Evidence": {
@@ -11,7 +11,7 @@
       "Domain": "Transcriptomics",
       "Pipeline": "CCNIF",
       "Version": "5.0",
-      "Created": "2026-07-09 13:58:57.943381"
+      "Created": "2026-07-09 15:44:05.656973"
     },
     "Driver": {
       "Driver": "IGHA1",
@@ -41,18 +41,18 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:58.446615",
+      "Created": "2026-07-09 15:44:06.666184",
       "Driver": "IGHA1"
     },
     "Input": {
-      "Observed": 2.5,
+      "Observed": 0.6626,
       "Variable": "AbsLog2FC",
       "Domain": "Transcriptomics"
     },
     "Direction": "HIGHER_BETTER",
-    "Percentile": 0.9994,
-    "Probability": 0.9994,
-    "NormalizedScore": 99.9365,
+    "Percentile": 0.9229,
+    "Probability": 0.9229,
+    "NormalizedScore": 92.2865,
     "Interpretation": "Very High",
     "Diagnostics": null
   },
@@ -60,12 +60,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:58.448932"
+      "Created": "2026-07-09 15:44:06.668515"
     },
-    "Strength": 99.9365,
+    "Strength": 92.2865,
     "Reliability": 100,
     "Consistency": 60,
-    "QualityScore": 89.9746,
+    "QualityScore": 86.9146,
     "QualityTier": "Gold",
     "Interpretation": "Evidence quality: Gold"
   },
@@ -73,12 +73,12 @@
     "Metadata": {
       "Version": "1.0",
       "Pipeline": "CCNIF",
-      "Created": "2026-07-09 13:58:58.450125"
+      "Created": "2026-07-09 15:44:06.669847"
     },
-    "Quality": 89.9746,
-    "NormalizedScore": 99.9365,
-    "Reliability": 95.4989,
-    "DriverConfidence": 94.8423,
+    "Quality": 86.9146,
+    "NormalizedScore": 92.2865,
+    "Reliability": 95.3568,
+    "DriverConfidence": 90.9053,
     "ConfidenceTier": "A",
     "Interpretation": "Driver confidence: A"
   },

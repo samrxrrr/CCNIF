@@ -3,13 +3,13 @@
     "Driver": "HSP90AB1",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 13:59:01.101806"
+    "Created": "2026-07-09 15:44:11.38357"
   },
   "Evidence": {
     "File": "results/evidence/HSP90AB1/Evidence/Transcriptomics_Evidence.json",
     "Exists": true,
-    "Size": 620,
-    "Modified": "2026-07-09 13:59:00.608717"
+    "Size": 621,
+    "Modified": "2026-07-09 15:44:10.351409"
   },
   "Statistics": {
     "File": "results/evidence/HSP90AB1/Statistics/Models/Transcriptomics_Model.json",
@@ -26,25 +26,25 @@
   "Normalization": {
     "File": "results/evidence/HSP90AB1/Statistics/Normalization_Report.json",
     "Exists": true,
-    "Size": 408,
-    "Modified": "2026-07-09 13:59:01.090883"
+    "Size": 405,
+    "Modified": "2026-07-09 15:44:11.370218"
   },
   "Quality": {
     "File": "results/evidence/HSP90AB1/Statistics/Quality_Report.json",
     "Exists": true,
-    "Size": 278,
-    "Modified": "2026-07-09 13:59:01.094852"
+    "Size": 283,
+    "Modified": "2026-07-09 15:44:11.374326"
   },
   "Confidence": {
     "File": "results/evidence/HSP90AB1/Statistics/Confidence_Report.json",
     "Exists": true,
     "Size": 293,
-    "Modified": "2026-07-09 13:59:01.094852"
+    "Modified": "2026-07-09 15:44:11.374326"
   },
   "DriverReport": {
     "File": "results/evidence/HSP90AB1/Driver_Report.json",
     "Exists": true,
-    "Size": 2045,
-    "Modified": "2026-07-09 13:59:01.098821"
+    "Size": 2048,
+    "Modified": "2026-07-09 15:44:11.378434"
   }
 }
