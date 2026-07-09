@@ -321,12 +321,14 @@ Planned
 
 # Phase 10 – Evidence Integration
 
-Status: IN PROGRESS
+Status: COMPLETED
 
 Completed
-- Integrated evidence manifest
 
-Planned
-- Evidence aggregation
+- Integrated evidence manifest
 - Driver confidence framework
-- Automated report generation
+- Evidence availability scoring
+
+Next
+
+Phase 11 – Automated Evidence Report
