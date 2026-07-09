@@ -338,20 +338,29 @@ Next
 
 
 
-# Phase 11 – Evidence Quality Engine
+
+# Phase 11 – Statistical Characterization Framework
 
 Status: IN PROGRESS
 
 Completed
 
-- Evidence Collector
-- Evidence Normalization Engine
-- Weighted Evidence Prototype
+- Evidence Collection
 - Evidence Statistics Extraction
 
-Next
+Current Goal
 
-- Distribution analysis
-- Percentile normalization
-- Data-driven weighting
+Build complete empirical distributions for every evidence domain.
+
+Planned
+
+- Transcriptomics distribution export
+- GO distribution export
+- KEGG distribution export
+- Hallmark distribution export
+- Disease Ontology distribution export
+- Reactome distribution export
+- STRING distribution export
+- Clinical distribution export
+- Distribution modeling
 - Mathematical specification
