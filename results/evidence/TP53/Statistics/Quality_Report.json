@@ -1,0 +1,13 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 09:19:22.604093"
+  },
+  "Strength": 99.9365,
+  "Reliability": 99.85,
+  "Consistency": 51.52,
+  "QualityScore": 87.8021,
+  "QualityTier": "Gold",
+  "Interpretation": "Evidence quality: Gold"
+}
