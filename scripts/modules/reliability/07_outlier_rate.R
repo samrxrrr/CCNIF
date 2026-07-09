@@ -6,32 +6,32 @@ q1 <- quantile(x,0.25)
 q3 <- quantile(x,0.75)
 iqr <- IQR(x)
 
-lower <- q1-1.5*iqr
-upper <- q3+1.5*iqr
+lower <- q1 - 1.5 * iqr
+upper <- q3 + 1.5 * iqr
 
-lower_ext <- q1-3*iqr
-upper_ext <- q3+3*iqr
+lower_ext <- q1 - 3 * iqr
+upper_ext <- q3 + 3 * iqr
 
-outliers <- x<xlower | x>upper
-extreme <- x<lower_ext | x>upper_ext
+outliers <- x < lower | x > upper
+extreme  <- x < lower_ext | x > upper_ext
 
 list(
 
-OutlierCount=sum(outliers),
+OutlierCount = sum(outliers),
 
-OutlierFraction=sum(outliers)/length(x),
+OutlierFraction = sum(outliers)/length(x),
 
-ExtremeCount=sum(extreme),
+ExtremeCount = sum(extreme),
 
-ExtremeFraction=sum(extreme)/length(x),
+ExtremeFraction = sum(extreme)/length(x),
 
-LowerFence=lower,
+LowerFence = lower,
 
-UpperFence=upper,
+UpperFence = upper,
 
-LowerExtreme=lower_ext,
+LowerExtreme = lower_ext,
 
-UpperExtreme=upper_ext
+UpperExtreme = upper_ext
 
 )
 
