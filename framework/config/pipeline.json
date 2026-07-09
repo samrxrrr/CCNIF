@@ -1,0 +1,19 @@
+{
+    "version":"1.0",
+
+    "steps":[
+
+        "transcriptomics",
+
+        "enrichment",
+
+        "network",
+
+        "survival",
+
+        "integration",
+
+        "report"
+
+    ]
+}
