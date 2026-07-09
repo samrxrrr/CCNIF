@@ -1,8 +1,0 @@
-{
-  "driver": "TP53",
-  "GO": true,
-  "KEGG": true,
-  "Hallmark": true,
-  "DiseaseOntology": true,
-  "Reactome": true
-}
