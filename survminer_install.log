@@ -1,0 +1,89 @@
+also installing the dependencies ‘nloptr’, ‘pbkrtest’, ‘lme4’, ‘car’, ‘rstatix’, ‘ggpubr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/nloptr_2.2.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/pbkrtest_0.5.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/lme4_2.0-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/car_3.1-5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/rstatix_1.0.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggpubr_1.0.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/survminer_0.5.2.tar.gz'
+* installing *source* package ‘nloptr’ ...
+** this is package ‘nloptr’ version ‘2.2.1’
+** package ‘nloptr’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking for pkg-config... /usr/bin/pkg-config
+checking if pkg-config knows NLopt... no
+checking for cmake... no
+
+------------------ CMAKE NOT FOUND --------------------
+
+CMake was not found on the PATH. Please install CMake:
+
+ - sudo yum install cmake          (Fedora/CentOS; inside a terminal)
+ - sudo apt install cmake          (Debian/Ubuntu; inside a terminal).
+ - sudo pacman -S cmake            (Arch Linux; inside a terminal).
+ - brew install --cask cmake       (MacOS; inside a terminal with Homebrew)
+ - sudo port install cmake         (MacOS; inside a terminal with MacPorts)
+
+Alternatively install CMake from: <https://cmake.org/>
+
+-------------------------------------------------------
+
+ERROR: configuration failed for package ‘nloptr’
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/nloptr’
+ERROR: dependency ‘nloptr’ is not available for package ‘lme4’
+Perhaps try a variation of:
+install.packages('nloptr')
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/lme4’
+ERROR: dependency ‘lme4’ is not available for package ‘pbkrtest’
+Perhaps try a variation of:
+install.packages('lme4')
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/pbkrtest’
+ERROR: dependencies ‘pbkrtest’, ‘lme4’ are not available for package ‘car’
+Perhaps try a variation of:
+install.packages(c('pbkrtest', 'lme4'))
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/car’
+ERROR: dependency ‘car’ is not available for package ‘rstatix’
+Perhaps try a variation of:
+install.packages('car')
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/rstatix’
+ERROR: dependency ‘rstatix’ is not available for package ‘ggpubr’
+Perhaps try a variation of:
+install.packages('rstatix')
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/ggpubr’
+ERROR: dependency ‘ggpubr’ is not available for package ‘survminer’
+Perhaps try a variation of:
+install.packages('ggpubr')
+* removing ‘/home/samrxrr/miniforge3/envs/ccnif/lib/R/library/survminer’
+
+The downloaded source packages are in
+	‘/tmp/RtmpDghPTZ/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Warning messages:
+1: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘nloptr’ had non-zero exit status
+2: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘lme4’ had non-zero exit status
+3: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘pbkrtest’ had non-zero exit status
+4: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘car’ had non-zero exit status
+5: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘rstatix’ had non-zero exit status
+6: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘ggpubr’ had non-zero exit status
+7: In install.packages("survminer", repos = "https://cloud.r-project.org",  :
+  installation of package ‘survminer’ had non-zero exit status

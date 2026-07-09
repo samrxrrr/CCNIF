@@ -1,0 +1,9 @@
+{
+  "Rows": 431,
+  "Columns": 10,
+  "DuplicateRows": 0,
+  "MissingValues": 174,
+  "InfiniteValues": 0,
+  "NumericColumns": ["Degree", "Betweenness", "Closeness", "Eigenvector", "PageRank", "CompositeScore", "Rank", "Percentile"],
+  "ConstantColumns": []
+}

@@ -1,0 +1,62 @@
+{
+  "Metadata": {
+    "Driver": "TP53",
+    "Domain": "Transcriptomics",
+    "Variable": "AbsLog2FC",
+    "Source": {},
+    "Version": "2.0",
+    "Created": "2026-07-09 06:43:50.813218"
+  },
+  "Raw": {
+    "Observed": 2.5,
+    "Units": {},
+    "Direction": "higher"
+  },
+  "Statistics": {
+    "Mean": {},
+    "Median": {},
+    "SD": {},
+    "MAD": {},
+    "Variance": {},
+    "IQR": {},
+    "Skewness": {},
+    "Kurtosis": {},
+    "CV": {}
+  },
+  "Distribution": {
+    "ECDF": "results/evidence/TP53/Statistics/ECDF/Transcriptomics_AbsLog2FC_ECDF.tsv",
+    "Percentile": 0.9994,
+    "Rank": null,
+    "Outlier": {},
+    "OutlierMethod": {}
+  },
+  "Normalization": {
+    "Method": {},
+    "RawScore": {},
+    "NormalizedScore": {},
+    "PercentileScore": {}
+  },
+  "Reliability": {
+    "SampleSize": {},
+    "Missingness": {},
+    "Stability": {},
+    "Score": {}
+  },
+  "Quality": {
+    "Strength": {},
+    "Reliability": {},
+    "Score": {},
+    "Tier": {}
+  },
+  "Confidence": {
+    "IntegratedScore": {},
+    "Tier": {},
+    "Explanation": {}
+  },
+  "Audit": {
+    "PipelineVersion": "CCNIF-1.0",
+    "Timestamp": "2026-07-09 06:43:50.813625",
+    "QC": {},
+    "Notes": {}
+  }
+}

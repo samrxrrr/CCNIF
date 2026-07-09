@@ -1,0 +1,8 @@
+{
+  "driver": "TP53",
+  "patients": 505,
+  "mutated": 245,
+  "wildtype": 260,
+  "events": 184,
+  "logrank_p": 0.2276
+}

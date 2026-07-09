@@ -1,0 +1,9 @@
+{
+  "Rows": 24,
+  "Columns": 14,
+  "DuplicateRows": 0,
+  "MissingValues": 0,
+  "InfiniteValues": 0,
+  "NumericColumns": ["RichFactor", "FoldEnrichment", "zScore", "pvalue", "p.adjust", "qvalue", "Count", "Rank", "Percentile"],
+  "ConstantColumns": []
+}

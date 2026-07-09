@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "name": "TP53",
+    "created": "2026-07-09 05:48:46.451845",
+    "version": "2.0",
+    "status": "initialized"
+  },
+  "inputs": {
+    "clinical": null,
+    "expression": null,
+    "mutation": null
+  },
+  "analyses": {
+    "transcriptomics": null,
+    "enrichment": {
+      "GO": null,
+      "KEGG": null,
+      "Hallmark": null,
+      "DiseaseOntology": null,
+      "Reactome": null
+    },
+    "network": {
+      "STRING": null,
+      "Centrality": null,
+      "Communities": null
+    },
+    "survival": {
+      "Expression": null,
+      "Mutation": null,
+      "Cox": null
+    }
+  },
+  "evidence": [],
+  "outputs": {
+    "tables": [],
+    "figures": [],
+    "reports": []
+  },
+  "logs": [
+    {
+      "time": "2026-07-09 05:48:46.45235",
+      "message": "Driver created: TP53"
+    },
+    {
+      "time": "2026-07-09 05:48:46.477723",
+      "message": "Framework initialized successfully."
+    }
+  ]
+}

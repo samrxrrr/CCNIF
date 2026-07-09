@@ -1,0 +1,32 @@
+{
+  "Transcriptomics": {
+    "padj": 0.2796,
+    "log2FC": 0.0613
+  },
+  "GO": {
+    "best": 1,
+    "terms": 0.28
+  },
+  "KEGG": {
+    "best": 0.3,
+    "terms": 0.07
+  },
+  "DiseaseOntology": {
+    "best": 0.3523,
+    "terms": 0.24
+  },
+  "Reactome": {
+    "best": 0.3097,
+    "terms": 0.24
+  },
+  "STRING": {
+    "Degree": 0.66,
+    "Composite": 0.507
+  },
+  "Clinical": {
+    "Expression_p": 0.0219,
+    "Mutation_p": 0.0643,
+    "Expression_HR": 0.9356,
+    "Mutation_HR": 0.9376
+  }
+}

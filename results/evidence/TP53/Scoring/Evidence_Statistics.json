@@ -1,0 +1,59 @@
+{
+  "Transcriptomics": {
+    "Genes": 23814,
+    "MeanLogFC": 0.2591,
+    "MedianLogFC": 0.1763,
+    "SDLogFC": 0.2804,
+    "MaxLogFC": 5.0345,
+    "MinPadj": 9.6065e-77,
+    "MedianPadj": 0.0687
+  },
+  "GO": {
+    "Terms": 56,
+    "MedianPadj": 0.0161,
+    "MinPadj": 0,
+    "MedianCount": 11.5
+  },
+  "KEGG": {
+    "Terms": 7,
+    "MedianPadj": 0.0184,
+    "MinPadj": 0.001,
+    "MedianCount": 7
+  },
+  "DiseaseOntology": {
+    "Terms": 24,
+    "MedianPadj": 0.0094,
+    "MinPadj": 0.0003,
+    "MedianCount": 11.5
+  },
+  "Reactome": {
+    "Terms": 24,
+    "MedianPadj": 0.0052,
+    "MinPadj": 0.0008,
+    "MedianCount": 5
+  },
+  "STRING": {
+    "Nodes": 431,
+    "Degree": {
+      "Min": 0,
+      "Q1": 2,
+      "Median": 4,
+      "Mean": 8.297,
+      "Q3": 12,
+      "Max": 132
+    },
+    "Composite": {
+      "Min": -2.6098,
+      "Q1": -1.7694,
+      "Median": -0.4622,
+      "Mean": 0.6136,
+      "Q3": 1.9989,
+      "Max": 50.7014
+    }
+  },
+  "Clinical": {
+    "Variables": 12,
+    "MedianHR": 1.7792,
+    "MedianP": 0.2024
+  }
+}

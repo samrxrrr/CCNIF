@@ -1,0 +1,13 @@
+{
+  "driver": "TP53",
+  "transcriptomics": true,
+  "GO": true,
+  "KEGG": true,
+  "Hallmark": true,
+  "DiseaseOntology": true,
+  "Reactome": true,
+  "STRING": true,
+  "ExpressionSurvival": true,
+  "MutationSurvival": true,
+  "Clinical": true
+}

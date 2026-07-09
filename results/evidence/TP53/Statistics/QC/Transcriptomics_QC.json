@@ -1,0 +1,9 @@
+{
+  "Rows": 23814,
+  "Columns": 8,
+  "DuplicateRows": 0,
+  "MissingValues": 0,
+  "InfiniteValues": 0,
+  "NumericColumns": ["GeneID", "log2FC", "AbsLog2FC", "padj", "baseMean", "Rank", "Percentile"],
+  "ConstantColumns": []
+}

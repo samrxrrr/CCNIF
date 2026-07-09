@@ -1,0 +1,31 @@
+Domain	Variable	Type	Positive	Probability	Identifier	Ordinal	Description
+Transcriptomics	log2FC	continuous	FALSE	FALSE	FALSE	FALSE	Log2 Fold Change
+Transcriptomics	AbsLog2FC	continuous	TRUE	FALSE	FALSE	FALSE	Absolute Log2 Fold Change
+Transcriptomics	padj	probability	FALSE	TRUE	FALSE	FALSE	Adjusted P Value
+Transcriptomics	baseMean	positive	TRUE	FALSE	FALSE	FALSE	Mean Expression
+Transcriptomics	Rank	ordinal	FALSE	FALSE	FALSE	TRUE	Rank
+Transcriptomics	Percentile	percentile	FALSE	TRUE	FALSE	FALSE	Empirical Percentile
+Transcriptomics	GeneID	identifier	FALSE	FALSE	TRUE	FALSE	Gene Identifier
+STRING	Degree	count	TRUE	FALSE	FALSE	FALSE	Node Degree
+STRING	Betweenness	continuous	TRUE	FALSE	FALSE	FALSE	Betweenness Centrality
+STRING	Closeness	continuous	TRUE	FALSE	FALSE	FALSE	Closeness Centrality
+STRING	Eigenvector	continuous	TRUE	FALSE	FALSE	FALSE	Eigenvector Centrality
+STRING	PageRank	continuous	TRUE	FALSE	FALSE	FALSE	PageRank
+STRING	CompositeScore	continuous	FALSE	FALSE	FALSE	FALSE	Composite Score
+Clinical	HR	positive	TRUE	FALSE	FALSE	FALSE	Hazard Ratio
+Clinical	Lower95	positive	TRUE	FALSE	FALSE	FALSE	95 Percent Lower CI
+Clinical	Upper95	positive	TRUE	FALSE	FALSE	FALSE	95 Percent Upper CI
+Clinical	Pvalue	probability	FALSE	TRUE	FALSE	FALSE	P Value
+Clinical	Rank	ordinal	FALSE	FALSE	FALSE	TRUE	Rank
+Clinical	Percentile	percentile	FALSE	TRUE	FALSE	FALSE	Percentile
+Enrichment	p.adjust	probability	FALSE	TRUE	FALSE	FALSE	Adjusted P Value
+Enrichment	pvalue	probability	FALSE	TRUE	FALSE	FALSE	P Value
+Enrichment	qvalue	probability	FALSE	TRUE	FALSE	FALSE	Q Value
+Enrichment	Count	count	TRUE	FALSE	FALSE	FALSE	Gene Count
+Enrichment	RichFactor	continuous	TRUE	FALSE	FALSE	FALSE	Rich Factor
+Enrichment	FoldEnrichment	continuous	TRUE	FALSE	FALSE	FALSE	Fold Enrichment
+Enrichment	zScore	continuous	FALSE	FALSE	FALSE	FALSE	Z Score
+Enrichment	ES	continuous	FALSE	FALSE	FALSE	FALSE	Enrichment Score
+Enrichment	NES	continuous	FALSE	FALSE	FALSE	FALSE	Normalized Enrichment Score
+Enrichment	size	count	TRUE	FALSE	FALSE	FALSE	Gene Set Size
+Enrichment	log2err	continuous	TRUE	FALSE	FALSE	FALSE	Log2 Error
