@@ -4,6 +4,8 @@ source("scripts/modules/refactor/01_dynamic_normalization.R")
 source("scripts/modules/refactor/02_dynamic_quality.R")
 source("scripts/modules/refactor/03_dynamic_confidence.R")
 
+# Reporting
+source("scripts/modules/reporting/01_master_report.R")
 source("scripts/modules/reporting/02_build_report.R")
 source("scripts/modules/reporting/03_export_report.R")
 source("scripts/modules/reporting/04_driver_manifest.R")
@@ -33,6 +35,10 @@ manifest <- build_driver_manifest(driver)
 export_driver_manifest(manifest,driver)
 
 validation <- validate_driver_report(driver)
+
+cat("\n=====================================\n")
+cat("PIPELINE SUMMARY\n")
+cat("=====================================\n")
 
 print(validation)
 
