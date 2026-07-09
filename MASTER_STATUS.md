@@ -334,21 +334,18 @@ Next
 
 
 
-# Phase 11 – Evidence Quality Scoring
+
+# Phase 11 – Evidence Quality Engine
 
 Status: IN PROGRESS
 
 Completed
 
-- Transcriptomic evidence scoring
+- Evidence Collector
 
 Planned
 
-- GO scoring
-- KEGG scoring
-- Hallmark scoring
-- Disease Ontology scoring
-- Reactome scoring
-- STRING scoring
-- Clinical scoring
-- Weighted Driver Confidence Model
+- Evidence Normalization Engine
+- Weighted Evidence Engine
+- Driver Confidence Calculator (scientific)
+- Publication Report Generator
