@@ -25,6 +25,7 @@ simplifyVector=TRUE
 )
 
 stats <- distribution$Statistics$AbsLog2FC
+diag  <- distribution$Diagnostics$AbsLog2FC
 
 list(
 
@@ -46,13 +47,13 @@ SD=stats$SD,
 
 MAD=stats$MAD,
 
-CV=stats$SD/stats$Mean,
+CV=diag$CV,
 
 Percentile=evidence$Distribution$Percentile,
 
-Skewness=distribution$Diagnostics$AbsLog2FC$Skewness,
+Skewness=diag$Skewness,
 
-OutlierFraction=distribution$Diagnostics$AbsLog2FC$OutlierFraction,
+OutlierFraction=diag$OutlierCount/diag$N,
 
 MissingFraction=stats$Missing/stats$N
 
