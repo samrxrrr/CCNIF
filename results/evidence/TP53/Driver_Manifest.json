@@ -3,7 +3,7 @@
     "Driver": "TP53",
     "Version": "1.0",
     "Pipeline": "CCNIF",
-    "Created": "2026-07-09 10:52:29.743723"
+    "Created": "2026-07-09 10:53:25.279121"
   },
   "Evidence": {
     "File": "results/evidence/TP53/Evidence/Transcriptomics_Evidence.json",
@@ -27,24 +27,24 @@
     "File": "results/evidence/TP53/Statistics/Normalization_Report.json",
     "Exists": true,
     "Size": 404,
-    "Modified": "2026-07-09 10:39:34.437047"
+    "Modified": "2026-07-09 10:53:25.215198"
   },
   "Quality": {
     "File": "results/evidence/TP53/Statistics/Quality_Report.json",
     "Exists": true,
     "Size": 284,
-    "Modified": "2026-07-09 10:39:34.437047"
+    "Modified": "2026-07-09 10:53:25.230634"
   },
   "Confidence": {
     "File": "results/evidence/TP53/Statistics/Confidence_Report.json",
     "Exists": true,
-    "Size": 292,
-    "Modified": "2026-07-09 10:39:34.437047"
+    "Size": 293,
+    "Modified": "2026-07-09 10:53:25.234493"
   },
   "DriverReport": {
     "File": "results/evidence/TP53/Driver_Report.json",
     "Exists": true,
-    "Size": 10284,
-    "Modified": "2026-07-09 10:52:29.730049"
+    "Size": 10285,
+    "Modified": "2026-07-09 10:53:25.269223"
   }
 }
