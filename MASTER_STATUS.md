@@ -342,6 +342,7 @@ Next
 
 
 
+
 # Phase 11 – Statistical Characterization Framework
 
 Status: IN PROGRESS
@@ -353,14 +354,14 @@ Completed
 - CCNIF data schema
 - Transcriptomics distribution engine
 - STRING distribution engine
+- Clinical distribution engine
 
 Current Goal
 
-Build standardized empirical distributions for every evidence domain.
+Standardize empirical distributions across all evidence domains.
 
 Next
 
-- Clinical distribution engine
 - GO distribution engine
 - KEGG distribution engine
 - Reactome distribution engine
