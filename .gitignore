@@ -20,3 +20,12 @@ Thumbs.db
 
 .env
 
+
+# Large analysis outputs
+*.rds
+*.RDS
+
+results/audit/
+data/processed/
+results/evidence/*/transcriptomics/
+
