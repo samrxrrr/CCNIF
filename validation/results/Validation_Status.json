@@ -1,0 +1,14 @@
+{
+    "Framework":"CCNIF",
+    "Status":"Frozen",
+    "DatabasesIntegrated":[
+        "IntOGen",
+        "OncoKB",
+        "CancerMine",
+        "NCG"
+    ],
+    "OptionalFutureDatabase":[
+        "COSMIC_CGC"
+    ],
+    "ValidationComplete":true
+}

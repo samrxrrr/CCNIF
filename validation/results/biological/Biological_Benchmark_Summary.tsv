@@ -1,0 +1,6 @@
+Database	ReferenceGenes	MatchedDrivers	CoveragePercent
+CGC	0	0	0.0
+IntOGen	633	12	24.0
+OncoKB	1242	13	26.0
+CancerMine	7266	38	76.0
+NCG	3347	35	70.0

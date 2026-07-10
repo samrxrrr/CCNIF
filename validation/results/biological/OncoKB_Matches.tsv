@@ -1,0 +1,14 @@
+Rank	Driver	DriverConfidence	ConfidenceTier	QualityScore	QualityTier	ReliabilityScore	NormalizedScore	Completed	DriverReport	DriverManifest
+3	EGFR	92.3442	A	88.0431	Gold	95.3568	95.1078	True	results/evidence/EGFR/Driver_Report.json	results/evidence/EGFR/Driver_Manifest.json
+14	SLC34A2	80.4861	B	78.7427	Silver	95.3568	71.8567	True	results/evidence/SLC34A2/Driver_Report.json	results/evidence/SLC34A2/Driver_Manifest.json
+15	TP53	75.9613	C	75.1938	Silver	95.3568	62.9845	True	results/evidence/TP53/Driver_Report.json	results/evidence/TP53/Driver_Manifest.json
+16	HLA-B	71.4905	C	71.6873	Silver	95.3568	54.2182	True	results/evidence/HLA-B/Driver_Report.json	results/evidence/HLA-B/Driver_Manifest.json
+22	COL1A1	65.2244	D	66.7727	Bronze	95.3568	41.9318	True	results/evidence/COL1A1/Driver_Report.json	results/evidence/COL1A1/Driver_Manifest.json
+23	MYH9	64.4608	D	66.1738	Bronze	95.3568	40.4345	True	results/evidence/MYH9/Driver_Report.json	results/evidence/MYH9/Driver_Manifest.json
+24	KRAS	64.1518	D	65.9314	Bronze	95.3568	39.8286	True	results/evidence/KRAS/Driver_Report.json	results/evidence/KRAS/Driver_Manifest.json
+26	HSP90AB1	62.0294	D	64.2668	Bronze	95.3568	35.6671	True	results/evidence/HSP90AB1/Driver_Report.json	results/evidence/HSP90AB1/Driver_Manifest.json
+27	ACTB	62.0153	D	64.2558	Bronze	95.3568	35.6394	True	results/evidence/ACTB/Driver_Report.json	results/evidence/ACTB/Driver_Manifest.json
+31	KEAP1	59.8595	D	62.5649	Bronze	95.3568	31.4123	True	results/evidence/KEAP1/Driver_Report.json	results/evidence/KEAP1/Driver_Manifest.json
+33	GNAS	59.2424	D	62.0809	Bronze	95.3568	30.2023	True	results/evidence/GNAS/Driver_Report.json	results/evidence/GNAS/Driver_Manifest.json
+35	ACTG1	56.2646	D	59.7454	Weak	95.3568	24.3635	True	results/evidence/ACTG1/Driver_Report.json	results/evidence/ACTG1/Driver_Manifest.json
+38	B2M	53.4737	D	57.5565	Weak	95.3568	18.8912	True	results/evidence/B2M/Driver_Report.json	results/evidence/B2M/Driver_Manifest.json
