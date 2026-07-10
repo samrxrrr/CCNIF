@@ -1,38 +1,22 @@
-# Python
 __pycache__/
 *.pyc
+*.pyo
 
-# R
 .Rhistory
 .RData
-.Rproj.user/
 
-# Conda
-.env
-.venv
+*.log
+*.tmp
+*.bak
+*.orig
 
-# Large analysis outputs
-*.rds
-*.rda
-*.RData
-*.gz
-*.zip
-*.tar
+release/audit/
 
-# Large matrices
-*Normalized_Counts*
-*VST*
-*counts.tsv
-
-# Raw data
-data/raw/
-data/processed/
-
-# Temporary
-tmp/
-temp/
-logs/
-
-# OS
 .DS_Store
 Thumbs.db
+
+.vscode/
+.idea/
+
+.env
+

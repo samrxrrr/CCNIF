@@ -1,0 +1,19 @@
+{
+  "Metadata": {
+    "Version": "1.0",
+    "Pipeline": "CCNIF",
+    "Created": "2026-07-09 07:18:04.613443"
+  },
+  "Statistics": null,
+  "Diagnostics": null,
+  "Characterization": null,
+  "ECDF": null,
+  "Interpolation": null,
+  "EmpiricalModel": null,
+  "ParametricFits": null,
+  "GoodnessOfFit": null,
+  "ModelComparison": null,
+  "BestModel": null,
+  "Interpretation": null,
+  "Notes": null
+}

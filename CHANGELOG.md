@@ -1,13 +1,9 @@
-# CHANGELOG
+# Changelog
 
 ## v1.1
 
-- External benchmarking
-- Supplementary package
-- Production release
-- Validation framework
-- Reproducibility package
-
-## v1.0
-
-Initial production release
+- Production pipeline finalized
+- External validation added
+- Biological benchmarking completed
+- Publication figures generated
+- Documentation expanded

@@ -1,26 +1,23 @@
 # CCNIF
 
-Cancer Causal Network Inference Framework
+Cancer Causal Network Inference Framework (CCNIF)
 
-Version: 1.1
+A reproducible computational framework for prioritizing cancer driver genes by integrating transcriptomics, functional enrichment, network evidence, survival analysis, confidence scoring, quality assessment, and external biological validation.
 
-CCNIF is a reproducible computational framework for prioritizing cancer
-driver genes using transcriptomics, functional enrichment, evidence
-integration, confidence modeling, quality assessment, reliability
-analysis and external biological benchmarking.
+Current release:
+v1.1
 
-Current implementation:
+Dataset:
+TCGA-LUAD
 
-• TCGA-LUAD
-• 50 candidate drivers
-• GO
-• KEGG
-• Reactome
-• Disease Ontology
-• Hallmark GSEA
-• IntOGen
-• OncoKB
-• CancerMine
-• NCG
+Drivers analyzed:
+50
 
-License: MIT
+External validation:
+- IntOGen
+- OncoKB
+- CancerMine
+- NCG
+
+License:
+MIT
