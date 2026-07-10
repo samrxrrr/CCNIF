@@ -1,0 +1,52 @@
+
+METHODS
+
+Framework
+---------
+Cancer Causal Network Inference Framework (CCNIF) v1.0
+
+Cohort
+------
+TCGA-LUAD
+
+Differential Expression
+-----------------------
+Minimum CPM: 1
+Minimum sample fraction: 0.2
+Transformation: log2(CPM+1)
+
+DESeq2
+------
+Prefilter minimum count: 10
+Prefilter sample fraction: 0.2
+Adjusted P-value cutoff: 0.05
+Log2 Fold Change cutoff: 1.0
+Shrinkage method: apeglm
+
+Functional Enrichment
+---------------------
+Organism: Homo sapiens
+Adjusted P-value cutoff: 0.05
+
+Gene Set Enrichment Analysis
+----------------------------
+Collection: H
+Minimum pathway size: 15
+Maximum pathway size: 500
+Permutations: 10000
+Ranking metric: signed_log10_padj
+
+Production Pipeline
+-------------------
+The production workflow consisted of transcriptomic evidence generation,
+clinical evidence integration,
+functional enrichment,
+network analysis,
+survival analysis,
+statistical modeling,
+reliability estimation,
+normalization,
+quality assessment,
+confidence scoring,
+driver report generation,
+and master index construction.

@@ -1,0 +1,160 @@
+.
+├── CHANGELOG.md
+├── CITATION.cff
+├── INSTALL.md
+├── LICENSE
+├── MASTER_ROADMAP.md
+├── MASTER_STATUS.md
+├── README.md
+├── backup
+│   └── clinical_v1
+├── ccnif
+│   ├── __init__.py
+│   ├── __pycache__
+│   ├── config.py
+│   ├── download.py
+│   ├── gdc.py
+│   ├── logger.py
+│   ├── reporting.py
+│   ├── state.py
+│   └── utils.py
+├── ccnif.egg-info
+│   ├── PKG-INFO
+│   ├── SOURCES.txt
+│   ├── dependency_links.txt
+│   └── top_level.txt
+├── config
+│   ├── analysis_config.json
+│   ├── datasets.yaml
+│   ├── drivers.txt
+│   ├── modules.json
+│   ├── paths.R
+│   ├── paths.yaml
+│   ├── schema
+│   └── variable_registry.tsv
+├── data
+│   ├── metadata
+│   ├── processed
+│   ├── raw
+│   └── transcriptomics
+├── docs
+│   ├── CCNIF_MASTER_ARCHITECTURE.md
+│   ├── DATA_SCHEMA.md
+│   ├── NEXT_PHASE.md
+│   ├── project_status.md
+│   ├── project_structure.txt
+│   └── study_design.md
+├── environment
+├── environment.yml
+├── examples
+├── figures
+│   ├── audit
+│   ├── drivers
+│   ├── evidence
+│   ├── expression_qc
+│   └── qc
+├── file
+├── framework
+│   ├── config
+│   ├── core
+│   ├── modules
+│   ├── run_driver.R
+│   └── utils
+├── github
+├── logs
+│   └── ccnif.log
+├── manuscript
+│   ├── figures
+│   ├── methods
+│   ├── results
+│   ├── scripts
+│   ├── supplementary
+│   └── tables
+├── mean
+├── modeling_modules.txt
+├── modeling_part2.txt
+├── nohup.out
+├── notebooks
+├── pyproject.toml
+├── read.delim
+├── read.table
+├── references
+├── release
+├── releases
+│   ├── v1.0
+│   └── v1.1_validation
+├── reliability_modules.txt
+├── requirements.txt
+├── results
+│   ├── atlas
+│   ├── audit
+│   ├── batch
+│   ├── build
+│   ├── drivers
+│   ├── evidence
+│   ├── expression_qc
+│   ├── logs
+│   ├── master
+│   ├── missing_maf_patients.csv
+│   ├── project_state.json
+│   ├── qc
+│   └── registry
+├── scripts
+│   ├── 01_merge_expression.py
+│   ├── 02_expression_qc.py
+│   ├── 03_rename_samples.py
+│   ├── 05_harmonize_clinical.py
+│   ├── 06_download_maf_manifest.py
+│   ├── 07_filter_maf_manifest.py
+│   ├── 08_build_unique_maf_manifest.py
+│   ├── 09_find_missing_maf_patients.py
+│   ├── 10_build_gdc_manifest.py
+│   ├── 10_build_official_gdc_manifest.py
+│   ├── 10_parse_maf.py
+│   ├── 11_build_mutation_matrix.py
+│   ├── 12_build_final_cohort.py
+│   ├── 13_normalize_expression.py
+│   ├── 20_clinical
+│   ├── 30_qc
+│   ├── 40_analysis
+│   ├── 50_deseq
+│   ├── 60_enrichment
+│   ├── 61_kegg
+│   ├── 70_string
+│   ├── 80_survival
+│   ├── 90_audit
+│   ├── 99_framework
+│   ├── build_expression_cohort.py
+│   ├── core
+│   ├── create_expression_manifest.py
+│   ├── download_data.sh
+│   ├── modules
+│   ├── query_expression.py
+│   ├── query_gdc.py
+│   ├── run_all_drivers.R
+│   ├── run_ccnif.R
+│   ├── run_driver.R
+│   ├── test_config.py
+│   ├── test_logger.py
+│   ├── test_state.py
+│   └── utils
+├── supplementary
+├── survminer_install.log
+├── tables
+├── tests
+│   └── __init__.py
+├── tmp
+│   ├── Distribution_Report.json
+│   ├── Model_Comparison.json
+│   └── Model_Comparison.tsv
+├── validation
+│   ├── benchmark
+│   ├── config.json
+│   ├── figures
+│   ├── reference
+│   ├── results
+│   ├── scripts
+│   └── tables
+└── workflow
+
+80 directories, 78 files

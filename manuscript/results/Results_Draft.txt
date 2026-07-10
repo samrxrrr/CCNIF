@@ -1,0 +1,28 @@
+
+RESULTS
+
+CCNIF analyzed 50 candidate driver genes.
+
+Average Driver Confidence Score:
+66.17
+
+Average Quality Score:
+67.51
+
+Average Reliability Score:
+95.36
+
+Confidence Tier Distribution
+
+Tier A : 5
+Tier B : 9
+Tier C : 5
+Tier D : 31
+
+Top ranked drivers
+
+SFTPB, ZFHX4, EGFR, MUC16, IGHA1, DST, A2M, COL11A1, RPL3, EEF2
+
+Biological validation demonstrated substantial overlap with four
+independent external resources including IntOGen,
+OncoKB, CancerMine and NCG.

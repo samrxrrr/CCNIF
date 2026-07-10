@@ -2,29 +2,8 @@ name: ccnif
 channels:
   - conda-forge
 dependencies:
-  - python=3.12
-  - pip
-  - pyyaml
-  - pydantic-settings
-  - rich
-  - pydantic
-  - tqdm
-  - requests
+  - python
+  - r-base
   - pandas
-  - gdc-client
-  - pyarrow
   - numpy
   - matplotlib
-  - scikit-learn
-  - openpyxl
-  - scipy
-  - statsmodels
-  - gh
-  - r-base
-  - r-essentials
-  - make
-  - cmake
-  - gcc_linux-64
-  - gxx_linux-64
-  - pkg-config
-prefix: /home/samrxrr/miniforge3/envs/ccnif
