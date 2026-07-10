@@ -1,0 +1,20 @@
+{
+  "transcriptomics": {
+    "enabled": true
+  },
+  "enrichment": {
+    "enabled": true
+  },
+  "network": {
+    "enabled": true
+  },
+  "survival": {
+    "enabled": true
+  },
+  "integration": {
+    "enabled": true
+  },
+  "reporting": {
+    "enabled": true
+  }
+}

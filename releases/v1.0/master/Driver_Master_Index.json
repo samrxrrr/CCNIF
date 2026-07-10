@@ -1,0 +1,752 @@
+{
+  "1": [
+    {
+      "Rank": 1,
+      "Driver": "SFTPB",
+      "DriverConfidence": 94.627,
+      "ConfidenceTier": "A",
+      "QualityScore": 89.8336,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 99.584,
+      "Completed": true,
+      "DriverReport": "results/evidence/SFTPB/Driver_Report.json",
+      "DriverManifest": "results/evidence/SFTPB/Driver_Manifest.json"
+    }
+  ],
+  "2": [
+    {
+      "Rank": 2,
+      "Driver": "ZFHX4",
+      "DriverConfidence": 93.1089,
+      "ConfidenceTier": "A",
+      "QualityScore": 88.6429,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 96.6073,
+      "Completed": true,
+      "DriverReport": "results/evidence/ZFHX4/Driver_Report.json",
+      "DriverManifest": "results/evidence/ZFHX4/Driver_Manifest.json"
+    }
+  ],
+  "3": [
+    {
+      "Rank": 3,
+      "Driver": "EGFR",
+      "DriverConfidence": 92.3442,
+      "ConfidenceTier": "A",
+      "QualityScore": 88.0431,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 95.1078,
+      "Completed": true,
+      "DriverReport": "results/evidence/EGFR/Driver_Report.json",
+      "DriverManifest": "results/evidence/EGFR/Driver_Manifest.json"
+    }
+  ],
+  "4": [
+    {
+      "Rank": 4,
+      "Driver": "MUC16",
+      "DriverConfidence": 91.8592,
+      "ConfidenceTier": "A",
+      "QualityScore": 87.6627,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 94.1568,
+      "Completed": true,
+      "DriverReport": "results/evidence/MUC16/Driver_Report.json",
+      "DriverManifest": "results/evidence/MUC16/Driver_Manifest.json"
+    }
+  ],
+  "5": [
+    {
+      "Rank": 5,
+      "Driver": "IGHA1",
+      "DriverConfidence": 90.9053,
+      "ConfidenceTier": "A",
+      "QualityScore": 86.9146,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 92.2865,
+      "Completed": true,
+      "DriverReport": "results/evidence/IGHA1/Driver_Report.json",
+      "DriverManifest": "results/evidence/IGHA1/Driver_Manifest.json"
+    }
+  ],
+  "6": [
+    {
+      "Rank": 6,
+      "Driver": "DST",
+      "DriverConfidence": 88.4452,
+      "ConfidenceTier": "B",
+      "QualityScore": 84.9851,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 87.4628,
+      "Completed": true,
+      "DriverReport": "results/evidence/DST/Driver_Report.json",
+      "DriverManifest": "results/evidence/DST/Driver_Manifest.json"
+    }
+  ],
+  "7": [
+    {
+      "Rank": 7,
+      "Driver": "A2M",
+      "DriverConfidence": 88.3351,
+      "ConfidenceTier": "B",
+      "QualityScore": 84.8988,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 87.2469,
+      "Completed": true,
+      "DriverReport": "results/evidence/A2M/Driver_Report.json",
+      "DriverManifest": "results/evidence/A2M/Driver_Manifest.json"
+    }
+  ],
+  "8": [
+    {
+      "Rank": 8,
+      "Driver": "COL11A1",
+      "DriverConfidence": 86.0353,
+      "ConfidenceTier": "B",
+      "QualityScore": 83.095,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 82.7374,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL11A1/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL11A1/Driver_Manifest.json"
+    }
+  ],
+  "9": [
+    {
+      "Rank": 9,
+      "Driver": "RPL3",
+      "DriverConfidence": 83.4442,
+      "ConfidenceTier": "B",
+      "QualityScore": 81.0627,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 77.6568,
+      "Completed": true,
+      "DriverReport": "results/evidence/RPL3/Driver_Report.json",
+      "DriverManifest": "results/evidence/RPL3/Driver_Manifest.json"
+    }
+  ],
+  "10": [
+    {
+      "Rank": 10,
+      "Driver": "EEF2",
+      "DriverConfidence": 82.7145,
+      "ConfidenceTier": "B",
+      "QualityScore": 80.4904,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 76.2261,
+      "Completed": true,
+      "DriverReport": "results/evidence/EEF2/Driver_Report.json",
+      "DriverManifest": "results/evidence/EEF2/Driver_Manifest.json"
+    }
+  ],
+  "11": [
+    {
+      "Rank": 11,
+      "Driver": "ENO1",
+      "DriverConfidence": 82.1736,
+      "ConfidenceTier": "B",
+      "QualityScore": 80.0662,
+      "QualityTier": "Gold",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 75.1654,
+      "Completed": true,
+      "DriverReport": "results/evidence/ENO1/Driver_Report.json",
+      "DriverManifest": "results/evidence/ENO1/Driver_Manifest.json"
+    }
+  ],
+  "12": [
+    {
+      "Rank": 12,
+      "Driver": "EEF1A1",
+      "DriverConfidence": 81.7582,
+      "ConfidenceTier": "B",
+      "QualityScore": 79.7404,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 74.3511,
+      "Completed": true,
+      "DriverReport": "results/evidence/EEF1A1/Driver_Report.json",
+      "DriverManifest": "results/evidence/EEF1A1/Driver_Manifest.json"
+    }
+  ],
+  "13": [
+    {
+      "Rank": 13,
+      "Driver": "IGHG1",
+      "DriverConfidence": 80.6954,
+      "ConfidenceTier": "B",
+      "QualityScore": 78.9068,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 72.2671,
+      "Completed": true,
+      "DriverReport": "results/evidence/IGHG1/Driver_Report.json",
+      "DriverManifest": "results/evidence/IGHG1/Driver_Manifest.json"
+    }
+  ],
+  "14": [
+    {
+      "Rank": 14,
+      "Driver": "SLC34A2",
+      "DriverConfidence": 80.4861,
+      "ConfidenceTier": "B",
+      "QualityScore": 78.7427,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 71.8567,
+      "Completed": true,
+      "DriverReport": "results/evidence/SLC34A2/Driver_Report.json",
+      "DriverManifest": "results/evidence/SLC34A2/Driver_Manifest.json"
+    }
+  ],
+  "15": [
+    {
+      "Rank": 15,
+      "Driver": "TP53",
+      "DriverConfidence": 75.9613,
+      "ConfidenceTier": "C",
+      "QualityScore": 75.1938,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 62.9845,
+      "Completed": true,
+      "DriverReport": "results/evidence/TP53/Driver_Report.json",
+      "DriverManifest": "results/evidence/TP53/Driver_Manifest.json"
+    }
+  ],
+  "16": [
+    {
+      "Rank": 16,
+      "Driver": "HLA-B",
+      "DriverConfidence": 71.4905,
+      "ConfidenceTier": "C",
+      "QualityScore": 71.6873,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 54.2182,
+      "Completed": true,
+      "DriverReport": "results/evidence/HLA-B/Driver_Report.json",
+      "DriverManifest": "results/evidence/HLA-B/Driver_Manifest.json"
+    }
+  ],
+  "17": [
+    {
+      "Rank": 17,
+      "Driver": "PLEC",
+      "DriverConfidence": 70.4075,
+      "ConfidenceTier": "C",
+      "QualityScore": 70.8379,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 52.0948,
+      "Completed": true,
+      "DriverReport": "results/evidence/PLEC/Driver_Report.json",
+      "DriverManifest": "results/evidence/PLEC/Driver_Manifest.json"
+    }
+  ],
+  "18": [
+    {
+      "Rank": 18,
+      "Driver": "FN1",
+      "DriverConfidence": 70.2238,
+      "ConfidenceTier": "C",
+      "QualityScore": 70.6938,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 51.7345,
+      "Completed": true,
+      "DriverReport": "results/evidence/FN1/Driver_Report.json",
+      "DriverManifest": "results/evidence/FN1/Driver_Manifest.json"
+    }
+  ],
+  "19": [
+    {
+      "Rank": 19,
+      "Driver": "SRRM2",
+      "DriverConfidence": 70.1778,
+      "ConfidenceTier": "C",
+      "QualityScore": 70.6577,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 51.6443,
+      "Completed": true,
+      "DriverReport": "results/evidence/SRRM2/Driver_Report.json",
+      "DriverManifest": "results/evidence/SRRM2/Driver_Manifest.json"
+    }
+  ],
+  "20": [
+    {
+      "Rank": 20,
+      "Driver": "MXRA5",
+      "DriverConfidence": 69.6386,
+      "ConfidenceTier": "D",
+      "QualityScore": 70.2348,
+      "QualityTier": "Silver",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 50.5871,
+      "Completed": true,
+      "DriverReport": "results/evidence/MXRA5/Driver_Report.json",
+      "DriverManifest": "results/evidence/MXRA5/Driver_Manifest.json"
+    }
+  ],
+  "21": [
+    {
+      "Rank": 21,
+      "Driver": "AHNAK2",
+      "DriverConfidence": 66.8294,
+      "ConfidenceTier": "D",
+      "QualityScore": 68.0315,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 45.0788,
+      "Completed": true,
+      "DriverReport": "results/evidence/AHNAK2/Driver_Report.json",
+      "DriverManifest": "results/evidence/AHNAK2/Driver_Manifest.json"
+    }
+  ],
+  "22": [
+    {
+      "Rank": 22,
+      "Driver": "COL1A1",
+      "DriverConfidence": 65.2244,
+      "ConfidenceTier": "D",
+      "QualityScore": 66.7727,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 41.9318,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL1A1/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL1A1/Driver_Manifest.json"
+    }
+  ],
+  "23": [
+    {
+      "Rank": 23,
+      "Driver": "MYH9",
+      "DriverConfidence": 64.4608,
+      "ConfidenceTier": "D",
+      "QualityScore": 66.1738,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 40.4345,
+      "Completed": true,
+      "DriverReport": "results/evidence/MYH9/Driver_Report.json",
+      "DriverManifest": "results/evidence/MYH9/Driver_Manifest.json"
+    }
+  ],
+  "24": [
+    {
+      "Rank": 24,
+      "Driver": "KRAS",
+      "DriverConfidence": 64.1518,
+      "ConfidenceTier": "D",
+      "QualityScore": 65.9314,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 39.8286,
+      "Completed": true,
+      "DriverReport": "results/evidence/KRAS/Driver_Report.json",
+      "DriverManifest": "results/evidence/KRAS/Driver_Manifest.json"
+    }
+  ],
+  "25": [
+    {
+      "Rank": 25,
+      "Driver": "HUWE1",
+      "DriverConfidence": 62.7424,
+      "ConfidenceTier": "D",
+      "QualityScore": 64.826,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 37.065,
+      "Completed": true,
+      "DriverReport": "results/evidence/HUWE1/Driver_Report.json",
+      "DriverManifest": "results/evidence/HUWE1/Driver_Manifest.json"
+    }
+  ],
+  "26": [
+    {
+      "Rank": 26,
+      "Driver": "HSP90AB1",
+      "DriverConfidence": 62.0294,
+      "ConfidenceTier": "D",
+      "QualityScore": 64.2668,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 35.6671,
+      "Completed": true,
+      "DriverReport": "results/evidence/HSP90AB1/Driver_Report.json",
+      "DriverManifest": "results/evidence/HSP90AB1/Driver_Manifest.json"
+    }
+  ],
+  "27": [
+    {
+      "Rank": 27,
+      "Driver": "ACTB",
+      "DriverConfidence": 62.0153,
+      "ConfidenceTier": "D",
+      "QualityScore": 64.2558,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 35.6394,
+      "Completed": true,
+      "DriverReport": "results/evidence/ACTB/Driver_Report.json",
+      "DriverManifest": "results/evidence/ACTB/Driver_Manifest.json"
+    }
+  ],
+  "28": [
+    {
+      "Rank": 28,
+      "Driver": "VCAN",
+      "DriverConfidence": 61.2441,
+      "ConfidenceTier": "D",
+      "QualityScore": 63.6509,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 34.1273,
+      "Completed": true,
+      "DriverReport": "results/evidence/VCAN/Driver_Report.json",
+      "DriverManifest": "results/evidence/VCAN/Driver_Manifest.json"
+    }
+  ],
+  "29": [
+    {
+      "Rank": 29,
+      "Driver": "RPL8",
+      "DriverConfidence": 60.7842,
+      "ConfidenceTier": "D",
+      "QualityScore": 63.2902,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 33.2256,
+      "Completed": true,
+      "DriverReport": "results/evidence/RPL8/Driver_Report.json",
+      "DriverManifest": "results/evidence/RPL8/Driver_Manifest.json"
+    }
+  ],
+  "30": [
+    {
+      "Rank": 30,
+      "Driver": "FLNA",
+      "DriverConfidence": 60.2558,
+      "ConfidenceTier": "D",
+      "QualityScore": 62.8758,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 32.1895,
+      "Completed": true,
+      "DriverReport": "results/evidence/FLNA/Driver_Report.json",
+      "DriverManifest": "results/evidence/FLNA/Driver_Manifest.json"
+    }
+  ],
+  "31": [
+    {
+      "Rank": 31,
+      "Driver": "KEAP1",
+      "DriverConfidence": 59.8595,
+      "ConfidenceTier": "D",
+      "QualityScore": 62.5649,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 31.4123,
+      "Completed": true,
+      "DriverReport": "results/evidence/KEAP1/Driver_Report.json",
+      "DriverManifest": "results/evidence/KEAP1/Driver_Manifest.json"
+    }
+  ],
+  "32": [
+    {
+      "Rank": 32,
+      "Driver": "FTL",
+      "DriverConfidence": 59.627,
+      "ConfidenceTier": "D",
+      "QualityScore": 62.3826,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 30.9566,
+      "Completed": true,
+      "DriverReport": "results/evidence/FTL/Driver_Report.json",
+      "DriverManifest": "results/evidence/FTL/Driver_Manifest.json"
+    }
+  ],
+  "33": [
+    {
+      "Rank": 33,
+      "Driver": "GNAS",
+      "DriverConfidence": 59.2424,
+      "ConfidenceTier": "D",
+      "QualityScore": 62.0809,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 30.2023,
+      "Completed": true,
+      "DriverReport": "results/evidence/GNAS/Driver_Report.json",
+      "DriverManifest": "results/evidence/GNAS/Driver_Manifest.json"
+    }
+  ],
+  "34": [
+    {
+      "Rank": 34,
+      "Driver": "LRP1",
+      "DriverConfidence": 57.4261,
+      "ConfidenceTier": "D",
+      "QualityScore": 60.6564,
+      "QualityTier": "Bronze",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 26.6409,
+      "Completed": true,
+      "DriverReport": "results/evidence/LRP1/Driver_Report.json",
+      "DriverManifest": "results/evidence/LRP1/Driver_Manifest.json"
+    }
+  ],
+  "35": [
+    {
+      "Rank": 35,
+      "Driver": "ACTG1",
+      "DriverConfidence": 56.2646,
+      "ConfidenceTier": "D",
+      "QualityScore": 59.7454,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 24.3635,
+      "Completed": true,
+      "DriverReport": "results/evidence/ACTG1/Driver_Report.json",
+      "DriverManifest": "results/evidence/ACTG1/Driver_Manifest.json"
+    }
+  ],
+  "36": [
+    {
+      "Rank": 36,
+      "Driver": "COL3A1",
+      "DriverConfidence": 53.9729,
+      "ConfidenceTier": "D",
+      "QualityScore": 57.948,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 19.87,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL3A1/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL3A1/Driver_Manifest.json"
+    }
+  ],
+  "37": [
+    {
+      "Rank": 37,
+      "Driver": "PSAP",
+      "DriverConfidence": 53.597,
+      "ConfidenceTier": "D",
+      "QualityScore": 57.6532,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 19.1329,
+      "Completed": true,
+      "DriverReport": "results/evidence/PSAP/Driver_Report.json",
+      "DriverManifest": "results/evidence/PSAP/Driver_Manifest.json"
+    }
+  ],
+  "38": [
+    {
+      "Rank": 38,
+      "Driver": "B2M",
+      "DriverConfidence": 53.4737,
+      "ConfidenceTier": "D",
+      "QualityScore": 57.5565,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 18.8912,
+      "Completed": true,
+      "DriverReport": "results/evidence/B2M/Driver_Report.json",
+      "DriverManifest": "results/evidence/B2M/Driver_Manifest.json"
+    }
+  ],
+  "39": [
+    {
+      "Rank": 39,
+      "Driver": "AHNAK",
+      "DriverConfidence": 53.2427,
+      "ConfidenceTier": "D",
+      "QualityScore": 57.3753,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 18.4383,
+      "Completed": true,
+      "DriverReport": "results/evidence/AHNAK/Driver_Report.json",
+      "DriverManifest": "results/evidence/AHNAK/Driver_Manifest.json"
+    }
+  ],
+  "40": [
+    {
+      "Rank": 40,
+      "Driver": "COL4A1",
+      "DriverConfidence": 53.0336,
+      "ConfidenceTier": "D",
+      "QualityScore": 57.2113,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 18.0283,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL4A1/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL4A1/Driver_Manifest.json"
+    }
+  ],
+  "41": [
+    {
+      "Rank": 41,
+      "Driver": "COL5A2",
+      "DriverConfidence": 52.6474,
+      "ConfidenceTier": "D",
+      "QualityScore": 56.9084,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 17.2709,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL5A2/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL5A2/Driver_Manifest.json"
+    }
+  ],
+  "42": [
+    {
+      "Rank": 42,
+      "Driver": "COL4A2",
+      "DriverConfidence": 49.5174,
+      "ConfidenceTier": "D",
+      "QualityScore": 54.4535,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 11.1337,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL4A2/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL4A2/Driver_Manifest.json"
+    }
+  ],
+  "43": [
+    {
+      "Rank": 43,
+      "Driver": "TTN",
+      "DriverConfidence": 48.9948,
+      "ConfidenceTier": "D",
+      "QualityScore": 54.0436,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 10.1089,
+      "Completed": true,
+      "DriverReport": "results/evidence/TTN/Driver_Report.json",
+      "DriverManifest": "results/evidence/TTN/Driver_Manifest.json"
+    }
+  ],
+  "44": [
+    {
+      "Rank": 44,
+      "Driver": "RYR2",
+      "DriverConfidence": 48.6894,
+      "ConfidenceTier": "D",
+      "QualityScore": 53.8041,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 9.5102,
+      "Completed": true,
+      "DriverReport": "results/evidence/RYR2/Driver_Report.json",
+      "DriverManifest": "results/evidence/RYR2/Driver_Manifest.json"
+    }
+  ],
+  "45": [
+    {
+      "Rank": 45,
+      "Driver": "MACF1",
+      "DriverConfidence": 47.2498,
+      "ConfidenceTier": "D",
+      "QualityScore": 52.675,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 6.6874,
+      "Completed": true,
+      "DriverReport": "results/evidence/MACF1/Driver_Report.json",
+      "DriverManifest": "results/evidence/MACF1/Driver_Manifest.json"
+    }
+  ],
+  "46": [
+    {
+      "Rank": 46,
+      "Driver": "ADAMTS12",
+      "DriverConfidence": 46.2799,
+      "ConfidenceTier": "D",
+      "QualityScore": 51.9143,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 4.7858,
+      "Completed": true,
+      "DriverReport": "results/evidence/ADAMTS12/Driver_Report.json",
+      "DriverManifest": "results/evidence/ADAMTS12/Driver_Manifest.json"
+    }
+  ],
+  "47": [
+    {
+      "Rank": 47,
+      "Driver": "COL6A3",
+      "DriverConfidence": 45.803,
+      "ConfidenceTier": "D",
+      "QualityScore": 51.5402,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 3.8506,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL6A3/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL6A3/Driver_Manifest.json"
+    }
+  ],
+  "48": [
+    {
+      "Rank": 48,
+      "Driver": "SYNE2",
+      "DriverConfidence": 45.6402,
+      "ConfidenceTier": "D",
+      "QualityScore": 51.4125,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 3.5313,
+      "Completed": true,
+      "DriverReport": "results/evidence/SYNE2/Driver_Report.json",
+      "DriverManifest": "results/evidence/SYNE2/Driver_Manifest.json"
+    }
+  ],
+  "49": [
+    {
+      "Rank": 49,
+      "Driver": "IGKC",
+      "DriverConfidence": 45.3444,
+      "ConfidenceTier": "D",
+      "QualityScore": 51.1805,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 2.9513,
+      "Completed": true,
+      "DriverReport": "results/evidence/IGKC/Driver_Report.json",
+      "DriverManifest": "results/evidence/IGKC/Driver_Manifest.json"
+    }
+  ],
+  "50": [
+    {
+      "Rank": 50,
+      "Driver": "COL1A2",
+      "DriverConfidence": 43.9643,
+      "ConfidenceTier": "D",
+      "QualityScore": 50.0981,
+      "QualityTier": "Weak",
+      "ReliabilityScore": 95.3568,
+      "NormalizedScore": 0.2453,
+      "Completed": true,
+      "DriverReport": "results/evidence/COL1A2/Driver_Report.json",
+      "DriverManifest": "results/evidence/COL1A2/Driver_Manifest.json"
+    }
+  ]
+}

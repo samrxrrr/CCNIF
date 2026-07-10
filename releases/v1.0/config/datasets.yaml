@@ -1,0 +1,41 @@
+project:
+  name: CCNIF
+  cancer_type: TCGA-LUAD
+
+datasets:
+
+  tcga:
+    source: GDC
+    project: TCGA-LUAD
+
+    expression:
+      type: RNA-Seq
+
+    mutation:
+      type: Somatic Mutation
+
+    clinical:
+      type: Clinical Metadata
+
+references:
+
+  cosmic:
+    enabled: true
+
+  dorothea:
+    enabled: true
+
+  trrust:
+    enabled: true
+
+  reactome:
+    enabled: true
+
+  string:
+    enabled: true
+
+  msigdb:
+    enabled: true
+
+  depmap:
+    enabled: true

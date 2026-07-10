@@ -1,0 +1,26 @@
+project:
+  root: .
+
+directories:
+
+  raw_data: data/raw
+
+  processed_data: data/processed
+
+  metadata: data/metadata
+
+  figures: figures
+
+  tables: tables
+
+  results: results
+
+  logs: logs
+
+  scripts: scripts
+
+  config: config
+
+  docs: docs
+
+  workflow: workflow
