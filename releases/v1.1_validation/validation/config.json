@@ -1,0 +1,13 @@
+{
+    "cohort":"TCGA-LUAD",
+    "framework":"CCNIF",
+    "version":"1.1",
+
+    "references":[
+        "Cancer Gene Census",
+        "IntOGen",
+        "OncoKB",
+        "CancerMine",
+        "NCG"
+    ]
+}

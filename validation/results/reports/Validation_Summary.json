@@ -1,0 +1,13 @@
+{
+    "Framework": "CCNIF",
+    "Version": "1.1",
+    "Drivers": 50,
+    "Validated": 0,
+    "ValidationRate": 0.0,
+    "AverageConfidence": 66.1688,
+    "AverageQuality": 67.5134,
+    "TierA": 5,
+    "TierB": 9,
+    "TierC": 5,
+    "TierD": 31
+}
