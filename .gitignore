@@ -29,3 +29,12 @@ results/audit/
 data/processed/
 results/evidence/*/transcriptomics/
 
+
+# Large reproducible outputs
+data/processed/
+results/audit/
+results/evidence/*/transcriptomics/
+
+*.rds
+*.RDS
+
